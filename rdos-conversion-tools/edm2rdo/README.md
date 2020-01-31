@@ -23,7 +23,7 @@ Download and unzip the tool in a folder on your computer.
 ### **Running the tool** ###
 
 To use the tool, you need to provide and input connection string (EDM database) and an output connection string (expected new RDO database).
-You can download [EDM_Sample](https://rmsimport.blob.core.windows.net/public/Edm2Rdo_V1/Edm2Rdos_Sample.zip) database to use with the tool.  The examples below show how to run the tool using the included sample database.
+You can download [EDM_Sample](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/Edm2Rdos_Sample.zip) database to use with the tool.  The examples below show how to run the tool using the included sample database.
 
 You can run the tool without any parameters and it will list the options.
 
