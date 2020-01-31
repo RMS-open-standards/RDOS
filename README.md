@@ -15,20 +15,18 @@ RDOS is an open standard, which means you can have the code, tooling, and docume
 More information is available at www.riskdataos.org. 
 ### **WHAT’S in RDOS V1.0**
 #### RDOS Schema
-##### **[RDOS SQL Scripts](https://github.com/RMS-open-standards/RDOS/blob/master/Schema/sql)** 
-##### **[RDOS Schema JSON Files](https://github.com/RMS-open-standards/RDOS/tree/master/rdos-validation-tools/rdos-schema/src/main/resources)** 
-##### **[RDOS Schema Excel](https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_Schema.xlsx)** 
-##### **[View the SeedData Scripts](https://github.com/RMS-open-standards/RDOS/blob/master/Schema/sql/ReferenceTables-SeedData/)** 
+- #####   **[RDOS SQL Scripts](https://github.com/RMS-open-standards/RDOS/blob/master/Schema/sql)** 
+- #####  **[RDOS Schema JSON Files](https://github.com/RMS-open-standards/RDOS/tree/master/rdos-validation-tools/rdos-schema/src/main/resources)** 
+- ##### **[RDOS Schema Excel](https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_Schema.xlsx)** 
+- ##### **[View the SeedData Scripts](https://github.com/RMS-open-standards/RDOS/blob/master/Schema/sql/ReferenceTables-SeedData/)** 
 ### **CONVERSION TOOLS**
-##### EDM2RDOS Binary Tool **[Download EDM2RDOS Tool](https://github.com/RMS-open-standards/RDOS/blob/master/rdos-conversion-tools/edm2rdo/README.md)** 
+- ##### EDM2RDOS Binary Tool **[Download EDM2RDOS Tool](https://github.com/RMS-open-standards/RDOS/blob/master/rdos-conversion-tools/edm2rdo/README.md)** 
 ### **VALIDATION TOOLS**
-##### **[Validation Tool](https://github.com/RMS-open-standards/RDOS/blob/master/rdos-validation-tools/rdo-validation-tool-java/README.md)**  
-##### **[CDL Parser](https://github.com/RMS-open-standards/RDOS/blob/master/rdos-validation-tools/cdl-parser/README.md)**   
+- ##### **[Validation Tool](https://github.com/RMS-open-standards/RDOS/blob/master/rdos-validation-tools/rdo-validation-tool-java/README.md)**  
+- ##### **[CDL Parser](https://github.com/RMS-open-standards/RDOS/blob/master/rdos-validation-tools/cdl-parser/README.md)**   
 ### **RDOS Documentation**
-##### **[RDOS Overview and Concepts](https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_Concepts_10.pdf)**   
-##### **[CDL Semantics and Examples](https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_Contracts_10.pdf)**   
-##### **[SDL Overview and Examples](https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_Contracts_10.pdf)**   
-##### **[Entity Relationship Diagram](https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_ERD_10.pdf)**   
+- ##### **[RDOS Overview and Concepts](https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_Concepts_10.pdf)**    
+- ##### **[Entity Relationship Diagram](https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_ERD_10.pdf)**   
 
 
 
