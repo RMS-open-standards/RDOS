@@ -1,0 +1,20 @@
+{
+  "id":"Long",
+  "exposureSetId":"Long",
+  "name":"String",
+  "number":"String",
+  "inceptionDate":"Date",
+  "expirationDate":"Date",
+  "producerCode":"String",
+  "cedantCode":"String",
+  "lossTypeCodes":"String",
+  "causeOfLossCodes":"String",
+  "lineOfBusinessCodes":"String",
+  "premium":"Double",
+  "excessAmount":"Double",
+  "excessCurrencyCode":"Char",
+  "limitAmount":"Double",
+  "limitCurrency":"Char",
+  "share":"Double",
+  "inuringPriority":"Short"
+}

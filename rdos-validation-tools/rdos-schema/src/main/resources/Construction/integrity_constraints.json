@@ -1,0 +1,8 @@
+{
+  "primaryKeys": [
+    "constructionschemeName",
+    "constructionCode"
+  ],
+  "foreignKeys": [
+  ]
+}

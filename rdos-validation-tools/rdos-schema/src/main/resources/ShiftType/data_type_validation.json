@@ -1,0 +1,6 @@
+{
+  "shiftTypeId": "Short",
+  "shiftTypeDesc": "String",
+  "isActive": "Bit",
+  "externalId": "String"
+}

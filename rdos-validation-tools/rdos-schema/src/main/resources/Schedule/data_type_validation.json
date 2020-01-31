@@ -1,0 +1,10 @@
+{
+  "id": "Long",
+  "exposureSetId": "Long",
+  "externalId": "String",
+  "name": "String",
+  "number": "String",
+  "description": "String",
+  "scheduleExpression": "String",
+  "accountName": "String"
+}

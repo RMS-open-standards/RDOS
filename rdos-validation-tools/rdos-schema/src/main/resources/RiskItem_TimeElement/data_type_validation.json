@@ -1,0 +1,9 @@
+{
+  "riskItemId":"Long",
+  "externalId":"String",
+  "name":"String",
+  "number":"String",
+  "parentRiskItemId":"Long",
+  "replacementCostValue":"Double",
+  "currencyCode":"Char"
+}

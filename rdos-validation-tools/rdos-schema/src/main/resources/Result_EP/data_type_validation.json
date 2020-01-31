@@ -1,0 +1,10 @@
+{
+  "resultId": "Long",
+  "returnPeriod": "Double",
+  "facetId": "Long",
+  "aep": "Double",
+  "oep": "Double",
+  "tce_aep": "Double",
+  "tce_oep": "Double",
+  "eef": "Double"
+}

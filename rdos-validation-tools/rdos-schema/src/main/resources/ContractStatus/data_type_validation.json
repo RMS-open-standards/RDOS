@@ -1,0 +1,6 @@
+{
+  "contractStatusCode":"Char",
+  "contractStatusDesc":"String",
+  "isActive":"Bit",
+  "externalId":"String"
+}

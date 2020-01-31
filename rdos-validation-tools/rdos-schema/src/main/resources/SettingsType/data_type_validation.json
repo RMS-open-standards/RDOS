@@ -1,0 +1,6 @@
+{
+  "settingsTypeCode": "String",
+  "settingsTypeDesc": "String",
+  "isActive": "Bit",
+  "externalId": "String"
+}

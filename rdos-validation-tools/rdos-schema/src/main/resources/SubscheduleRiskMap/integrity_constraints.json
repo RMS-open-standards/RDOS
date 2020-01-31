@@ -1,0 +1,21 @@
+{
+  "primaryKeys": [
+    "subscheduleId",
+    "insuranceContractId",
+    "riskId"
+  ],
+  "foreignKeys": [
+    {
+      "table": "InsuranceContract",
+      "columnMapping": {
+        "id": "insuranceContractId"
+      }
+    },
+    {
+      "table": "Risk",
+      "columnMapping": {
+        "id": "riskId"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id":"Long",
+  "numberOfPeriods":"Long",
+  "currencyCode":"Char",
+  "currencyAsOfDate":"Date",
+  "reportingWindowStartDate":"Date",
+  "reportingWindowEndDate":"Date",
+  "minimumLossThreshold":"Double"
+}

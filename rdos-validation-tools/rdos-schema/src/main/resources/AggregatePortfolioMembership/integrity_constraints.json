@@ -1,0 +1,19 @@
+{
+  "primaryKeys": [
+    "id"
+  ],
+  "foreignKeys": [
+    {
+      "table": "Portfolio",
+      "columnMapping": {
+        "id": "portfolioId"
+      }
+    },
+    {
+      "table": "ExposureSet",
+      "columnMapping": {
+        "id": "exposureSetId"
+      }
+    }
+  ]
+}

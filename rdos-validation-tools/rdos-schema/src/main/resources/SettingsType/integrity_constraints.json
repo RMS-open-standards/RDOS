@@ -1,0 +1,6 @@
+{
+  "primaryKeys": [
+    "settingsTypeCode"
+  ],
+  "foreignKeys": []
+}

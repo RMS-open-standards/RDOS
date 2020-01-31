@@ -1,0 +1,11 @@
+{
+  "admin3GeoId":"Long",
+  "admin2GeoId":"Long",
+  "admin1GeoId":"Long",
+  "countryGeoId":"Long",
+  "admin3Code":"String",
+  "admin3Name":"String",
+  "cresta":"String",
+  "isActive":"Bit",
+  "externalId":"String"
+}

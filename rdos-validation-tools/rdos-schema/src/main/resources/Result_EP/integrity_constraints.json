@@ -1,0 +1,8 @@
+{
+  "primaryKeys": [
+    "resultId",
+    "returnPeriod"
+  ],
+  "foreignKeys": [
+  ]
+}

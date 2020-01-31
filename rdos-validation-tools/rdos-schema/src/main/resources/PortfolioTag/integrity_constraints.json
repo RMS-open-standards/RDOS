@@ -1,0 +1,14 @@
+{
+  "primaryKeys": [
+    "portfolioId",
+    "tagCode"
+  ],
+  "foreignKeys": [
+    {
+      "table": "Portfolio",
+      "columnMapping": {
+        "id": "portfolioId"
+      }
+    }
+  ]
+}

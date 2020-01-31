@@ -1,0 +1,6 @@
+{
+  "portfolioTypeCode": "String",
+  "portfolioTypeDesc": "String",
+  "isActive": "Bit",
+  "externalId": "String"
+}

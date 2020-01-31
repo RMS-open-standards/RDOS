@@ -1,0 +1,11 @@
+{
+  "id": "Long",
+  "exposureSetId": "Long",
+  "primaryRiskItemId": "Long",
+  "externalId": "String",
+  "name": "String",
+  "number": "String",
+  "description": "String",
+  "accountName": "String",
+  "numberOfUnits": "Integer"
+}

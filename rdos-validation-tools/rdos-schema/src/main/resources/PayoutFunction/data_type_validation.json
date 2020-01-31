@@ -1,0 +1,5 @@
+{
+  "payoutFunctionCode": "String",
+  "payoutFunctionDesc": "String",
+  "isActive": "Bit"
+}

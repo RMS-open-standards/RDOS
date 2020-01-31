@@ -1,0 +1,7 @@
+{
+  "name": "String",
+  "principal_id": "Integer",
+  "diagram_id": "Integer",
+  "version": "Integer",
+  "definition": "String"
+}

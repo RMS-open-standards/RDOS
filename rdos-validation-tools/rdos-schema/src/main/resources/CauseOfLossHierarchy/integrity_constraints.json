@@ -1,0 +1,14 @@
+{
+  "primaryKeys": [
+    "causeOfLossCode",
+    "parentCauseOfLossCode"
+  ],
+  "foreignKeys": [
+    {
+      "table": "CauseOfLoss",
+      "columnMapping": {
+        "causeOfLossCode": "causeOfLossCode, parentCauseOfLossCode"
+      }
+    }
+  ]
+}

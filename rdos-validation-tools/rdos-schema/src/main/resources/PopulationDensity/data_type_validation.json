@@ -1,0 +1,6 @@
+{
+  "populationDensityCode": "Integer",
+  "populationDensityDesc": "String",
+  "isActive": "Bit",
+  "externalId": "String"
+}

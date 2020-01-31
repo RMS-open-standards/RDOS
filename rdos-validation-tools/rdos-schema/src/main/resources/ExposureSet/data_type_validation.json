@@ -1,0 +1,10 @@
+{
+  "id": "Long",
+  "name": "String",
+  "externalId": "String",
+  "description": "String",
+  "createUserId": "String",
+  "createDate": "DateTime",
+  "updateUserId": "String",
+  "updateDate": "DateTime"
+}

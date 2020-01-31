@@ -1,0 +1,6 @@
+{
+  "regionCode": "String",
+  "regionDesc": "String",
+  "isActive": "Bit",
+  "externalId": "String"
+}

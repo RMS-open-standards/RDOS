@@ -1,0 +1,6 @@
+{
+  "contractUnderwriterCode":"String",
+  "contractUnderwriterName":"String",
+  "isActive":"Bit",
+  "externalId":"String"
+}

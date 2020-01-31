@@ -1,0 +1,5 @@
+{
+  "amountBasisCode":"String",
+  "amountBasisDesc":"String",
+  "isActive":"Bit"
+}

@@ -1,0 +1,6 @@
+{
+  "primaryKeys": [
+    "populationDensityCode"
+  ],
+  "foreignKeys": []
+}

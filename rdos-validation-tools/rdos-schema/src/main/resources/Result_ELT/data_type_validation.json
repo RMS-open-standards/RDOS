@@ -1,0 +1,14 @@
+{
+  "resultId": "Long",
+  "facetId": "Long",
+  "eventId": "Long",
+  "meanLoss": "Double",
+  "stdDevC": "Double",
+  "stdDevl": "Double",
+  "exposureValue": "Double"
+}
+
+
+
+
+

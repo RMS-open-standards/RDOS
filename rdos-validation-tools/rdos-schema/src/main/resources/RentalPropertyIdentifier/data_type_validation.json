@@ -1,0 +1,6 @@
+{
+  "rentalPropertyIdentifierCode": "Integer",
+  "rentalPropertyIdentifierDesc": "String",
+  "isActive": "Bit",
+  "externalId": "String"
+}

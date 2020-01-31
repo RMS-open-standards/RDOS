@@ -1,0 +1,20 @@
+INSERT INTO REF.GeocodingResolution (geocodingResolutionCode, geocodingResolutionDesc) VALUES
+(0,'Ungeocoded'),
+(1,'Multiple Match'),
+(2,'Country'),
+(14,'Building'),
+(19,'Point'),
+(22,'Parcel'),
+(31,'Street Address'),
+(32,'Street Address'),
+(34,'Block Segment'),
+(36,'Hi Resolution Postcode'),
+(51,'Street Name'),
+(64,'Medium Resolution Postcode'),
+(66,'Admin4'),
+(72,'City'),
+(76,'Admin3'),
+(86,'Admin2'),
+(96,'Admin1'),
+(98,'CRESTA')
+;

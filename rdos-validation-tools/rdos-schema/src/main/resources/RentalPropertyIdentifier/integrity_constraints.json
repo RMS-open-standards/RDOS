@@ -1,0 +1,6 @@
+{
+  "primaryKeys": [
+    "rentalPropertyIdentifierCode"
+  ],
+  "foreignKeys": []
+}

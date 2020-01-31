@@ -1,0 +1,19 @@
+{
+  "id":"Long",
+  "portfolioId":"Long",
+  "exposureSetId":"Long",
+  "countryCode":"String",
+  "admin1Code":"String",
+  "admin2Code":"String",
+  "cresta":"String",
+  "postalCode":"String",
+  "riskCount":"Long",
+  "totalReplacementCostValue":"Double",
+  "currencyCode":"Char",
+  "lossTypeCode":"String",
+  "causeOfLossCode":"String",
+  "contractLineOfBusinessCode":"String",
+  "totalPremium":"Double",
+  "totalLimit":"Double",
+  "averageDeductible":"Double"
+}

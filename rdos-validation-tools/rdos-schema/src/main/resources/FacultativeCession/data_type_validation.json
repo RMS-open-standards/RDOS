@@ -1,0 +1,13 @@
+{
+  "id":"Long",
+  "facultativeId":"Long",
+  "excessAmount":"Double",
+  "excessCurrencyCode":"Char",
+  "limitAmount":"Double",
+  "limitCurrency":"Char",
+  "share":"Double",
+  "subjectTypeCode":"String",
+  "subjectInsuranceContractId":"Long",
+  "subjectInsuranceLayerId":"Long",
+  "subjectRiskId":"Long"
+}

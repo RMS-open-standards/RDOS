@@ -1,0 +1,14 @@
+{
+  "id": "Long",
+  "externalId": "String",
+  "name": "String",
+  "exposureSetId": "Long",
+  "number": "String",
+  "portfolioTypeCode": "String",
+  "description": "String"
+}
+
+
+
+
+

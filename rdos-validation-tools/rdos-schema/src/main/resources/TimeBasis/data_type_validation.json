@@ -1,0 +1,5 @@
+{
+  "timeBasisCode": "String",
+  "timeBasisDesc": "String",
+  "isActive": "Bit"
+}

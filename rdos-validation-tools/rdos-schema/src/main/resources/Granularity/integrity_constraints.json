@@ -1,0 +1,7 @@
+{
+  "primaryKeys": [
+    "granularityCode"
+  ],
+  "foreignKeys": [
+  ]
+}

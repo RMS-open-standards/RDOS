@@ -1,0 +1,6 @@
+{
+  "perilCode": "String",
+  "perilDesc": "String",
+  "isActive": "Bit",
+  "externalId": "String"
+}

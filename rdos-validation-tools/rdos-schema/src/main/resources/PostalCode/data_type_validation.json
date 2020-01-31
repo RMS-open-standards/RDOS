@@ -1,0 +1,10 @@
+{
+  "postalCodeGeoId": "Long",
+  "admin3GeoId": "Long",
+  "admin2GeoId": "Long",
+  "admin1GeoId": "Long",
+  "countryGeoId": "Long",
+  "postalCode": "String",
+  "isActive": "Bit",
+  "externalId": "String"
+}

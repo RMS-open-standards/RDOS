@@ -1,0 +1,8 @@
+{
+  "cityGeoId":"Long",
+  "countryGeoId":"Long",
+  "cityCode":"String",
+  "cityName":"String",
+  "isActive":"Bit",
+  "externalId":"String"
+}

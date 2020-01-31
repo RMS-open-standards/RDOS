@@ -1,0 +1,9 @@
+{
+  "primaryKeys": [
+    "resultId",
+    "periodId",
+    "eventId"
+  ],
+  "foreignKeys": [
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "treatyId":"Long",
+  "id":"Short",
+  "name":"String",
+  "parentLayerId":"Short",
+  "isPerRisk":"Integer",
+  "inceptionDate":"Date",
+  "expirationDate":"Date",
+  "payoutShare":"Double",
+  "payoutFunctionCode":"String",
+  "payoutAmount":"Double",
+  "payoutAmountBasisCode":"String",
+  "payoutTimeBasisCode":"String",
+  "payoutCurrencyCode":"Char",
+  "excessIsFranchise":"Bit",
+  "excessAmount":"Double",
+  "excessAmountBasisCode":"String",
+  "excessTimeBasisCode":"String",
+  "excessCurrencyCode":"Char"
+}

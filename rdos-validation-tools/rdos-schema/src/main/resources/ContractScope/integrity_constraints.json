@@ -1,0 +1,7 @@
+{
+  "primaryKeys": [
+    "contractScopeCode"
+  ],
+  "foreignKeys": [
+  ]
+}

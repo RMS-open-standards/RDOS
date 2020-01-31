@@ -1,0 +1,7 @@
+{
+  "id":"Long",
+  "treatyId":"Long",
+  "portfolioId":"Long",
+  "filterAttribute":"String",
+  "filterValue":"String"
+}

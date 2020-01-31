@@ -1,0 +1,7 @@
+{
+  "primaryKeys": [
+    "diagram_id"
+  ],
+  "foreignKeys": [
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "facetId": "Long",
+  "admin1GeoId": "Long",
+  "admin2GeoId": "Long",
+  "admin3GeoId": "Long",
+  "postalCodeGeoId": "Long",
+  "lineOfBusinessCode": "String",
+  "cedantCode": "String"
+}

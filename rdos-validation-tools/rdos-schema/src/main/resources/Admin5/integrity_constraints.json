@@ -1,0 +1,7 @@
+{
+  "primaryKeys": [
+    "admin5GeoId"
+  ],
+  "foreignKeys": [
+  ]
+}
