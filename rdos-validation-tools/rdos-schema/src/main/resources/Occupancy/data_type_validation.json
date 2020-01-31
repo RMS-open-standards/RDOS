@@ -1,0 +1,8 @@
+{
+  "occupancyschemeName": "String",
+  "occupancyCode": "Integer",
+  "occupancyName": "String",
+  "occupancyBandName": "String",
+  "isActive": "Bit",
+  "externalId": "String"
+}

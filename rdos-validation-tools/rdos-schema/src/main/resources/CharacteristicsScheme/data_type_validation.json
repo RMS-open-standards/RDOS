@@ -1,0 +1,6 @@
+{
+  "characteristicsSchemeCode":"String",
+  "characteristicsSchemeDesc":"String",
+  "isActive":"Bit",
+  "externalId":"String"
+}

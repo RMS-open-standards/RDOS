@@ -1,0 +1,6 @@
+{
+  "contractSubjectTypeCode":"String",
+  "contractSubjectDesc":"String",
+  "isActive":"Bit",
+  "externalId":"String"
+}

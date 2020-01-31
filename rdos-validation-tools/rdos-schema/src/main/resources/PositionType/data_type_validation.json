@@ -1,0 +1,6 @@
+{
+  "positionTypeCode": "String",
+  "positionTypeDesc": "String",
+  "isActive": "Bit",
+  "externalId": "String"
+}

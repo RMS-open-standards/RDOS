@@ -1,0 +1,7 @@
+{
+  "addressSchemeId":"Short",
+  "addressSchemeName":"String",
+  "addressSchemeDesc":"String",
+  "isActive":"Bit",
+  "externalId":"String"
+}

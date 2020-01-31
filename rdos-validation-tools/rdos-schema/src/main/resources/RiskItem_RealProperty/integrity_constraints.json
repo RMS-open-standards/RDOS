@@ -1,0 +1,13 @@
+{
+  "primaryKeys": [
+    "riskItemId"
+  ],
+  "foreignKeys": [
+    {
+      "table": "Address",
+      "columnMapping": {
+        "id": "addressId"
+      }
+    }
+  ]
+}

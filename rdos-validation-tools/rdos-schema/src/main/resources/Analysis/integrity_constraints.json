@@ -1,0 +1,8 @@
+{
+  "primaryKeys": [
+    "id",
+    "settingsId"
+  ],
+  "foreignKeys": [
+  ]
+}

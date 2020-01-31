@@ -1,0 +1,6 @@
+{
+  "attachmentLevelCode":"String",
+  "attachmentLevelDesc":"String",
+  "isActive":"Bit",
+  "externalId":"String"
+}

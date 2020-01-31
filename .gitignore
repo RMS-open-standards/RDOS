@@ -1,0 +1,19 @@
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+
+# Maven
+**/target/
+**/logs/
+*.versionsBackup
+.flattened-pom.xml
+**/scalastyle-output.xml
+
+# Mac
+.DS_Store
+**/derby.log
+**/metastore_db/
+**/graylog-client.log
+

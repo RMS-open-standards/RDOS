@@ -1,0 +1,14 @@
+{
+  "primaryKeys": [
+    "subscheduleId",
+    "riskId"
+  ],
+  "foreignKeys": [
+    {
+      "table": "Risk",
+      "columnMapping": {
+        "id": "riskId"
+      }
+    }
+  ]
+}

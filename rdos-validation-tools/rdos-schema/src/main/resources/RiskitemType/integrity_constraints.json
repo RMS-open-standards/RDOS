@@ -1,0 +1,6 @@
+{
+  "primaryKeys": [
+    "riskItemTypeCode"
+  ],
+  "foreignKeys": []
+}

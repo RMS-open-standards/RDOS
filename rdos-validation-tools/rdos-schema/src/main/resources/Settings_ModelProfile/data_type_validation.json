@@ -1,0 +1,12 @@
+{
+  "id":"Long",
+  "analysisType":"String",
+  "softwareVersion":"String",
+  "perilCode":"String",
+  "regionCode":"String",
+  "currencyCode":"String",
+  "currencyAsOfDate":"Date",
+  "modelProfileJson":"String",
+  "createUser":"String",
+  "createDate":"Date"
+}

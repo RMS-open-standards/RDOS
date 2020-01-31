@@ -1,0 +1,8 @@
+{
+  "id": "Long",
+  "structureId": "Long",
+  "positionId": "Long",
+  "settingsId": "Long",
+  "resultTypeCode": "String",
+  "granularityCode": "String"
+}

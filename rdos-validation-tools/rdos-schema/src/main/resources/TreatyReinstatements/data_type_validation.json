@@ -1,0 +1,9 @@
+{
+  "treatyId": "Long",
+  "numberOfReinstatements": "Short",
+  "isUnlimited": "Bit",
+  "ordinal": "Short",
+  "isPaid": "Bit",
+  "rate": "Double",
+  "prorataOptionTypeCode": "String"
+}

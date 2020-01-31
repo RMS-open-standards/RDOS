@@ -1,0 +1,11 @@
+{
+  "contractId":"Long",
+  "contractLayerId":"Long",
+  "contractScopeCode":"String",
+  "contractCedantCode":"String",
+  "reinsurerCode":"String",
+  "underwriterShortName":"String",
+  "producerShortName":"String",
+  "branchShortName":"String",
+  "brokerShortName":"String"
+}

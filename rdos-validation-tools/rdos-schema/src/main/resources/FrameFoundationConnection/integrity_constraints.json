@@ -1,0 +1,8 @@
+{
+  "primaryKeys": [
+    "countryGeoId",
+    "optionValue"
+  ],
+  "foreignKeys": [
+  ]
+}

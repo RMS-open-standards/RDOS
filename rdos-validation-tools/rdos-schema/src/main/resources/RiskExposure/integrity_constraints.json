@@ -1,0 +1,19 @@
+{
+  "primaryKeys": [
+    "riskExposureId"
+  ],
+  "foreignKeys": [
+    {
+      "table": "ExposureSet",
+      "columnMapping": {
+        "id": "exposureSetId"
+      }
+    },
+    {
+      "table": "Risk",
+      "columnMapping": {
+        "id": "riskId"
+      }
+    }
+  ]
+}

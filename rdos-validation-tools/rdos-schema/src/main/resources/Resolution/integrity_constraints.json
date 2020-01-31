@@ -1,0 +1,6 @@
+{
+  "primaryKeys": [
+    "resolutionCode"
+  ],
+  "foreignKeys": []
+}

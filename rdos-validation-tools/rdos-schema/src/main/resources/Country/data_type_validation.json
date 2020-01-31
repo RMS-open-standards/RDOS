@@ -1,0 +1,27 @@
+{
+  "countryGeoId":"Integer",
+  "countryCode":"String",
+  "countryName":"String",
+  "iso2a":"String",
+  "iso3a":"String",
+  "iso3n":"String",
+  "fips":"String",
+  "cresta":"String",
+  "countryModelCode":"String",
+  "countryModelName":"String",
+  "isActive":"Bit",
+  "externalId":"String"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

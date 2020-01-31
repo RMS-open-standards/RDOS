@@ -1,0 +1,8 @@
+{
+  "primaryKeys": [
+    "analysisId",
+    "resultsId"
+  ],
+  "foreignKeys": [
+  ]
+}

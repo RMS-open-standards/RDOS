@@ -1,0 +1,8 @@
+{
+  "primaryKeys": [
+    "treatyId",
+    "id"
+  ],
+  "foreignKeys": [
+  ]
+}

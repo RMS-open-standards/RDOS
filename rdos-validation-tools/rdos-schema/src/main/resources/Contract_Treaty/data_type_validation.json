@@ -1,0 +1,20 @@
+
+{
+  "id":"Long",
+  "name":"String",
+  "number":"String",
+  "externalId":"String",
+  "treatyTypeCode":"String",
+  "depositPremium":"Double",
+  "depositPremiumCurrencyCode":"Char",
+  "taxRate":"Double",
+  "brokerageRate":"Double",
+  "variableExpenseRate":"Double",
+  "lossAdjustmentExpenseRate":"Double",
+  "fixedExpense":"Double",
+  "inuringPriority":"Short",
+  "attachmentLevelCode":"String",
+  "attachmentBasisCode":"String",
+  "percentRetention":"Double",
+  "percentShare":"Double"
+}

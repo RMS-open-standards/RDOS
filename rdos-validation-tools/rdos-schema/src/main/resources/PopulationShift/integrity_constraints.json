@@ -1,0 +1,8 @@
+{
+  "primaryKeys": [
+    "riskItemid",
+    "shiftId"
+  ],
+  "foreignKeys": [
+  ]
+}

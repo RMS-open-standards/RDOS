@@ -1,0 +1,7 @@
+{
+  "primaryKeys": [
+    "attachmentBasisCode"
+  ],
+  "foreignKeys": [
+  ]
+}

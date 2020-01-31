@@ -1,0 +1,6 @@
+{
+  "prorataOptionTypeCode": "String",
+  "prorataOptionTypeDesc": "String",
+  "isActive": "Bit",
+  "externalId": "String"
+}

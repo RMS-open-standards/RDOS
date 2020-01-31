@@ -1,0 +1,8 @@
+{
+  "constructionschemeName":"String",
+  "constructionCode":"String",
+  "constructionName":"String",
+  "constructionBandName":"String",
+  "isActive":"Bit",
+  "externalId":"String"
+}

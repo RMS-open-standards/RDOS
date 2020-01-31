@@ -1,0 +1,23 @@
+{
+  "hazardousMaterialCode":"Integer",
+  "hazardousMaterialDesc":"String",
+  "isActive":"Bit",
+  "externalId":"String"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

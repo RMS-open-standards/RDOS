@@ -1,0 +1,6 @@
+{
+  "wageRelativityRankCode": "Short",
+  "wageRelativityRankDesc": "String",
+  "isActive": "Bit",
+  "externalId": "String"
+}

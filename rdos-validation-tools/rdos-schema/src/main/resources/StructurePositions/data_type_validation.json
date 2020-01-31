@@ -1,0 +1,8 @@
+{
+  "id":"Long",
+  "structureId":"Long",
+  "positionName":"String",
+  "positionTypeCode":"String",
+  "children":"String",
+  "instructions":"String"
+}

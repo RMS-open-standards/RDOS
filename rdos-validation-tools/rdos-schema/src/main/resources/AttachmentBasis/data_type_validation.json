@@ -1,0 +1,6 @@
+{
+  "attachmentBasisCode":"String",
+  "attachmentBasisDesc":"String",
+  "isActive":"Bit",
+  "externalId":"String"
+}

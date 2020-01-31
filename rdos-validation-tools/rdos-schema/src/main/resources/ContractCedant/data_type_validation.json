@@ -1,0 +1,6 @@
+{
+  "contractCedantCode":"String",
+  "contractCedantName":"String",
+  "isActive":"Bit",
+  "externalId":"String"
+}

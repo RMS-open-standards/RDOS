@@ -1,0 +1,6 @@
+{
+  "riskManagementOnsiteRankCode": "Short",
+  "riskManagementOnsiteRankDesc": "String",
+  "isActive": "Bit",
+  "externalId": "String"
+}

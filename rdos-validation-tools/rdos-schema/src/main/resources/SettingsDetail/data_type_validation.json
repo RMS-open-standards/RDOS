@@ -1,0 +1,8 @@
+{
+  "settingDetailId":"Long",
+  "settingId":"Long",
+  "settingname":"String",
+  "settingValue":"String",
+  "settingGroupName":"String",
+  "settingGroupValue":"String",
+}

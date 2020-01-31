@@ -1,0 +1,13 @@
+{
+  "primaryKeys": [
+    "id"
+  ],
+  "foreignKeys": [
+    {
+      "table": "ExposureSet",
+      "columnMapping": {
+        "id": "exposureSetId"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "primaryKeys": [
+    "id"
+  ],
+  "foreignKeys": [
+    {
+      "table": "Facultative",
+      "columnMapping": {
+        "id": "facultativeId"
+      }
+    },
+    {
+      "table": "Contract_Insurance",
+      "columnMapping": {
+        "id": "subjectInsuranceContractId"
+      }
+    },
+    {
+      "table": "InsuranceLayer",
+      "columnMapping": {
+        "id": "subjectInsuranceLayerId"
+      }
+    },
+    {
+      "table": "Risk",
+      "columnMapping": {
+        "id": "subjectRiskId"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "resultId": "Long",
+  "periodId": "Long",
+  "eventId": "Long",
+  "facetId": "Long",
+  "loss": "Double",
+  "lossDate": "Date",
+  "eventDate": "Date"
+}

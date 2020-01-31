@@ -1,0 +1,8 @@
+{
+  "contractTypeCode":"String",
+  "contractTypeDesc":"String",
+  "parentContractTypeCode":"String",
+  "isInsurance":"Bit",
+  "isActive":"Bit",
+  "externalId":"String"
+}

@@ -1,0 +1,6 @@
+{
+  "causeOfLossCode":"Char",
+  "causeOfLossDesc":"String",
+  "isActive":"Bit",
+  "externalId":"String"
+}

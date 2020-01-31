@@ -1,0 +1,20 @@
+{
+  "primaryKeys": [
+    "portfolioId",
+    "insuranceContractId"
+  ],
+  "foreignKeys": [
+    {
+      "table": "Contract_Insurance",
+      "columnMapping": {
+        "id": "insuranceContractId"
+      }
+    },
+    {
+      "table": "Portfolio",
+      "columnMapping": {
+        "id": "portfolioId"
+      }
+    }
+  ]
+}

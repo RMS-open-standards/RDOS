@@ -1,0 +1,15 @@
+{
+  "id":"Long",
+  "exposureSetId":"Long",
+  "externalId":"String",
+  "name":"String",
+  "number":"String",
+  "description":"String",
+  "statusCode":"String",
+  "insuranceContractTypeCode":"String",
+  "subjectId":"Long",
+  "subjectName":"String",
+  "subjectScopeCode":"String",
+  "renewalExternalId":"String",
+  "brokerage":"Double"
+}

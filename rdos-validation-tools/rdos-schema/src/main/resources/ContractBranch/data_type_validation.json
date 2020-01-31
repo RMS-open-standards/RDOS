@@ -1,0 +1,6 @@
+{
+  "contractBranchCode":"String",
+  "contractBranchName":"String",
+  "isActive":"Bit",
+  "externalId":"String"
+}

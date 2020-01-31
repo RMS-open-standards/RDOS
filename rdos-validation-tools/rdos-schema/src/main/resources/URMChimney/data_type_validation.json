@@ -1,0 +1,7 @@
+{
+  "countryGeoId": "Integer",
+  "optionDesc": "String",
+  "optionValue": "Short",
+  "isActive": "Bit",
+  "externalId": "String"
+}

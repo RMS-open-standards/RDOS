@@ -1,0 +1,8 @@
+{
+  "admin1GeoId":"Long",
+  "countryGeoId":"Integer",
+  "admin1Code":"String",
+  "admin1Name":"String",
+  "isActive":"Bit",
+  "externalId":"String"
+}

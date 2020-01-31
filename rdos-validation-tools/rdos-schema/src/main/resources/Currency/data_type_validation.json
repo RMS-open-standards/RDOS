@@ -1,0 +1,21 @@
+{
+  "currencyCode":"Char",
+  "currencyName":"String",
+  "countryName":"String",
+  "currencySymbol":"Nvarchar",
+  "isActive":"Bit",
+  "externalId":"String"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

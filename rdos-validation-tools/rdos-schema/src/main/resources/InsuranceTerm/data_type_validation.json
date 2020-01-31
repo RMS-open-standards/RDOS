@@ -1,0 +1,14 @@
+{
+  "id":"Long",
+  "insuranceContractId":"Long",
+  "termTypeCode":"String",
+  "amount":"Double",
+  "amountBasisCode":"String",
+  "timeBasisCode":"String",
+  "currencyCode":"Char",
+  "lossTypeCode":"String",
+  "causeOfLossCode":"String",
+  "subjectId":"Long",
+  "subjectScopeCode":"String",
+  "subjectResolutionCode":"String"
+}

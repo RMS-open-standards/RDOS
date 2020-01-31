@@ -1,0 +1,6 @@
+{
+  "reinsurerCode": "String",
+  "reinsurerName": "String",
+  "isActive": "Bit",
+  "externalId": "String"
+}

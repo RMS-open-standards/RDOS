@@ -1,0 +1,8 @@
+{
+  "riskExposureId": "Long",
+  "exposureSetId": "Long",
+  "riskId": "Long",
+  "riskItemId": "Long",
+  "lossTypeCode": "String",
+  "insurableInterest": "Double"
+}

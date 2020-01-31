@@ -1,0 +1,6 @@
+{
+  "riskItemTypeCode": "String",
+  "riskItemTypeDesc": "String",
+  "isActive": "Bit",
+  "externalId": "String"
+}

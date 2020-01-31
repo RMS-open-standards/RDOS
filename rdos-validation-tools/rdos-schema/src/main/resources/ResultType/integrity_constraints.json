@@ -1,0 +1,6 @@
+{
+  "primaryKeys": [
+    "resultTypeCode"
+  ],
+  "foreignKeys": []
+}

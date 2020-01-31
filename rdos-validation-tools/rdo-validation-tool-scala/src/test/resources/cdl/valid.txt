@@ -1,0 +1,7 @@
+Contract
+ Declarations
+  Currency is USD
+ Covers
+  100% share
+ Deductibles
+  2% RCV Affected to R1, R2
