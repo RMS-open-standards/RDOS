@@ -127,7 +127,6 @@ CREATE TABLE RDO.RiskItem_ContainedProperty(
     currencyCode CHAR(3)
 );
 ALTER TABLE RDO.RiskItem_ContainedProperty ADD CONSTRAINT PK_RiskItem_ContainedProperty PRIMARY KEY(riskItemId);
---ALTER TABLE RDO.RiskItem_ContainedProperty ADD CONSTRAINT FK_RiskItem_ContainedProperty_RiskItem FOREIGN KEY(riskItemId) REFERENCES RDO.RiskItem(id);
 
 CREATE TABLE RDO.RiskItem_TimeElement (
     riskItemId BIGINT NOT NULL,
@@ -139,7 +138,6 @@ CREATE TABLE RDO.RiskItem_TimeElement (
     currencyCode CHAR(3)
 );
 ALTER TABLE RDO.RiskItem_TimeElement ADD CONSTRAINT PK_RiskItem_TimeElement PRIMARY KEY(riskItemId);
---ALTER TABLE RDO.RiskItem_TimeElement ADD CONSTRAINT FK_RiskItem_TimeElement_RiskItem FOREIGN KEY(riskItemId) REFERENCES RDO.RiskItem(id);
 
 CREATE TABLE RDO.RiskItem_RealProperty(
     riskItemId BIGINT NOT NULL,
@@ -292,8 +290,6 @@ ALTER TABLE RDO.RiskExposure ADD CONSTRAINT PK_RiskExposure PRIMARY KEY(riskExpo
 ALTER TABLE RDO.RiskExposure ADD CONSTRAINT UQ_RiskExposure UNIQUE (riskId, riskItemId, lossTypeCode, insurableInterest);
 ALTER TABLE RDO.RiskExposure ADD CONSTRAINT FK_RiskExposure_ExposureSet FOREIGN KEY(exposureSetId) REFERENCES RDO.ExposureSet(id);
 ALTER TABLE RDO.RiskExposure ADD CONSTRAINT FK_RiskExposure_Risk FOREIGN KEY(riskId) REFERENCES RDO.Risk(Id);
---ALTER TABLE RDO.RiskExposure ADD CONSTRAINT FK_RiskExposure_tRiskItem FOREIGN KEY(riskItemId) REFERENCES RDO.RiskItem(riskItemId);
--- ALTER TABLE RDO.RiskExposure ADD CONSTRAINT FK_tRiskExposure_lossType FOREIGN KEY(lossTypeCode) REFERENCES lossType(lossTypeCode);
 
 CREATE TABLE RDO.Schedule (
     id BIGINT NOT NULL,
@@ -403,7 +399,6 @@ CREATE TABLE RDO.InsuranceTerm(
 );
 ALTER TABLE RDO.InsuranceTerm ADD CONSTRAINT PK_InsuranceTerm PRIMARY KEY(id);
 ALTER TABLE RDO.InsuranceTerm ADD CONSTRAINT FK_InsuranceTerm_InsuranceContract FOREIGN KEY(insuranceContractId) REFERENCES RDO.Contract_Insurance(id);
---ALTER TABLE RDO.InsuranceTerm ADD CONSTRAINT CK_InsuranceContractTerm_subjectScopeCode CHECK (subjectScopeCode IN ('RISK' , 'SCHEDULE', 'SUBSCHEDULE'));
 
 CREATE TABLE RDO.SubscheduleRiskMap (
   subscheduleId BIGINT NOT NULL,
@@ -483,7 +478,7 @@ CREATE TABLE Rdo.PerRiskTreatySubject (
   id BIGINT NOT NULL,
   treatyId BIGINT NOT NULL,
   portfolioId BIGINT NOT NULL,
-  filterAttribute VARCHAR(32), -- contractLineOfBusinessCode or contractCedantCode (for EDMs)
+  filterAttribute VARCHAR(32), -- contractLineOfBusinessCode or contractCedantCode
   filterValue VARCHAR(80) -- ex: "RES", "COM", "ABC Insurance"
 );
 ALTER TABLE RDO.PerRiskTreatySubject ADD CONSTRAINT PK_PerRiskTreatySubject PRIMARY KEY(id);
