@@ -22,14 +22,14 @@ CREATE TABLE REF.Country (
   iso3n VARCHAR(4),
   fips VARCHAR(4),
   cresta VARCHAR(6),
-  countryModelCode VARCHAR(4),--renamed to countryRMSCode
-  countryModelName VARCHAR(256), --renamed to countryRMSName
+  countryModelCode VARCHAR(4),
+  countryModelName VARCHAR(256),
   isActive  BIT DEFAULT 1,
   externalId VARCHAR(256)
  );
  ALTER TABLE REF.Country ADD CONSTRAINT PK_Country PRIMARY KEY(countryCode);
  ALTER TABLE REF.Country ADD CONSTRAINT UQ_Country UNIQUE(countryGeoId);
- -- ALTER TABLE REF.Country ADD CONSTRAINT UQ_Country_countryModelCode UNIQUE(countryModelCode); # FAILS FOR Carribean
+
 
 CREATE TABLE REF.Admin1 (
   admin1GeoId BIGINT NOT NULL,
@@ -159,8 +159,6 @@ CREATE TABLE REF.CurrencyExchangeRate (
   effectiveDate DATETIME NOT NULL,
   exchangeRate FLOAT NOT NULL DEFAULT 1.0
 );
--- ALTER TABLE REF.CurrencyExchangeRate ADD CONSTRAINT PK_CurrencyExchangeRate PRIMARY KEY(currencyCode, effectiveDate);
--- ALTER TABLE REF.CurrencyExchangeRate ADD CONSTRAINT FK_CurrencyExchangeRate_Currency FOREIGN KEY(currencyCode) REFERENCES REF.Currency(currencyCode);
 
 CREATE TABLE REF.CauseOfLoss (
     causeOfLossCode CHAR(32) NOT NULL,
@@ -449,7 +447,7 @@ ALTER TABLE REF.Occupancy ADD CONSTRAINT PK_Occupancy PRIMARY KEY(occupancyschem
   externalId VARCHAR(256)
  );
  ALTER TABLE REF.Basement ADD CONSTRAINT PK_Basement PRIMARY KEY(countryGeoId, optionValue);
- DROP TABLE  REF.BIPreparedness
+
  CREATE TABLE REF.BIPreparedness (
   countryGeoId INTEGER NOT NULL,
   optionDesc VARCHAR(1024),
