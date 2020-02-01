@@ -399,7 +399,6 @@ CREATE TABLE RDO.InsuranceTerm(
 );
 ALTER TABLE RDO.InsuranceTerm ADD CONSTRAINT PK_InsuranceTerm PRIMARY KEY(id);
 ALTER TABLE RDO.InsuranceTerm ADD CONSTRAINT FK_InsuranceTerm_InsuranceContract FOREIGN KEY(insuranceContractId) REFERENCES RDO.Contract_Insurance(id);
---ALTER TABLE RDO.InsuranceTerm ADD CONSTRAINT CK_InsuranceContractTerm_subjectScopeCode CHECK (subjectScopeCode IN ('RISK' , 'SCHEDULE', 'SUBSCHEDULE'));
 
 CREATE TABLE RDO.SubscheduleRiskMap (
   subscheduleId BIGINT NOT NULL,
