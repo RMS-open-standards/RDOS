@@ -449,7 +449,7 @@ ALTER TABLE REF.Occupancy ADD CONSTRAINT PK_Occupancy PRIMARY KEY(occupancyschem
   externalId VARCHAR(256)
  );
  ALTER TABLE REF.Basement ADD CONSTRAINT PK_Basement PRIMARY KEY(countryGeoId, optionValue);
- DROP TABLE  REF.BIPreparedness
+
  CREATE TABLE REF.BIPreparedness (
   countryGeoId INTEGER NOT NULL,
   optionDesc VARCHAR(1024),
