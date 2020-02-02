@@ -27,6 +27,8 @@ More information is available at www.riskdataos.org.
 ### **RDOS Documentation**
 - ##### **[RDOS Overview and Concepts](https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_Concepts_10.pdf)**    
 - ##### **[Entity Relationship Diagram](https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_ERD_10.pdf)**   
+- ##### **[CDL Semantics and Examples](https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_Contracts_10.pdf)**
+- ##### **[SDL Overview and Examples](https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_SDL_10.pdf)**
 
 
 
