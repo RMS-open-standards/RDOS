@@ -69,11 +69,13 @@ ALTER TABLE RDO.Result ADD CONSTRAINT PK_Result PRIMARY KEY(id);
 CREATE TABLE RDO.ResultMetadata (
   id BIGINT NOT NULL,
   structureId BIGINT NOT NULL,
-  positionId BIGINT NOT NULL,
+  positionId BIGINT,
+  positionName VARCHAR(512) NOT NULL,
   settingsId BIGINT NOT NULL,
   resultTypeCode VARCHAR(32),
   granularityCode VARCHAR(80));
 ALTER TABLE RDO.ResultMetadata ADD CONSTRAINT PK_ResultMetadata PRIMARY KEY(id);
+
 
 CREATE TABLE RDO.Result_ELT (
   resultId BIGINT NOT NULL,
