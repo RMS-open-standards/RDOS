@@ -4,7 +4,7 @@
 ### **WHAT IS RDOS?**
 The Risk Data Open Standard (RDOS) is a logical data model and data specification used to express and exchange risks for any line of business in a consistent manner. 
 
-It is a modern data schema for the risk analytics community, representing the new standard for holding all types of risk data, including exposure, coverage, model settings, and results of analyses. It is designed to be an extensible, flexible,  and future-proof asset for risk modeling and analytics systems. RDOS is also compatible with existing standards for exposures or losses like EDM (exposure data model) and RDM (result data model).
+It is a modern data schema for the risk analytics community, representing the new standard for holding all types of risk data, including exposure, coverage, model settings, and results of analyses. It is designed to be an extensible, flexible,  and future-proof asset for risk modeling and analytics systems. RDOS is also compatible with existing standards for exposures or losses like EDM (exposure data module) and RDM (result data module).
 
 Purpose-built for the risk industry, RDOS is a “living” open standard guided by real-world practitioners who need improved interoperability and portability to support modern risk management. RDOS will evolve over time to support current and emerging requirements in the risk modeling industry.
 
