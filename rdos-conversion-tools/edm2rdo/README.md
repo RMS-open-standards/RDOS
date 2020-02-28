@@ -14,11 +14,11 @@ NET Core - Install the latest version of [.NET Core SDK](https://dotnet.microsof
 
 Download and unzip the tool in a folder on your computer.
 
-[Windows 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/win-x64.zip)
+[Windows 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/edm2rdo-win-x64.zip)
 
-[MacOS 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/osx-x64.zip)
+[MacOS 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/edm2rdo-osx-x64.zip)
 
-[Ubuntu 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/ubuntu-x64.zip)
+[Ubuntu 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/edm2rdo-ubuntu-x64.zip)
 
 ## **Running the tool** ###
 
@@ -30,6 +30,7 @@ You can run the tool without any parameters and it will list the options.
 On Mac and Linux
 
 ```bash
+chmod +x Edm2Rdo   # Make the file executable 
 ./Edm2Rdo
 ```
 
