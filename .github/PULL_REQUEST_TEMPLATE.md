@@ -2,6 +2,7 @@
 - [ ] The commit message follows guidelines
 - [ ] Tests for the changes have been added (for bug fixes / features)
 - [ ] Docs have been added / updated (for bug fixes / features)
+- [ ] Tools have been added / updated (for schema updates)
 
 
 * **What kind of change does this PR introduce?** (Bug fix, feature, docs update, ...)
