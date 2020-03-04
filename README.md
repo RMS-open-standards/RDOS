@@ -25,10 +25,10 @@ More information is available at www.riskdataos.org.
 - ##### **[Validation Tool](https://github.com/RMS-open-standards/RDOS/blob/master/rdos-validation-tools/rdo-validation-tool-java/README.md)**  
 - ##### **[CDL Parser](https://github.com/RMS-open-standards/RDOS/blob/master/rdos-validation-tools/cdl-parser/README.md)**   
 ### **RDOS Documentation**
-- ##### **[RDOS Overview and Concepts](https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_Concepts_10.pdf)**    
-- ##### **[Entity Relationship Diagram](https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_ERD_10.pdf)**   
-- ##### **[CDL Semantics and Examples](https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_Contracts_10.pdf)**
-- ##### **[SDL Overview and Examples](https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_SDL_10.pdf)**
+- ##### **[RDOS Overview and Concepts](https://www.riskdataos.org/html/HelpCenter/Content/RDO/RDO_Concepts.htm)**    
+- ##### **[Entity Relationship Diagram](https://www.riskdataos.org/html/HelpCenter/Content/RDO/RDOS_ERD.htm)**   
+- ##### **[CDL Semantics and Examples](https://www.riskdataos.org/html/HelpCenter/Content/CDL/CDL_Semantics_Intro.htm)**
+- ##### **[SDL Overview and Examples](https://www.riskdataos.org/html/HelpCenter/Content/RDO/RDO_Structure.htm)**
 
 
 
