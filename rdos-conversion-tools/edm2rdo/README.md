@@ -10,15 +10,61 @@ SQL Server Management Studio or Azure Data Studio (for Linux and MacOS) for inte
 
 NET Core - Install the latest version of [.NET Core SDK](https://dotnet.microsoft.com/download) and ensure version 2.2 is installed (Optional)
 
+***
+
 ## **Installation** ###
 
 Download and unzip the tool in a folder on your computer.
 
-[Windows 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/edm2rdo-win-x64.zip)
+***
 
-[MacOS 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/edm2rdo-osx-x64.zip)
+## Releases: 
 
-[Ubuntu 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/edm2rdo-ubuntu-x64.zip)
+#### Release 1.0.3 [9 March 2020]
+
+
+- [Windows 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.3/edm2rdo-ubuntu-x64.zip)
+- [MacOS 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.3/edm2rdo-osx-x64.zip)
+- [Ubuntu 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.3/edm2rdo-ubuntu-x64.zip)
+
+
+###### Notes
+Fixed bug where the conversion would terminate abruptly after inserting the portfolios. This happened in cases of smaller EDM sizes.
+
+
+---
+
+#### Release 1.0.2 [9 March 2020]
+
+
+- [Windows 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.2/edm2rdo-ubuntu-x64.zip)
+- [MacOS 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.2/edm2rdo-osx-x64.zip)
+- [Ubuntu 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.2/edm2rdo-ubuntu-x64.zip)
+
+
+###### Notes
+Fix a critical bug where user, when they passed output connection string
+i.e. passed the parameter with `-o` / `--output-connection`,  encountered the following exception :
+
+`DuplicateKeyException: Cannot insert to table Portfolio since <<key>> already exists`
+
+Even though the table was empty and there was no duplicate values being entered in the table
+
+---
+
+#### Release 1.0.1 [2 March 2020]
+
+
+- [Windows 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.1/edm2rdo-ubuntu-x64.zip)
+- [MacOS 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.1/edm2rdo-osx-x64.zip)
+- [Ubuntu 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.1/edm2rdo-ubuntu-x64.zip)
+
+
+###### Notes
+Fixed a bug where user would encounter Overflow Exception at `RiskConverter`
+
+
+***
 
 ## **Running the tool** ###
 
@@ -39,6 +85,7 @@ On Windows
 ```dos
 Edm2Rdo
 ```
+***
 
 ## **Notes** ###
 
@@ -110,7 +157,8 @@ Remote source and local destination.
 ```dos
 Edm2Rdo -i  "Data Source=<remote data source>;Database=<EDM_Database_Name>;User Id=rmsuser;Password=<your-password>" -o "Data Source=(local);Database=rdo;User Id=<your dbo or sa user id>;Password=<your-password>"
 ```
-
-## **Known Issues** ##
+***
+## **Known Issues** 
 
 * If output is other than SQL a directory for the output file must be provided else you'll see an error. This will be improved in the final version.
+* Contract CDL table is not populated :- currently the tool does not generate the CDL 
