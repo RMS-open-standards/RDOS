@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="RDO_MasterPage _Skins_HTML5___Side_Navigation___RDOS" data-mc-search-type="Stem" data-mc-help-system-file-name="Index.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-conditions="Default.RDO Open Standard" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="[%=System.LinkedTitle%]">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title>Exposure Schema</title>
+        <!--<link href="../Stylesheets/RMS_OL_EIQ.css" rel="stylesheet" type="text/css" /> -->
+        <!-- Inserting link to webfonts here 
+			<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet"> GET ERRORS
+			Also tried this link 
+				<style>
+				@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap'); GET ERRORS
+			</style> -->
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/RMS_OL_RDOS.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.expand-all-button
+{
+	-pie-background: url('../../Skins/Default/Stylesheets/Images/List.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.print-button
+{
+	-pie-background: url('../../Skins/Default/Stylesheets/Images/Print.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: url('../../Skins/Default/Stylesheets/Images/collapse.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" defer="defer">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Home_RDOS.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="row collapse">
+                                        <div class="top-bar">
+                                            <!-- Removing pdf button here 
+				<a href="../External/PDFs/RDOS_Concepts_10.pdf" target="_blank" title="RDOS Concepts" alt="RDOS Concepts"><img src="../Images/HelpCenterAssets/PDF.png" class="fullsize" style="float: right;" /></a>
+                End -->
+                                            <div class="top-bar-right">
+                                                <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolbar mc-component nocontent" style="mc-topic-toolbar-items: ;">
+                                                    <div class="button-group-container-left">
+                                                        <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all collapsed text" data-state1-title="Expand all collapsed text">
+                                                            <img alt="Expand all" src="../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                        </button>
+                                                        <button class="button needs-pie print-button" title="Print">
+                                                            <img alt="Print" src="../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="top-bar-left">
+                                                <div class="nocontent">
+                                                    <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="topic-layout">
+                                            <div>
+                                                <div role="main" id="mc-main-content">
+                                                    <h1>Exposure Schema</h1>
+                                                    <p>The following entities in the exposure schema capture the physical location, characteristics, financial details, and organization of the exposures in a data set. See <a href="RDOS_ERD.htm" class="MCXref xref">Entity Relationship Diagram</a> for a visual representation of the schema. See the <i>Exposure Schema</i> tab of the RDOS schema specification <a href="https://github.com/RMS-open-standards/RDOS/blob/master/RDOS_Schema.xlsx">RDOS_Schema.xlsx</a> for the full specification of fields, data types, and valid values.</p>
+                                                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="19" alt="Closed" data-mc-alt2="Open" /></a><a name="Contract"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Contract</a></span>
+                                                        <div class="MCDropDownBody dropDownBody">
+                                                            <p>The foundational concept of the RDOS data model is the contract, which is a binding agreement between the insurance provider and insured customer. The RDOS allows contract expression through the Contract Definition Language (CDL). The <b>ContractCDL</b> table stores the CDL string. <MadCap:conditionalText data-mc-conditions="Default.RDO Open Standard">For more information about CDL, see <a href="../CDL/CDL_Semantics_Intro.htm" class="MCXref xref">Contract Definition Language Semantics</a> and <a href="../FinancialModel/DetailedFinancialModelExamples.htm" class="MCXref xref">Detailed Contract Model Examples</a>.</MadCap:conditionalText></p>
+                                                            <p>Tables to represent insurance contracts:</p>
+                                                            <ul>
+                                                                <li value="1"><b>Contract_Insurance</b>—Extended from <b>Contract</b> to create the insurance contract record. For reinsurance contracts, use the <b>Contract_Treaty</b> table. The subject of a contract is a riskId or a scheduleId. </li>
+                                                                <li value="2"><b>InsuranceContractLayer</b> and <b>InsuranceContractTerm</b>—Define the contract if you do not use CDL. For more information about the lossTypeCode and causeOfLossCodes in both of these tables, see <a href="RDO_Concepts_Reference.htm#Causes" class="MCXref xref">Causes of Loss and Loss Types</a>.<ul><li value="1">Contract Layers—Layers define the promise of payment. </li><li value="2">Contract Terms—Contracts include two types of <i>terms</i>—deductible and sublimit—which reduce subject losses. Terms of a contract define their scope through a subject constraint (for example, contents losses to a certain location by hurricane, losses to a certain subschedule of locations by earthquake). Terms also typically have an amount (e.g., 10k USD, 2% RCV Covered) and perhaps some modifiers to their behavior (e.g., franchise deductible, aggregate sublimit). A contract can have as many deductibles and as many sublimits as needed.</li></ul></li>
+                                                            </ul>
+                                                            <p>Tables to represent treaties:</p>
+                                                            <ul>
+                                                                <li value="1"><b>Contract_Facultative</b> and <b>FacultativeCession</b>—Define facultative contracts.</li>
+                                                                <li value="2"><b>PerRiskTreatySubject</b>—Defines the portfolios that are the subjects of per risk treaties.</li>
+                                                                <li value="3"><b>Contract_Treaty</b>—Creates the reinsurance contract record.</li>
+                                                                <li value="4"><b>TreatyLayer</b> and <b>TreatyReinstatements</b>—Define the treaty if you do not use CDL. </li>
+                                                            </ul>
+                                                            <p>Table applicable to all contracts:</p>
+                                                            <ul>
+                                                                <li value="1"><b>ContractDeclaration</b>—Defines declarations for all contracts if you do not use CDL. Stores declarations per contract and per contract layer. Identifies each contract using the contractId field. Declarations act as metadata to aid search and filter, such as contractCedantCode, underwriterShortName, producerShortName, branchShortName, brokerShortName, and multiple legacyUserId and legacyUserTxt fields for free-form entry.</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="19" alt="Closed" data-mc-alt2="Open" /></a><a name="Risk"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Risk and Risk Items</a></span>
+                                                        <div class="MCDropDownBody dropDownBody">
+                                                            <p>Contracts cover one or more risks, captured in the <b>Risk</b> table.</p>
+                                                            <p>Each risk contains one or more risk items, which can be of multiple types, such as real property, contained property, time element, and population. Each of the sub-types is a separate risk item and together, a collection of risk items represent the risk associated with the contract. </p>
+                                                            <p>When you have information about a group of buildings in aggregate, but do not have individual building level information, use the <b>Risk.numberOfUnits</b>  field to indicate the number of individual risks that are represented by the aggregate risk. </p>
+                                                            <p>Tables to represent risks and risk items:</p>
+                                                            <ul>
+                                                                <li value="1"><b>Address</b>—Captures data about a real property risk item's geographic location, such as:<ul><li value="1">streetAddress—The building number and street</li><li value="2">postalCode—The predominant postal code, such as 5-digit ZIP Code in the U.S. </li><li value="3">cityName—City name</li><li value="4">admin1—Administrative divisions are geographic divisions that vary by country.&#160;Admin1&#160;represents large geographic divisions, such as states and provinces, such as state in the U.S.</li><li value="5">countryCode and countryScheme—Store the code and scheme used for the code, such as ISO2N for US.</li><li value="6">many more</li></ul></li>
+                                                                <li value="2"><b>Population</b> and <b>PopulationShift</b>—Capture data about human populations, such as for workers compensation analysis.</li>
+                                                                <li value="3"><b>RiskItem_ContainedProperty</b>—Captures contents exposure.</li>
+                                                                <li value="4"><b>RiskItem_RealProperty</b>—Captures building exposure and acts as a parent risk item for any RiskItem_ContainedProperty and RiskItem_TimeElement. Stores the following attributes that are often used to adjust the vulnerability of exposure for peril model analyses:<ul><li value="1">constructionSchemeName and constructionCode</li><li value="2">occupancyschemeName and occupancyCode</li><li value="3">floorArea</li><li value="4">numberOfStories</li><li value="5">yearBuilt</li></ul></li>
+                                                                <li value="5"><b>RiskItem_TimeElement</b>—Captures business interruption exposure.</li>
+                                                                <li value="6"><b>RealPropertyCharacteristics</b>—Captures additional modifiers associated with a real property risk item. Refer to the documentation for specific peril models to know which modifiers are considered. The RiskItem tables in the Reference schema store the available modifier options.</li>
+                                                            </ul>
+                                                            <p>The level of risk associated with risk items is the risk exposure, captured in the <b>RiskExposure</b> tabled. The insurableInterest field indicates to what extent the risk items are covered by the insuring party for different coverage types. </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="19" alt="Closed" data-mc-alt2="Open" />Schedule</a></span>
+                                                        <div class="MCDropDownBody dropDownBody">
+                                                            <p>When multiple risks are associated with a contract, they are combined into a schedule, which allows the contract to apply the same terms and conditions to all the risks collectively, rather than listing each one individually. Schedules are captured in the <b>Schedule</b> table. The <b>ScheduleRiskMap</b> table maps risks to the schedules with which they are associated. </p>
+                                                            <p>Like schedules, subschedules define a named collection of risks. They are an optional subset of the risks in a schedule that is covered by a contract. Use them in a contract to replace a list of risks when you want to define constraints on sublimits, deductibles, and covers. The <b>SubscheduleRiskMap</b> table maps risks to the subschedules with which they are associated. </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="19" alt="Closed" data-mc-alt2="Open" /></a><a name="Portfolio"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Portfolio</a></span>
+                                                        <div class="MCDropDownBody dropDownBody">
+                                                            <p>A grouping of contracts is a portfolio, and portfolio records are captured in the <b>Portfolio</b> table. Contracts that comprise a portfolio are stored in the <b>PortfolioMembership</b> table. The portfolio may be based on geographical region, business unit, or some other criteria that makes sense within an organization.</p>
+                                                            <p>For aggregate portfolios, the <b>AggregatePortfolioMembership</b> table captures aggregate geographic and financial information. </p>
+                                                            <p>Define the metadata tags you want to use for portfolios in the <b>PortfolioTag</b> table. </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="19" alt="Closed" data-mc-alt2="Open" /></a><a name="Structure"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Structure</a></span>
+                                                        <div class="MCDropDownBody dropDownBody">
+                                                            <p>Finance and accounting use the concept of <i>positions</i> to express how a result should be calculated and how it belongs to an organization. A structure is a container for these positions. RDOS expresses the position framework and captures the loss flow using Structure Definition Language (SDL). </p>
+                                                            <p><b>Portfolios</b> and <b>SDLStructures</b> are both structures.  Structures contain positions. Portfolios <i>implicitly</i> define the positions they contain, such as Gross and Net Loss Pre-Cat. SDLStructures <i>explicitly</i> define the positions they contain, some of which can be cat treaties. SDLStructure positions can depend on Portfolio positions.</p>
+                                                            <p>The <b>SDLStructure</b> table stores the SDL string. The <b>StructurePositions</b> table allows you to define structures without using SDL. </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="19" alt="Closed" data-mc-alt2="Open" />Exposure Set</a></span>
+                                                        <div class="MCDropDownBody dropDownBody">
+                                                            <p>If you want to group primary contracts and associated portfolios, risks, and risk items, you can define an exposure set, stored in the <b>ExposureSet</b> table. </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="19" alt="Closed" data-mc-alt2="Open" />Geocoding Details</a></span>
+                                                        <div class="MCDropDownBody dropDownBody">
+                                                            <p>Geocoding is the process of translating an address to an exact location. It’s the foundation of catastrophe analytics, and its importance cannot be understated. Small differences in exposure location can mean large changes in loss, which impacts underwriting, capital management, and reinsurance purchasing.</p>
+                                                            <p>RDOS provides numerous fields in the <b>Address</b> table that can be populated by geocoding engines. These fields capture detailed information about the geocoding process and about the exposure and its location. </p>
+                                                            <p style="font-weight: normal;">The RDOS uses the following <b>Address</b> table fields to support two standards used to describe the geocoding resolution of a specific address:</p>
+                                                            <ul>
+                                                                <li style="font-weight: normal;" value="1"><b>geoModelResolutionCode</b>—Stores the 0-14 match levels used by many geocoding vendors  to represent a range of geocoding resolutions, from high-resolution  (parcel, building, street) to postal code, neighborhood, and district. </li>
+                                                                <li value="2">
+                                                                    <p style="font-weight: normal;"><b>ACORDResolutionCode</b>—Stores the 99 match levels developed by the Association for Cooperative Operations Research and Development (ACORD).</p>
+                                                                </li>
+                                                            </ul>
+                                                            <p>The RDOS uses the following fields to provide a measure of geocoding accuracy and confidence:</p>
+                                                            <ul>
+                                                                <li value="1"><b>geocodingMatchConfidence</b>—Stores the percentage confidence that applies to the achieved geocoding match. Different geocoding vendors use different approaches for determining confidence thresholds.  <b>Uncertainty</b> and <b>uncertaintyBuffer</b> fields are also available. </li>
+                                                                <li value="2"><b>geocodingLocationCode</b>—Provides additional accuracy measure for U.S. high-resolution geocoding.</li>
+                                                                <li value="3"><b>geocodingMatchCode</b>—Stores codes from the geocoder to indicate portions of the input address that matched, did not match, or were modified during the geocoding process.</li>
+                                                            </ul>
+                                                            <p>The following fields provide information about the geocoding data and vintage and an audit trail:</p>
+                                                            <ul>
+                                                                <li value="1"><b>geocodingDataSourceId</b>—Identifies the source of the geocoding data.</li>
+                                                                <li value="2"><b>geoProductVersion</b>—Identifies the data vintage and software version.</li>
+                                                                <li value="3"><b>isSubmittedAddress</b>—Can provide an audit trail by indicating whether the address has been modified by the geocoder or whether the original submitted address is unchanged.</li>
+                                                                <li value="4"><b>geoCodedDate</b>—Records the date the location was geocoded.</li>
+                                                            </ul>
+                                                            <p>The <b>Address</b> table provides many detailed geography fields for user input or geocoder input, including:</p>
+                                                            <ul>
+                                                                <li value="1">Globally unique <b>GeoId</b> fields for all address components</li>
+                                                                <li value="2">CRESTA <b>Zones 1-5</b></li>
+                                                                <li value="3"><b>Administrative</b> divisions, levels 1-5, which are geographic divisions that vary by country. E.g., Admin1 represents State in the U.S. and Province in Canada. </li>
+                                                                <li value="4"><b>Building</b> and <b>parcel</b> identifiers</li>
+                                                                <li value="5"><b>Points of interest</b>
+                                                                </li>
+                                                                <li value="6">
+                                                                    <p><b>Quadkey</b>—Quadkeys uniquely identify map tiles at a particular level of detail. Map tiles optimize the performance of map retrieval and display. </p>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <p style="font-weight: bold;">Read next: <a href="RDO_Concepts_Settings.htm" style="font-weight: normal;" class="MCXref xref">Settings Schema</a></p>
+                                                </div>
+                                                <!--Entry for feedback form starts here -->
+                                                <!--<br>
+                    </br>
+                    <form id="FeedbackForm">
+                        <fieldset style="display: inline-block;">
+                            <legend>Was this topic helpful?</legend>
+                            <label>Yes <input type="radio" name="helpful" value="yes" /></label>
+                            <label>No <input type="radio" name="helpful" value="no" /></label>
+                            <br />                            <br /><textarea style="font-family: arial, helvetica, sans-serif;" class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="3" cols="50"></textarea>
+                            <br />                            <input type="submit" />
+                        </fieldset>
+                        <script type="text/javascript">
+							var form = document.getElementById('FeedbackForm')
+							form.onsubmit = function (e) {
+							e.preventDefault()
+							var helpful = document.querySelector('input[name="helpful"]:checked').value
+							var comments = document.querySelector('textarea[name="comments"]').value
+ 
+							var XHR = new XMLHttpRequest();
+							// Define what happens on successful data submission
+							XHR.addEventListener("load", function(event) {
+							form.style.display = 'none'
+							var thanks = document.getElementById('ThankYou')
+							thanks.style.display = 'block'
+							});
+							// Define what happens in case of error
+							XHR.addEventListener("error", function(event) {
+							alert('Oops! Something went wrong.');
+							});
+							// Set up our request
+							XHR.open("POST", "/feedback");
+							XHR.setRequestHeader('Content-Type', 'application/json')
+							// The data sent is what the user provided in the form
+							XHR.send(JSON.stringify({
+							helpful: helpful,
+							comments: comments,
+							topicUrl: document.location.href
+							}));
+							}
+						</script>
+                    </form>
+                    <div id="ThankYou" style="display: none; padding: 20px; border: 1px; background-color:#cccccc;">Thank you for your feedback!</div>
+                    <br>
+                    </br>
+                   End -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="Footer1">Riskdataos.org is being hosted by RMS in support of an improved and open global data standard. © Risk Management Solutions, Inc.</p>
+                                    <p class="Footer2"><a href="https://www.rms.com/legal#Privacy-Policy" target="_blank">Privacy Policy</a> | 
+					<a href="https://www.rms.com/legal#Cookie-Policy" target="_blank">Cookie Policy</a> | 
+					<a href="https://www.rms.com/legal#Terms-of-Use" target="_blank">Terms of Use</a> | 
+					<a href="https://www.rms.com/legal#Privacy-Policy-ccpa" target="_blank">California Privacy Rights</a> | 
+				<a href="mailto:contact@riskdataos.org">Contact Us</a></p>
+                                    <p class="FooterDate">Updated: <span class="VariablesToday's Date">March 11, 2020</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

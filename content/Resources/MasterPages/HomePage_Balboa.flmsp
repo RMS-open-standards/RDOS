@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <link href="../Stylesheets/StylesForHomePage_Balboa.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="contentBody" class="off-canvas-main">
+            <MadCap:bodyProxy />
+            <div class="footer center">
+                <div class="home-master-page-footer">
+                    <div style="float: left;width: 45%;">
+                        <p>© <MadCap:variable name="Variables.Year" /> Risk Management Solutions, Inc. All rights reserved.</p>
+                    </div>
+                    <div style="float: right;width: 45%;">
+                        <p><a href="mailto:documentation@rms.com"><img src="../Images/Assets/Icons/MainIcons/Contact-gray.png" /></a>
+                        </p>
+                        <p><MadCap:variable name="Variables.Email" />
+                        </p>
+                        <p><MadCap:variable name="Variables.PhoneNumber" />
+                        </p>
+                        <p><MadCap:variable name="Variables.StreetAddress" />, <MadCap:variable name="Variables.CityStateZip" /></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

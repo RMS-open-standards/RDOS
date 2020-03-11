@@ -1,0 +1,789 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+/*===========================================================================================================================================================
+
+Hello! If this is your first time looking at a stylesheet within the text editor view, what you are reading right now is a "comment". Comments are added throughout this stylesheet with the purpose of making the source code easier to understand, comments will not be interpreted during the compile process. Since comments are not interpreted during the compile process, feel free to add or remove any comments.
+
+For help with MadCap Flare go to Help Ribbon > Topics Section > Open Help. Alternatively visit the Flare Online Help at help.madcapsoftware.com
+
+If you have any questions regarding how to work with this stylesheet or template project, please contact MadCap Technical Support. 
+https://www.madcapsoftware.com/support/contact-options.aspx
+
+NOTE: Generally, this stylesheet has elements listed out in the order that they appear in the topic from top to bottom. The exception are General styles which are at the top and the stylesheet mediums which are at the bottom.
+
+EXAMPLE: Since the Topic/Banner image is at the top of the home page, it will be listed closer to the top of this stylesheet. While, the footer will be written towards the bottom. 
+
+===========================================================================================================================================================*/
+
+/*==Home Page General Styles==*/
+
+@font-face 
+{
+	font-family: Gotham-Book;
+	src: url(../Fonts/Gotham-Book.otf);
+}
+
+@font-face 
+{
+	font-family: Gotham-BookItalic;
+	src: url(../Fonts/Gotham-BookItalic.otf);
+	font-style: italic;
+}
+
+@font-face 
+{
+	font-family: Gotham-Medium;
+	src: url(../Fonts/Gotham-Medium.otf);
+}
+
+@font-face 
+{
+	font-family: Gotham-MediumItalic;
+	src: url(../Fonts/Gotham-MediumItalic.otf);
+	font-style: italic;
+}
+
+body
+{
+	font-family: Gotham-Book;
+	/*For Gotham, replaced Arial with Gotham-Book*/
+	line-height: 1.5em;
+	background-color: #fff;
+}
+
+h1
+{
+	font-family: Gotham-Medium;
+	/*Added font family to specify Gotham Medium*/
+	font-size: 4.0em;
+	/*Changed from 2.75em*/
+	color: #fff;
+	line-height: 1em;
+}
+
+h2
+{
+	font-family: Gotham-Medium;
+	/*Added font family to specify Gotham Medium*/
+	font-size: 1.6785em;
+	color: #fff;
+}
+
+hr
+{
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	border-style: inset;
+	border-width: 1px;
+}
+
+p
+{
+	font-family: Gotham-Book;
+	/*Added font family Gotham*/
+	color: #5a5a5a;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+.center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+}
+
+.off-canvas-content .main-section > .outer-row
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+table	/*added to try and get rid of line in table */
+{
+	border-bottom: none;
+}
+
+/*==Mad Cap proxy/editor assigned styles==*/
+
+MadCap|searchBarProxy
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	float: none;
+	width: 50%;
+}
+
+MadCap|topicToolbarProxy
+{
+	float: none;
+}
+
+MadCap|menuProxy.menu1
+{
+	mc-toc-depth: 1;
+	mc-context-sensitive: True;
+}
+
+MadCap|menuProxy.menu2
+{
+	mc-toc-depth: 1;
+	mc-context-sensitive: True;
+}
+
+html.home-page
+{
+	mc-community-features: disabled;
+}
+
+/*==Responsive Header Styles==*/
+
+#contentBody > .responsive-header
+{
+	background-color: transparent;
+}
+
+/*==Home Page Hero Section==*/
+
+div.topic-hero	/*This is the first Hero/Banner on the Home Page - To replace the banner image with your own, change background-image property*/
+{
+	height: 325px;
+	/*Adjusted height from 450 to 325 to bring tiles above the fold*/
+	padding-bottom: 100px;
+	padding-top: 25px;
+	background-color: #d3d3d3;
+	background-image: url('../Images/Assets/HeroImages/HeroImage-1RM112.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	/*background-position: center 0;*/
+	background-position: center 70%;
+}
+
+div.topic-heroEIQ	/*Updated 9/11/2019 with new image from Sami. This is the first Hero/Banner on the Home Page - To replace the banner image with your own, change background-image property*/
+{
+	height: 450px;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	/*suggested by Sami*/
+	background-color: #d3d3d3;
+	background-image: url('../Images/Assets/HeroImages/HeroImage-1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	/*background-position: center 0;*/
+	background-position: center 70%;
+}
+
+div.hr	/*Added to make hr on home page centered*/
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	color: #fff;
+	opacity: 0.4;
+}
+
+div.cta	/*Call to action button on the Home Page*/
+{
+	color: #FFF;
+	background-color: #246895;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 14px 20px;
+	width: 200px;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+	/*Original from MC*/
+	/*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
+	/*Here is definition from Kevin */
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.30);
+	margin-top: 50px;
+}
+
+div.cta:hover	/*When hovering over the CTA button the following properties apply*/
+{
+	/*Original from MC*/
+	/*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+	/*Here is definition from Kevin */
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.30);
+	margin-top: 50px;
+	transform: scale(1.01);
+}
+
+a.cta:link
+{
+	font-family: Gotham-Medium;
+	/*Added to make links gotham medium per Kevin*/
+	color: #FFF;
+	text-decoration: none;
+}
+
+a.cta:visited
+{
+	font-family: Gotham-Medium;
+	/*Added to make links gotham medium per Kevin*/
+	color: #FFF;
+	text-decoration: none;
+}
+
+/*==Search bar elements==*/
+
+.search-field	/*The box-shadow property is applied to style to provide shadow on the search bar*/
+{
+	/*Here is original from MC */
+	/*box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+	/*Here is definition from Kevin */
+	background: #FFFFFF;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.30);
+}
+
+div.search-container
+{
+	margin-top: -36px;
+	margin-bottom: 50px;
+	/*Use this property to adjust the white space between the tiles and the hero image*/
+}
+
+/*==Home Tiles section==*/
+
+div.home-tiles-heading	/*KZ: added to insert heading for tiles */
+{
+	font-family: Gotham-Medium;
+	/*Added to make links gotham medium per Kevin*/
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+div.home-tiles-heading p	/*Complex Selector: Any <p> that is contained within div.home-tiles-heading will have the following properties*/
+{
+	text-align: center;
+	color: #565656;
+	font-size: 2.0em;
+}
+
+div.home-tiles	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+div.home-tiles::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: transparent;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	/*Adds transition animation when switching between screen sizes*/
+	-moz-border-radius: 20x;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	border: 1px solid #d3d3d3;
+	padding: 60px 10px;
+	overflow: hidden;
+}
+
+div.home-tiles > div:hover	/*When hovering over a home-tile, these properties apply*/
+{
+	/*Here is original from MC */
+	/*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+	/*Here is definition from Kevin */
+	background: #FFFFFF;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.30);
+}
+
+div.home-tiles > div:nth-child(1)
+{
+	width: 16.667%;
+	margin-left: 24%;
+}
+
+div.home-tiles > div:nth-child(2)
+{
+	width: 16.667%;
+	margin-left: 1%;
+}
+
+div.home-tiles > div:nth-child(3)
+{
+	width: 16.667%;
+	margin-left: 1%;
+}
+
+/*=Elements for text contained within each home-tile=*/
+
+p.tile-title
+{
+	font-family: Gotham-Medium;
+	/*Added to make links gotham medium per Kevin*/
+	text-align: center;
+	color: #7E8890;
+	font-size: 1.4em;
+}
+
+p.tile-content
+{
+	text-align: center;
+	color: #7E8890;
+	font-size: 1.0em;
+	/*Changed from 0.8*/
+}
+
+p.tile-items
+{
+	color: #7E8890;
+	font-size: 0.7em;
+	text-align: center;
+}
+
+div.home-tiles a	/*Complex Selector: Any anchor (links) tags that are within div.home-tiles will have the following properties*/
+{
+	text-decoration: none;
+	/*color: #565656; Wendy says it's hard to see where to click, so try this in blue*/
+	color: #246895;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+div.home-tiles a:hover	/*Complex Selector: When hovering over links within the home tiles the following properties will apply.*/
+{
+	color: #246895;
+}
+
+/*=Info-container section=*/
+
+div.info-container	/*div.info-container contains the first Hero/Banner on the Home Page - To replace the banner image with your own, point the background-image property to your own image.*/
+{
+	margin-left: auto;
+	margin-top: 100px;
+	margin-right: auto;
+	padding-bottom: 75px;
+	padding-top: 100px;
+	/*Here is original from MC */
+	/*box-shadow: inset -1px 1px 17px 0px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
+	/*Here is definition from Kevin */
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.30);
+	color: #fff;
+	background-color: #292f42;
+	/*Create the parallax scrolling effect*/
+	background-attachment: fixed;
+	background-position: center 0;
+	background-image: url('../Images/Assets/HeroImages/HeroImage-2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+div.info-section	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.info-section::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.info-section::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.info-section > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.info-section > div:nth-child(1)
+{
+	/* width: 16.667%; This is the original */
+	width: 30%;
+	margin-left: 16.667%;
+}
+
+/* removing this since we don't need center section */
+
+/*
+div.info-section > div:nth-child(2)
+{
+
+	width: 16.667%;
+	margin-left: 6%;
+}
+*/
+
+div.info-section > div:nth-child(2)	/*Div that contains "Tips" 
+KZ: changed from (3) to (2) since I removed center section */
+{
+	/* width: 33.333%; This is the original */
+	width: 40%;
+	margin-left: 5%;
+}
+
+div.info-container p	/*Complex Selector: Any <p> that is contained within div.info-container will have the following properties*/
+{
+	color: #fff;
+}
+
+div.info-container a	/* KZ entry: Any <a> that is contained within div.info-container will have the following properties */
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+/*=Elements for content contained within each info section=*/
+
+p.info-title
+{
+	font-family: Gotham-Medium;
+	/*Added for Gotham Medium to be used in headings per Kevin*/
+	font-size: 2em;
+	line-height: 1em;
+}
+
+p.info-content
+{
+	text-align: center;
+}
+
+p.tip	/*Paragraph style used for the Tips */
+{
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-image: url('../Images/Assets/Icons/MainIcons/Tips-white.png');
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	border: solid 1px #fff;
+	border-radius: 6px;
+	line-height: 1em;
+	overflow: hidden;
+	padding: 15px 0px 15px 60px;
+	text-align: left;
+	margin: 5px 30px;
+}
+
+/*==Home Page Footer Section==*/
+
+div.footer
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+div.footer a	/*Complex Selector: Any anchor (links) tags that are within div.footer will have the following properties */
+{
+	text-decoration: none;
+	color: #DADADA;
+}
+
+div.footer > div.outer-row
+{
+	line-height: 30px;
+	padding: 0;
+}
+
+div.home-master-page-footer	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	/*KZ: changed to make footer wider */
+}
+
+div.home-master-page-footer::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-master-page-footer::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-master-page-footer > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.home-master-page-footer > div:nth-child(1)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.home-master-page-footer > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.home-master-page-footer > div:nth-child(3)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.footer p	/*Complex Selector: Any <p> that is contained within div.footer will have the following properties*/
+{
+	color: #7E8890;
+	font-size: 0.8em;
+}
+
+/*===========================================================================================================================================================
+Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
+[@media tablet] declares styles that will apply when the screen is in tablet view
+[@media mobile] declares styles that will apply when the screen is in mobile view
+===========================================================================================================================================================*/
+
+@media only screen and (max-width: 1279px)
+{
+	#content-section .right-section,
+	#content-section .left-section
+	{
+		padding: 0;
+	}
+
+	p.info-title
+	{
+		font-family: Gotham-Medium;
+		/*Added for Gotham Medium to be used in headings per Kevin*/
+		font-size: 2em;
+	}
+
+	p.info-content
+	{
+		font-size: 1em;
+	}
+
+	div.footer
+	{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	div.home-master-page-footer > div:nth-child(1)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.home-master-page-footer > div:nth-child(2)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.home-master-page-footer > div:nth-child(3)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.home-tiles > div
+	{
+		float: left;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		background-color: transparent;
+		transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+		/*Adds transition animation when switching between screen sizes*/
+		-moz-border-radius: 20x;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+		border: 1px solid #d3d3d3;
+		padding: 60px 10px;
+	}
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+
+	div.home-tiles > div:nth-child(3)
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+
+	div.info-section > div
+	{
+		text-align: center;
+	}
+
+	div.info-section > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 10%;
+		margin-top: 5%;
+	}
+
+	div.info-section > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 5%;
+	}
+
+	div.info-section > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	#content-section
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	div.search-container
+	{
+		margin-bottom: 50px;
+	}
+
+	p.tile-title
+	{
+		font-family: Gotham-Medium;
+		/*Added for Gotham Medium to be used in headings per Kevin*/
+		font-size: 1.2em;
+	}
+
+	p.info-title
+	{
+		font-family: Gotham-Medium;
+		/*Added for Gotham Medium to be used in headings per Kevin*/
+		font-size: 2em;
+	}
+
+	p.info-content
+	{
+		font-size: 1em;
+	}
+
+	div.home-tiles > div
+	{
+		margin-top: 2%;
+	}
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.home-tiles > div:nth-child(3)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.info-section > div
+	{
+		text-align: center;
+		padding: 0 20px;
+	}
+
+	div.info-section > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 10%;
+		margin-top: 5%;
+	}
+
+	div.info-section > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 5%;
+	}
+
+	div.info-section > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.home-master-page-footer > div	/* Adds separators to the footer items when in mobile layout */
+	{
+		border-bottom: 1px solid #d3d3d3;
+	}
+
+	div.home-master-page-footer > div:nth-child(1)
+	{
+		width: 100%;
+	}
+
+	div.home-master-page-footer > div:nth-child(2)
+	{
+		width: 100%;
+	}
+
+	div.home-master-page-footer > div:nth-child(3)
+	{
+		width: 100%;
+	}
+}
+
+a.white
+{
+	
+}
+

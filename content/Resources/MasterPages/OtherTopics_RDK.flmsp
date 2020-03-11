@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <link href="../Stylesheets/RMS_OL.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="content">
+            <div id="contentBody">
+                <div class="row collapse">
+                    <div class="sideContent">
+                        <div class="clearfix" style="padding-left: 25px; padding-top: 10px;"><a href="../External/PDFs/RMS(one)_RDK_DG.pdf" title="RDK Developer's Guide" alt="RDK Developer's Guide"><img src="../Images/pdf_button.png" class="fullsize" style="float: right;" /></a>
+                            <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: ; padding-right: 10px;" data-mc-skin="/Project/Skins/TopicToolBar_old.flskn" />
+                            <div id="uv_trigger" title="Feedback">
+                            </div>
+                        </div>
+                        <script>
+							UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/LSe6tw5zVgQrTmaHBfOSnA.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
+							UserVoice.push(['identify', {}]);
+							UserVoice.push(['set', {
+								strings: {
+									contact_title: 'Send us your feedback',
+									contact_message_placeholder: ' '}
+									}]);
+							UserVoice.push(['addTrigger', '#uv_trigger', { mode: 'contact' }]);            
+						</script>
+                        <div style="padding-left: 25px; padding-top: 20px;">
+                            <MadCap:menuProxy style="mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" data-mc-skin="/Project/Skins/SideMenu_old.flskn" mc-linked-toc="/Project/TOCs/Archive/RDK TOC.fltoc" />
+                        </div>
+                    </div>
+                    <div style="width: 65%; padding-bottom: 20px;">
+                        <MadCap:searchBarProxy data-mc-skin="/Project/Skins/OtherTopicsSearchBar.flskn" />
+                    </div>
+                    <MadCap:bodyProxy />
+                </div>
+            </div>
+        </div>
+        <p class="Footer">© <MadCap:variable name="Variables.Year" /> <MadCap:variable name="Variables.Company" /> <a href="../../Copyright.htm">All Rights Reserved</a> | <a href="http://www.rms.com/legal" target="_blank">Legal</a> | <a href="https://www.rms.com/legal#Cookie-Policy" target="_blank">Cookie Policy</a> | <a href="../../Contacting_RMS.htm">Contact Us</a><!-- | <a href="mailto:Documentation@rms.com">Feedback</a>--></p>
+        <p class="FooterDate">Updated: <MadCap:variable name="Variables.Today's Date" /></p>
+    </body>
+</html>

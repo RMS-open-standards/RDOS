@@ -1,0 +1,393 @@
+/*<meta />*/
+
+@media only screen and (max-width: 1279px)
+{
+	/* Search Styles */
+
+	.search-bar .search-filter
+	{
+		font-size: 1em;
+	}
+
+	.button.login-button.feedback-required,
+	.button.edit-user-profile-button.feedback-required
+	{
+		display: none;
+	}
+
+	.pulse-frame
+	{
+		display: none;
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete ul
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item a
+	{
+		
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item
+	{
+		
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content
+	{
+		
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history
+	{
+		
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item.auto-result-selected a
+	{
+		
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item.auto-result-selected
+	{
+		background-color: #ececec;
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content.auto-result-selected
+	{
+		background-color: #ececec;
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history.auto-result-selected
+	{
+		background-color: #ececec;
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-description
+	{
+		
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content .auto-result-description
+	{
+		
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history .auto-result-description
+	{
+		
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-icon
+	{
+		
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content .auto-result-icon
+	{
+		background: transparent url('Images/icon-topic.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-topic.png') no-repeat center center;
+		background-size: contain;
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history .auto-result-icon
+	{
+		background: transparent url('Images/icon-search.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-search.png') no-repeat center center;
+		background-size: contain;
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-phrase
+	{
+		
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content .auto-result-phrase
+	{
+		
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history .auto-result-phrase
+	{
+		
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-phrase .search-result-highlight
+	{
+		
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content .auto-result-phrase .search-result-highlight
+	{
+		
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history .auto-result-phrase .search-result-highlight
+	{
+		
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li .auto-result-remove
+	{
+		width: 17px;
+		height: 27px;
+		background: transparent url('Images/icon-remove.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-remove.png') no-repeat center center;
+		background-size: contain;
+	}
+
+	._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-separator
+	{
+		
+	}
+
+	.search-bar._Skins_SearchHome.mc-component
+	{
+		
+	}
+
+	.search-bar._Skins_SearchHome.mc-component .search-field
+	{
+		background-color: #ffffff;
+	}
+
+	.search-bar._Skins_SearchHome.mc-component .search-filter
+	{
+		background: #ffffff url('Images/FilterOutline.png') no-repeat center center;
+		-pie-background: #ffffff url('Skins/Default/Stylesheets/Components/Images/FilterOutline.png') no-repeat center center;
+	}
+
+	.search-bar._Skins_SearchHome.mc-component .search-submit
+	{
+		
+	}
+
+	._Skins_SearchHome.mc-component .search-filter-content
+	{
+		top: 3em;
+		background-color: #ffffff;
+	}
+
+	.search-bar._Skins_SearchHome.mc-component .search-filter-wrapper.open
+	{
+		-pie-background: #ffffff url('Skins/Default/Stylesheets/Components/Images/FilterOutline.png') no-repeat center center;
+		background-color: #ffffff;
+		background-repeat: no-repeat;
+	}
+
+	.search-bar._Skins_SearchHome.mc-component .search-filter:hover
+	{
+		background-color: #ffffff;
+	}
+
+	.search-bar._Skins_SearchHome.mc-component .search-filter.selected
+	{
+		background: transparent url('Images/Filter.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/Filter.png') no-repeat center center;
+	}
+
+	._Skins_SearchHome.mc-component .search-filter-content ul li:hover
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_SearchHome.mc-component .search-filter-content ul li:focus-within
+	{
+		background-color: #ffffff;
+	}
+
+	.search-bar._Skins_SearchHome.mc-component .search-field::-webkit-input-placeholder
+	{
+		
+	}
+
+	.search-bar._Skins_SearchHome.mc-component .search-field::-moz-placeholder
+	{
+		
+	}
+
+	.search-bar._Skins_SearchHome.mc-component .search-field:-moz-placeholder
+	{
+		
+	}
+
+	.search-bar._Skins_SearchHome.mc-component .search-field:-ms-input-placeholder
+	{
+		
+	}
+
+	.search-bar.search-bar-container._Skins_SearchHome.mc-component .search-submit
+	{
+		background: #ffffff url('Images/SearchIcon.png') no-repeat center center;
+		-pie-background: #ffffff url('Skins/Default/Stylesheets/Components/Images/SearchIcon.png') no-repeat center center;
+	}
+
+	.search-bar.search-bar-container._Skins_SearchHome.mc-component .search-submit:hover
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-color: #ffffff;
+	}
+
+	.buttons._Skins_TopicToolbar.mc-component
+	{
+		
+	}
+
+	._Skins_TopicToolbar.mc-component .button
+	{
+		background-repeat: no-repeat;
+		background: #ececec;
+		background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+		background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+		-pie-background: linear-gradient(#ffffff, #ececec);
+		background-position: center center;
+	}
+
+	._Skins_TopicToolbar.mc-component .button.collapse-all-button
+	{
+		background: #ececec url('Images/collapse.png') no-repeat center center;
+		background: url('Images/collapse.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/collapse.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+		background: url('Images/collapse.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/collapse.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/collapse.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/collapse.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/collapse.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	}
+
+	._Skins_TopicToolbar.mc-component .button.current-topic-index-button
+	{
+		background-repeat: no-repeat;
+		background: #ececec;
+		background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+		background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+		-pie-background: linear-gradient(#ffffff, #ececec);
+		background-position: center center;
+	}
+
+	._Skins_TopicToolbar.mc-component .button.expand-all-button
+	{
+		background: #ececec url('Images/List.png') no-repeat center center;
+		background: url('Images/List.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/List.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+		background: url('Images/List.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/List.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/List.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/List.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/List.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	}
+
+	._Skins_TopicToolbar.mc-component .button.next-topic-button
+	{
+		background: #ececec url('Images/navigate-next.png') no-repeat center center;
+		background: url('Images/navigate-next.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/navigate-next.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+		background: url('Images/navigate-next.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/navigate-next.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/navigate-next.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/navigate-next.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/navigate-next.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	}
+
+	._Skins_TopicToolbar.mc-component .button.previous-topic-button
+	{
+		background: #ececec url('Images/navigate-previous.png') no-repeat center center;
+		background: url('Images/navigate-previous.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/navigate-previous.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+		background: url('Images/navigate-previous.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/navigate-previous.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/navigate-previous.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/navigate-previous.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/navigate-previous.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	}
+
+	._Skins_TopicToolbar.mc-component .button.print-button
+	{
+		background: #ececec url('Images/Print.png') no-repeat center center;
+		background: url('Images/Print.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/Print.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+		background: url('Images/Print.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/Print.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/Print.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/Print.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/Print.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	}
+
+	._Skins_TopicToolbar.mc-component .button.remove-highlight-button
+	{
+		background: #ececec url('Images/highlight.png') no-repeat center center;
+		background: url('Images/highlight.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/highlight.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+		background: url('Images/highlight.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/highlight.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/highlight.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/highlight.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/highlight.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	}
+
+	._Skins_TopicToolbar.mc-component .button.select-language-button
+	{
+		background: #ececec url('Images/select-language.png') no-repeat center center;
+		background: url('Images/select-language.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/select-language.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+		background: url('Images/select-language.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/select-language.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/select-language.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/select-language.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/select-language.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	}
+
+	._Skins_TopicToolbar.mc-component .button.select-skin-button
+	{
+		background: #ececec url('Images/select-skin.png') no-repeat center center;
+		background: url('Images/select-skin.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/select-skin.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+		background: url('Images/select-skin.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+		background: url('Images/select-skin.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/select-skin.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+		background: url('Images/select-skin.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+		-pie-background: url('Skins/Default/Stylesheets/Components/Images/select-skin.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+	}
+
+	._Skins_TopicToolbar.mc-component .toolbar-button-drop-down
+	{
+		background-color: #FFFFFF;
+	}
+
+	._Skins_TopicToolbar.mc-component .toolbar-button-drop-down.select-language-drop-down
+	{
+		background-color: #FFFFFF;
+	}
+
+	._Skins_TopicToolbar.mc-component .toolbar-button-drop-down.select-language-drop-down ul li:hover
+	{
+		background-color: #E5EFF7;
+	}
+
+	._Skins_TopicToolbar.mc-component .toolbar-button-drop-down.select-skin-drop-down
+	{
+		background-color: #FFFFFF;
+	}
+
+	._Skins_TopicToolbar.mc-component .toolbar-button-drop-down.select-skin-drop-down ul li:hover
+	{
+		background-color: #E5EFF7;
+	}
+
+	._Skins_TopicToolbar.mc-component .button-separator
+	{
+		
+	}
+}
+

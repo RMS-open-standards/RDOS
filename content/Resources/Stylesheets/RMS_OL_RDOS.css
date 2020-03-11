@@ -1,0 +1,2642 @@
+﻿/*<meta />*/
+
+/*For balboa, color rms blue 00728e was replaced with rms(one) teal 246895 */
+/* Sep 2019, color 246895 was replaced by EIQ blue 468FFF, except for print, which remains unchanged */
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+/* --- Changed for EIQ ---
+/*For incorporating Gotham font, added the following content according to Flare KB*/
+
+/*@font-face 
+{
+	font-family: Gotham-Book;
+	src: url(../Fonts/Gotham-Book.otf);
+}
+
+@font-face 
+{
+	font-family: Gotham-BookItalic;
+	src: url(../Fonts/Gotham-BookItalic.otf);
+	font-style: italic;
+}
+
+@font-face 
+{
+	font-family: Gotham-Medium;
+	src: url(../Fonts/Gotham-Medium.otf);
+}
+
+@font-face 
+{
+	font-family: Gotham-MediumItalic;
+	src: url(../Fonts/Gotham-MediumItalic.otf);
+	font-style: italic;
+}
+*/
+
+/*Added for EIQ */
+
+/*@font-face 
+{
+	font-family: Inter-Regular;
+	src: url(../Fonts/Inter-Regular.otf);
+}
+
+@font-face
+{
+	font-family: Inter-Medium;
+	src: url(../Fonts/Inter-Medium.otf);
+}
+
+@font-face 
+{
+	font-family: IBMPlexSans-Regular;
+	src: url(../Fonts/IBMPlexSans-Regular.otf);
+}
+
+@font-face 
+{
+	font-family: IBMPlexSans-Medium;
+	src: url(../Fonts/IMBPlexSans-Medium.otf);
+} */
+
+/*@font-face {
+    font-family: 'Inter-Regular';
+    src: url('../Fonts/Inter-Regular-webfont..eot');
+    src: url('../Fonts/Inter-Regular-webfont..eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Inter-Regular-webfont.woff') format('woff'),
+        url('../Fonts/Inter-Regular-webfont.ttf') format('truetype'),
+        url('../Fonts/Inter-Regular-webfont.svg#FontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url('../Fonts/Inter-Medium-webfont..eot');
+    src: url('../Fonts/Inter-Medium-webfont..eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Inter-Medium-webfont.woff') format('woff'),
+        url('../Fonts/Inter-Medium-webfont.ttf') format('truetype'),
+        url('../Fonts/Inter-Medium-webfont.svg#FontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSans-Medium';
+    src: url('../Fonts/Inter-Medium-webfont..eot');
+    src: url('../Fonts/Inter-Medium-webfont..eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Inter-Medium-webfont.woff') format('woff'),
+        url('../Fonts/Inter-Medium-webfont.ttf') format('truetype'),
+        url('../Fonts/Inter-Medium-webfont.svg#FontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+
+/* --- end change */
+
+/* ---change for EIQ --- 
+
+html
+{
+	font-family: Gotham-Book;
+	color: #333434;
+}*/
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../Fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('../Fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+html
+{
+	/*font-family: IBMPlexSans-Regular;*/
+	font-family: Roboto-Regular, sans-serif;
+	color: #3d3d3d;
+}
+	
+/* --- end change --- */
+
+body	
+{
+	font-size: .95em;
+	line-height: 1.6em;
+	/*Changed from 1.7em to 1.6 after design review. OK with Kevin to make it a little smaller.*/
+	margin: 0pt;
+	margin-left: 10pt;
+	margin-bottom: 6pt;
+	font-family: Roboto-Regular, sans-serif;
+	/*For EIQ, replaced Gotham-Book with IBMPlexSans-Regular*/
+	color: #3d3d3d;
+	/*For EIQ, replaced #333434 with #66676A*/
+	max-width: 100%;
+}
+
+p
+{
+	margin-top: 12pt;
+	margin-bottom: 12pt;
+}
+
+p.indent1
+{
+	margin-left: 0.25in;
+}
+
+p.indent2
+{
+	margin-left: 0.50in;
+}
+
+p.indent3
+{
+	margin-left: 0.75in;
+}
+
+p.right
+{
+	text-align: right;
+}
+
+p.facet
+{
+	display: none;
+}
+
+p.TableText	/*Removing font size attribute so that it doesn't make the td style smaller*/
+{
+	/*	font-size: .85em;*/
+	mc-disable-glossary-terms: true;
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	text-align: left;
+}
+
+p.TableText_Right
+{
+	/*	font-size: .85em;*/
+	mc-disable-glossary-terms: true;
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	text-align: right;
+}
+
+p.TableText_Center
+{
+	mc-disable-glossary-terms: true;
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	text-align: center;
+}
+
+p.TableText_Bold
+{
+	/*	font-size: .85em;*/
+	/*Remove bold and replace with Gotham-Medium*/
+	/*font-weight: bold;*/
+	text-align: left;
+	/*Removing for EIQ
+	font-family: Gotham-Medium;*/
+	font-weight: bold;
+}
+
+p.TableText_Subheading	/*Removing font size attribute so that it doesn't make the td style smaller*/
+{
+	/*	font-size: .85em;*/
+	/*Remove bold and replace with Gotham-Medium*/
+	/*font-weight: bold;*/
+	/*Removing for EIQ
+	font-family: Gotham-Medium;*/
+}
+
+p.TableText_Bold_small	/*Apr 29 Reduced font-size from 8pt to .75em. May 2 Changed to .85 em because I added td style and now .75em makes .85em td too small  */
+{
+	font-size: .85em;
+	mc-disable-glossary-terms: true;
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+	/*Remove bold and replace with Gotham-Medium*/
+	/*font-weight: bold;*/
+	/*Removing for EIQ
+	font-family: Gotham-Medium;*/
+	text-align: left;
+}
+
+p.TableText_small
+{
+	font-size: .85em;
+	mc-disable-glossary-terms: true;
+	margin-bottom: 2pt;
+	margin-top: 2pt;
+}
+
+br
+{
+	line-height: 12pt;
+}
+
+a
+{
+	/*Removing for EIQ
+	font-family: Gotham-Medium; */
+	/*font-family: IBMPlexSans-Regular;*/
+	font-family: Roboto-Regular, sans-serif;
+	font-weight: normal; /*Tried bold and it looks too bold to me. Using different weights, like 550, looks no different from bold.*/
+	color: #002080;
+	text-decoration: none; /*changed back to none because I can't remove underline for a refs in footer*/
+}
+
+a.footer
+{
+
+	text-decoration: none; 
+}
+
+a.table	/*Added to fix the issue that hyperlinks in tables are always too big --- removing font size because now links are too small. They must be reducing td. */
+{
+	color: #002080;
+	text-decoration: none;
+	/*	font-size: .85em;*/
+}
+
+a.table_small
+{
+	color: #002080;
+	text-decoration: none;
+	/*	font-size: .75em;*/
+}
+
+a.NoDisplay	/*Use for hiding the links to font files on the master pages*/
+{
+	display: none;
+}
+
+a:link
+{
+	color: #002080;
+	text-decoration: none;
+}
+
+a.Popup
+{
+	font-style: italic;
+}
+
+h1	
+{
+	width: 100%;
+	padding-bottom: 6pt;
+	margin-top: 0px; /*changed from 30*/
+	margin-bottom: 8px;
+	padding-bottom: 10px;
+	padding-top: 0pt;
+	color: #3d3d3d;
+	top: 36pt;
+	display: block;
+	font-size: 2.1em;
+	font-family: Roboto-Medium, sans-serif;
+	mc-hyphenate: never;
+	line-height: 1.0em;
+}
+
+h1.glossary	/*Reduced font-size from 14pt to 1.3em Added font-weight: normal */
+{
+	font-size: 1.3em;
+}
+
+h2
+{
+	margin: 0;
+	padding-bottom: 0pt;
+	mc-hyphenate: never;
+	font-size: 1.5em;
+	/*font-weight: normal; Removed since we are using Gotham Medium */
+	/*font-family: Gotham-Medium;*/
+	font-family: Roboto-Medium, sans-serif;
+	margin-top: 50px;
+	padding-top: 0pt;
+	margin-bottom: 10px;
+}
+
+h3	
+{
+	font-size: 1.2em;
+	mc-hyphenate: never;
+	padding-bottom: 0pt;
+	margin-top: 30px;
+	padding-top: 0pt;
+	margin-bottom: 4px;
+	font-family: Roboto-Medium, sans-serif;
+}
+
+h4	
+{
+	margin-top: 12pt;
+	padding-bottom: 0pt;
+	padding-top: 0pt;
+	font-size: 1.0em;
+	margin-bottom: 12pt;
+	/*font-family: Gotham-Medium;*/
+	font-family: Roboto-Medium, sans-serif;
+}
+
+h5	/*Reduced font-size from 12pt to .8em  */
+{
+	font-size: .9em;
+	font-weight: bold;
+	padding-top: 0pt;
+	mc-heading-level: 0;
+	/*font-family: Gotham-Medium;*/
+	font-family: Roboto-Medium, sans-serif;
+}
+
+ul
+{
+	list-style-type: square;
+	padding: 0px;
+	margin-left: 0in;
+	display: block;
+}
+
+ol
+{
+	margin-left: 0.25in;
+	padding: 0px;
+}
+
+li
+{
+	margin-left: 0.25in;
+	margin-bottom: 0pt;
+	margin-top: 12pt;
+	padding: 0pt;
+	/*margin-left: 20px;*/
+}
+
+li.li2
+{
+	margin-left: 0.50in;
+}
+
+li.li3
+{
+	margin-left: 0.75in;
+}
+
+li.li4
+{
+	margin-left: 1in;
+}
+
+li.li2_alpha
+{
+	list-style-type: lower-alpha;
+	padding-bottom: 0pt;
+	padding-top: 0pt;
+	margin-left: 0.50in;
+}
+
+/*From Mike for horizontal list*/
+
+.list-links {
+  list-style: none;
+  margin-top: 0px;
+}
+
+.list-links li {
+  display: inline-block;
+  padding-left: 18px;
+}
+
+p.note
+{
+	text-indent: 0in;
+	mc-auto-number-format: '{b}Note: {/b}';
+	mc-auto-number-class: RMSBlue;
+	margin-bottom: 12pt;
+	margin-top: 12pt;
+	padding-right: 0.25in;
+	border-left-color: #002080;
+	border-right-color: #002080;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #002080;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #002080;
+	padding-bottom: 12pt;
+	padding-top: 12pt;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	mc-disable-glossary-terms: true;
+	page-break-inside: avoid;
+	/* Definitions for old style that moves content to the left to make room for side menu on the right */
+	/*margin-right: 35%;
+	margin-left: 0%;*/
+	/* New definition for left side menu */
+	margin-right: 1in;
+	margin-left: 1in;
+	background-image: none;
+	padding-left: 0.25in;
+}
+
+p.important
+{
+	border: solid 1px #BFD62F;
+	text-indent: 0in;
+	padding-bottom: 12pt;
+	padding-right: 0.25in;
+	padding-top: 12pt;
+	padding: 12pt;
+	border-bottom-color: #c41230;
+	border-left-color: #c41230;
+	border-right-color: #c41230;
+	border-top-color: #c41230;
+	mc-auto-number-class: RMSRed;
+	mc-auto-number-format: '{b}Important: {/b}';
+	mc-disable-glossary-terms: true;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-radius: 0px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	page-break-inside: avoid;
+	/* Definitions for old style that moves content to the left to make room for side menu on the right */
+	/*margin-right: 35%;
+	margin-left: 0%;*/
+	/* New definition for left side menu */
+	margin-right: 1in;
+	margin-left: 1in;
+	background-image: none;
+	padding-left: 0.25in;
+}
+
+p.use_case
+{
+	border: solid 1px #BFD62F;
+	background-repeat: no-repeat;
+	text-indent: 0in;
+	padding-bottom: 12pt;
+	padding-right: 0.25in;
+	padding-top: 12pt;
+	background-position-x: 2%;
+	padding: 12pt;
+	background-position-y: 12pt;
+	mc-auto-number-format: '{b}Use Case: {/b}';
+	padding-left: 0.65in;
+	mc-disable-glossary-terms: true;
+	border-top-color: #3d3d3d;
+	border-right-width: 0px;
+	border-right-style: none;
+	border-left-style: none;
+	border-left-width: 0px;
+	border-bottom-color: #3d3d3d;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border-left-color: #3d3d3d;
+	border-right-color: #3d3d3d;
+	/* For 'no image', use no background image
+	background-image: none;*/
+	/* For person image, use Use_case_head */
+	background-image: url('../Images/use_case_head.png');
+	page-break-inside: avoid;
+	/* Definitions for old style that moves content to the left to make room for side menu on the right */
+	/*margin-right: 35%;
+	margin-left: 0%;*/
+	/* New definition for left side menu */
+	margin-right: 1in;
+	margin-left: 1in;
+}
+
+
+
+MadCap|expanding
+{
+	mc-image-position: left;
+	mc-closed-image: url('../Images/ChevronDownRDOS.png');
+	mc-open-image: url('../Images/ChevronUpRDOS.png');
+}
+
+MadCap|toggler
+{
+	mc-closed-image: url('../Images/ChevronDownRDOS.png');
+	mc-open-image: url('../Images/ChevronUpRDOS.png');
+	color: inherit;
+}
+
+MadCap|popupHead
+{
+	color: #5B8EC1;
+}
+
+MadCap|popupBody
+{
+	color: #EBEBEB;
+	border: none;
+	background-color: rgba(0, 0, 0, .85);
+	padding: 11px 15px;
+}
+
+MadCap|glossaryTerm
+{
+	/*font-family: Gotham-Medium;*/
+	/*font-family: IBMPlexSans-Regular;*/
+	font-family: Roboto-Regular, sans-serif;
+	font-weight: normal;
+	color: #002080;
+	/*mc-image-spacing: 1px;*/
+	mc-popup-width: 40%;
+	font-style: italic;
+	/*	mc-closed-image: none;
+	mc-open-image: none;*/
+	mc-image-spacing: 0px;
+	mc-open-image: none;
+	mc-closed-image: none;
+}
+
+MadCap|glossaryTerm.Expanding
+{
+	font-weight: inherit;
+	color: #002080;
+	mc-closed-image: none;
+	mc-open-image: none;
+}
+
+MadCap|glossaryTerm.Hyperlink
+{
+	font-weight: inherit;
+	mc-open-image: none;
+	mc-closed-image: none;
+	color: #002080;
+}
+
+MadCap|glossaryTerm.Popup
+{
+	font-weight: normal;
+	color: #002080;
+	/*	mc-closed-image: none;
+	mc-open-image: none;*/
+	mc-closed-image: none;
+	mc-open-image: none;
+	border-bottom-width: 0px;
+}
+
+MadCap|conceptLink
+{
+	color: #000000;
+}
+
+MadCap|keywordLink
+{
+	color: #000000;
+}
+
+MadCap|relatedTopics
+{
+	color: #000000;
+}
+
+MadCap|helpControlMenu
+{
+	color: #707070;
+	background-color: #FFFFFF;
+	border: none;
+}
+
+MadCap|helpControlMenuItem
+{
+	color: inherit;
+	font-size: inherit;
+	font-family: inherit;
+}
+
+MadCap|helpControlMenuItem.Highlighted
+{
+	color: #000000;
+	background-color: #E5EFF7;
+}
+
+MadCap|xref
+{
+	/*font-family: Gotham-Medium;*/
+	/*font-family: IBMPlexSans-Regular;*/
+	font-family: Roboto-Regular, sans-serif;
+	text-decoration: none;
+	mc-format: '{paratext}';
+	color: #002080;
+}
+
+/* This copied from Styles.css */
+
+/*MadCap|xref:hover
+{
+	color: #BED230;
+}*/
+
+/* End copy */
+
+/*Commenting this since it looks wrong to have p and body repeated. Don't know what "@media non-print" is for.
+@media non-print
+{
+	p
+	{
+		margin-bottom: 0em;
+		margin-top: 0em;
+		margin: 0;
+	}
+
+	body
+	{
+		margin: 0px;
+	}
+}
+*/
+
+span.RMSRed
+{
+	/*Old red color
+	color: #c41230;*/
+	/*New red color*/
+	color: #C41240;
+}
+
+span.RMSBlue
+{
+	color: #002080;
+}
+
+span.RMSGrey
+{
+	color: #808080;
+}
+
+span.RMSGreen
+{
+	color: #008000;
+}
+
+span.RMSOrange
+{
+	color: #f69c1d;
+}
+
+span.RMSBrown
+{
+	color: #8b4513;
+}
+
+/* Changing breadcrumb from "none" to visible
+	
+MadCap|breadcrumbsProxy
+{
+	display: none;
+} */
+
+caption	/*Reduced font-size from 10.5pt to .9em --- now caption is too small, must be because 0.87em is defined at table tag. Removed font-size attribute. */
+{
+	/*font-family: Gotham-Book;*/
+		/*font-family: IBMPlexSans-Regular;*/
+	font-family: Roboto-Regular, sans-serif;
+	text-align: left;
+	mc-disable-glossary-terms: true;
+	padding-bottom: 3pt;
+	padding-left: 4pt;
+	mc-auto-number-format: 'T:Table {n+}: ';
+	padding-top: 0pt;
+	margin-top: 12pt;
+}
+
+MadCap|bodyProxy
+{
+	margin-bottom: 3em;
+	padding-bottom: 4em;
+	margin-top: 30px;
+	padding-top: 30px;
+}
+
+/* Commenting this out since we don't need h1.title in the CSS for OLH output
+h1.title
+{
+	font-weight: bold;
+	color: #749AB6;
+}
+*/
+
+img
+{
+	margin-left: 0in;
+	vertical-align: text-top;
+	mc-float: none;
+	padding-left: 0in;
+	padding-right: 0in;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+	/* Removing thumbnail property
+	mc-thumbnail: popup;
+	mc-thumbnail-max-height: 110px; */
+	/*Setting max-width: 100%; property makes images always fit the width of the container*/
+	max-width: 100%;
+}
+
+img.wide
+{
+	margin-left: 0in;
+	vertical-align: text-top;
+	mc-float: none;
+	padding-left: 0in;
+	padding-right: 0in;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+	/* Removing thumbnail property
+	mc-thumbnail: popup;
+	mc-thumbnail-max-height: 500px; */
+}
+
+img.inline
+{
+	/*	mc-thumbnail-max-height: 150px;
+	mc-thumbnail: none;*/
+	vertical-align: baseline;
+	margin: 0px;
+}
+
+img.fullsize
+{
+	margin-left: 0in;
+	mc-thumbnail-max-height: 50px;
+	clear: right;
+	vertical-align: text-top;
+	/*	mc-thumbnail: none;*/
+	float: none;
+	/*Added this property to make images small enough online to fit next to side menu */
+}
+
+img.indent
+{
+	vertical-align: text-top;
+	mc-float: none;
+	margin-left: 40px;
+	/*mc-thumbnail: popup;
+	mc-thumbnail-max-height: 110px;*/
+}
+
+MadCap|concept
+{
+	
+}
+
+MadCap|xref.figure
+{
+	mc-format: '{paranum} {paratext}';
+}
+
+MadCap|dropDown
+{
+	margin-bottom: 18pt;
+	margin-top: 18pt;
+	mc-closed-image: url('../Images/ChevronDownRDOS.png');
+	mc-open-image: url('../Images/ChevronUpRDOS.png');
+	/*Added a line below the head. When text is expanded, line moves below body*/
+	border-bottom: 1px solid #d3d3d3;
+	padding-bottom: 18pt;
+}
+
+MadCap|dropDownHead	/*Increased size. Color not included here because color is controlled by dropdownhotspot*/
+{
+	padding-top: 0pt;
+	margin-top: 12pt;
+	mc-closed-image: url('../Images/ChevronDownRDOS.png');
+	mc-open-image: url('../Images/ChevronUpRDOS.png');
+	font-size: 1.5em;
+	font-family: Roboto-Medium, sans-serif;
+}
+
+MadCap|dropDownHead.sm	/*slightly smaller version of dropdownhead for sub-sections within dropdown section*/
+{
+	padding-top: 0pt;
+	margin-top: 12pt;
+	mc-closed-image: url('../Images/ChevronDownRDOS.png');
+	mc-open-image: url('../Images/ChevronUpRDOS.png');
+	font-size: 1.2em;
+	/*font-family: Gotham-Medium;*/
+	font-family: Roboto-Medium, sans-serif;
+}
+
+MadCap|dropDownHotspot	/*Not enough to define style for dropdownhead. The color of the hotspot is controlled by this style */
+{
+	/*font-family: Gotham-Medium;*/
+	font-family: Roboto-Medium, sans-serif;
+	/*color: #333434;*/ /*changed for eiq*/
+	color: #3d3d3d;
+}
+
+MadCap|dropDownHotspot:hover	/*Added to make dropdown hotspot blue only when you hover over it */
+{
+	color: #002080;
+}
+
+/* Added from balboa css: */
+
+/* Removing this line because I have incorporated the line in the dropdown properties
+
+MadCap|dropDownBody
+{
+	border-bottom: 1px solid #d3d3d3;
+}
+
+/* end add */
+
+pre	/*Reduced font-size from 12pt to .9em */
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	max-width: 4in;
+	font-size: 1.1 em;
+}
+
+MadCap|xref.table
+{
+	mc-format: '{paranum} {paratext}';
+	color: #002080;
+}
+
+MadCap|footnotesBlock
+{
+	border-top-color: #3d3d3d;
+}
+
+/* Note for EIQ implementation: changed all #333434 to #66676A */
+
+table
+{
+	color: #3d3d3d;
+	border-spacing: 0;
+	font-size: 0.87em;
+	margin-top: 12pt;
+	margin-bottom: 24pt;
+	width: 100%;
+	/*Changed from 60% to 100% because we don't have side menu*/
+	/*	Setting font-size at table level instead of th and td*/
+	vertical-align: top;
+	border-bottom: 2px solid black;
+	border-collapse: collapse;
+	/*This setting will collapse the bottom table border and the row border so that there will be only one border */
+}
+
+table.noborders /*use when there should be a table with no bottom border*/
+{
+
+	border-bottom: none;
+
+}
+
+table.100percent
+{
+	width: 100%;
+	/* Only this property differs between table and table.100percent. Otherwise, they should be the same.*/
+}
+
+tr
+{
+	color: #3d3d3d;
+}
+
+td
+{
+	/*	margin-top: 3pt;
+	margin-bottom: 3pt; */
+	/*font-size: 0.85em;*/
+	vertical-align: top;
+}
+
+td.small	/*Reduced font-size from 9pt to .75em */
+{
+	padding: 4px;
+	font-size: .75em;
+}
+
+th
+{
+	text-align: left;
+	font-weight: bold;
+	font-style: normal;
+	/*	padding: 4px; */
+	/*	font-size: 0.85em;*/
+}
+
+th,
+td
+{
+	border-bottom: 1px solid black;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding: 4px;
+}
+
+
+
+th.small
+{
+	color: #3d3d3d;
+	padding: 4px;
+	font-size: .75em;
+}
+
+/*Commenting these out since we don't need these styles for OLH output
+
+h1.copyright
+{
+	background-color: #ffffff;
+	width: 100%;
+	padding-bottom: 0.50em;
+	margin-top: 0em;
+	padding-top: 0.5em;
+	color: #333434;
+	font-size: 1.50em;
+	top: 20px;
+}
+
+h2.copyright
+{
+	margin: 0;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	margin-top: 1em;
+	font-size: 1.15em;
+}
+
+h1.subtitle
+{
+	font-weight: bold;
+	color: #749AB6;
+}
+
+h1.chapter
+{
+	background-color: #ffffff;
+	width: 100%;
+	padding-bottom: 0.50em;
+	margin-top: 0em;
+	padding-top: 0.5em;
+	color: #333434;
+	font-size: 1.50em;
+	top: 20px;
+}
+
+h1.contents
+{
+	background-color: #ffffff;
+	width: 100%;
+	padding-bottom: 0.50em;
+	margin-top: 0em;
+	padding-top: 0.5em;
+	color: #333434;
+	font-size: 1.50em;
+	top: 20px;
+}
+*/
+
+div.cdf_term
+{
+	border: solid 1px #3d3d3d;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-color: #cdceee;
+	padding: 3px;
+	border-radius: 6px;
+	margin-right: 50%;
+}
+
+MadCap|footnoteBlock
+{
+	font-size: 0.8em;
+}
+
+div.breadcrumbs
+{
+	width: 85%;
+	display: inline-block;
+}
+
+div.sideContent
+{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 33.33%;
+	float: right;
+	/* padding-right: 40px; 
+	Added some padding so pdf button is not flush right  --- only needed in tripane output where the pdf button is by itself at the top of the page. Not needed in top-nav where there is a topic menu.*/
+}
+
+div.PDFButton
+{
+	width: 15%;
+	float: right;
+	display: inline-block;
+}
+
+code
+{
+	font-size: .95 em;
+}
+
+MadCap|slideshowBullet.active
+{
+	background-color: #666666;
+}
+
+MadCap|slideshowBullet
+{
+	background-color: #ffffff;
+	border-color: #666666;
+}
+
+MadCap|equation
+{
+	/*font-family: Gotham-Book;
+	font: Gotham-Book;*/
+	/*font-family: IBMPlexSans-Regular;*/
+	font-family: Roboto-Regular, sans-serif;
+	font: Roboto-Regular, sans-serif;
+}
+
+@media print
+{
+
+	body
+	{
+		color: #000000;
+		font-size: 10pt;
+		margin-top: 0em;
+		margin-left: 0em;
+		margin-bottom: 0em;
+	}
+
+	/*Why is body 11pt for print media and p is 10pt? They should not be different. I am changing it to 10pt. Also deleted extra curly bracket between @media print and body.*/
+
+	img.fullsize
+	{
+		clear: none;
+		float: none;
+		/*before merged with RO css, this was 5in*/
+		mc-thumbnail-max-height: 9in;
+		/*This property was absent before merge with RO css*/
+		max-width: 5.50in;
+	}
+
+	img.indent
+	{
+		clear: none;
+		float: none;
+		margin-left: 0.25in;
+		max-width: 6in;
+	}
+
+	img
+	{
+		clear: none;
+		float: none;
+		mc-thumbnail-max-height: 9in;
+		/*This property was absent before merge with RO css*/
+		max-width: 5.5in;
+	}
+
+	p
+	{
+		color: #000000;
+		font-family: Roboto-Regular;
+		/*For Gotham, replaced Arial with Gotham-Book*/
+		font-style: normal;
+		font-variant: normal;
+		font-weight: normal;
+		margin: 0;
+		text-align: left;
+		margin-top: 12pt;
+		mc-hyphenate: never;
+		margin-bottom: 0pt;
+		line-height: 12pt;
+		font-size: 10pt;
+	}
+
+	/* This copied from Styles.css */
+
+	p.toptable
+	{
+		margin-top: 0pt;
+		font-size: 9pt;
+		margin-bottom: 0pt;
+	}
+
+	/* End copy */
+
+	p.indent1
+	{
+		margin-left: 0.25in;
+	}
+
+	p.indent2
+	{
+		margin-left: 0.50in;
+	}
+
+	p.indent3
+	{
+		margin-left: 0.75in;
+	}
+
+	li
+	{
+		color: #000000;
+		font-family: Roboto-Regular;
+		/*For Gotham, replaced Arial with Gotham-Book*/
+		font-style: normal;
+		font-variant: normal;
+		font-weight: normal;
+		margin-top: 12pt;
+		text-decoration: none;
+		font-size: 10pt;
+		line-height: 12pt;
+		mc-hyphenate: never;
+		/*margin-left: 0.25in;*/
+	}
+
+	li.li2
+	{
+		margin-left: 0.5in;
+	}
+
+	li.li3
+	{
+		margin-left: 0.75in;
+	}
+
+	li.li2_alpha
+	{
+		margin-left: 0.5in;
+	}
+
+	li.li4
+	{
+		margin-left: 1in;
+	}
+
+	h1
+	{
+		font-family: Roboto-Regular;
+		/*For Gotham, replaced Arial with Gotham-Book*/
+		font-style: normal;
+		font-variant: normal;
+		font-weight: normal;
+		color: #006f93;
+		padding-top: 0em;
+		padding-bottom: 0em;
+		border-bottom-style: none;
+		border-bottom-width: 1px;
+		margin-top: 18pt;
+		mc-hyphenate: never;
+		margin-bottom: 18pt;
+		line-height: 22pt;
+		font-size: 18pt;
+	}
+
+	/* Here is definition for old Red-Box cover 
+	
+	h1.title	/*Updated margin-top from 86pt to 72pt to allow for both 2-line titles and 2-line subtitles. The original 108pt allowed for only 1-line title and 1-line subtitle.
+	{
+		mc-toc-depth: 0;
+		page-break-before: avoid;
+		mc-heading-level: 0;
+		font-weight: bold;
+		font-size: 21.5pt;
+		color: #ffffff;
+		margin-bottom: 6pt;
+		margin-top: 72pt;
+	}
+	----End old definition */
+
+	h1.title
+	{
+		mc-toc-depth: 0;
+		page-break-before: avoid;
+		mc-heading-level: 0;
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 16pt;
+		text-decoration: underline;
+		text-transform: uppercase;
+		margin-bottom: 0.35in;
+		margin-top: 0;
+		font-weight: normal;
+		line-height: 18pt;
+	}
+
+	h1.copyright
+	{
+		color: #000000;
+		font-size: 12pt;
+		font-weight: bold;
+		margin-bottom: 12pt;
+		mc-toc-depth: 0;
+		column-break-before: avoid;
+		page-break-before: avoid;
+		mc-heading-level: 0;
+	}
+
+	/* Here is definition for new RI cover */
+
+	h1.subtitle
+	{
+		font-weight: normal;
+		font-style: normal;
+		page-break-before: avoid;
+		mc-toc-depth: 0;
+		column-break-before: avoid;
+		mc-heading-level: 0;
+		color: #ffffff;
+		margin-top: 0;
+		font-family: Arial;
+		font-size: 34pt;
+		line-height: 38pt;
+		margin-bottom: 0.35in;
+	}
+	/* End new */
+	
+	h1.chapter
+	{
+		color: #006f93;
+		font-size: 20pt;
+		margin-bottom: 36pt;
+		mc-hyphenate: never;
+		mc-auto-number-format: 'Chapter {chapnum}: ';
+		line-height: 24pt;
+	}
+
+	h1.contents
+	{
+		color: #006f93;
+		mc-heading-level: 0;
+		font-size: 22pt;
+	}
+
+	h2
+	{
+		color: #006f93;
+		font-family: Roboto-Regular;
+		/*For Gotham, replaced Arial with Gotham-Book*/
+		font-style: normal;
+		font-variant: normal;
+		font-weight: normal;
+		padding-top: 0em;
+		padding-bottom: 0em;
+		font-size: 14pt;
+		margin-top: 20pt;
+		mc-hyphenate: never;
+	}
+
+	h2.copyright
+	{
+		margin-bottom: 6pt;
+		color: #000000;
+		font-size: 11pt;
+		font-weight: bold;
+		mc-heading-level: 0;
+		margin-top: 12pt;
+	}
+
+	h3
+	{
+		color: #006f93;
+		font-variant: normal;
+		margin-left: 0;
+		margin-bottom: 12pt;
+		margin-top: 18pt;
+		padding-top: 0em;
+		padding-bottom: 0em;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 12pt;
+	}
+
+	h4
+	{
+		color: #000000;
+		font-size: 11pt;
+		font-weight: bold;
+		margin-top: 12pt;
+		margin-bottom: 12pt;
+		mc-heading-level: 0;
+	}
+
+	ul
+	{
+		font-family: Roboto-Regular;
+		/*For Gotham, replaced Arial with Gotham-Book*/
+		font-size: 10pt;
+		margin-bottom: 12pt;
+		margin-left: 0.25in;
+		margin-top: 12pt;
+		list-style-image: url('../Images/blue_bullet.png');
+	}
+
+	p.Copyright
+	{
+		margin-bottom: 0pt;
+		margin-left: 0in;
+		margin-top: 2pt;
+		mc-toc-depth: 0;
+		font-size: 10pt;
+	}
+
+	p.TableText_Bold
+	{
+		margin-left: 0in;
+		margin-bottom: 0pt;
+		margin-top: 0pt;
+		border: none;
+		padding: 0px;
+		font-weight: bold;
+		font-size: 10pt;
+	}
+
+	p.TableText
+	{
+		/*	color: #000000;*/
+		margin-left: 0in;
+		margin-bottom: 6pt;
+		padding: 0px;
+		border: none;
+		font-size: 10pt;
+	}
+
+	p.TableText_Right
+	{
+		font-size: 9pt;
+		mc-disable-glossary-terms: true;
+		margin-bottom: 3pt;
+		margin-top: 3pt;
+		text-align: right;
+	}
+
+	p.important
+	{
+		border-left-width: 1px;
+		border-right-width: 1px;
+		margin-right: 1in;
+		margin-left: 1in;
+		padding-left: 0.15in;
+	}
+
+	p.note
+	{
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-right-style: solid;
+		border-right-width: 1px;
+		border-bottom-color: #006f93;
+		border-left-color: #006f93;
+		border-right-color: #006f93;
+		border-top-color: #006f93;
+		margin-right: 1in;
+		margin-left: 1in;
+		padding-left: 0.15in;
+	}
+
+	p.use_case
+	{
+		border-right-width: 1px;
+		border-left-width: 1px;
+		border-left-style: solid;
+		border-right-style: solid;
+		margin-right: 1in;
+		margin-left: 1in;
+	}
+
+	span.right
+	{
+		text-align: right;
+	}
+
+	p.TOC1
+	{
+		margin-top: 18pt;
+		mc-leader-format: 'none';
+		color: #006f93;
+		font-size: 11pt;
+		margin-bottom: 0pt;
+	}
+
+	p.TOC2
+	{
+		margin-top: 12pt;
+		mc-leader-format: 'none';
+	}
+
+	p.TOC3
+	{
+		margin-left: 0.5in;
+		margin-top: 6pt;
+		mc-leader-format: 'none';
+	}
+
+	p.TOC4
+	{
+		mc-heading-level: 0;
+		mc-leader-format: 'none';
+	}
+
+	a
+	{
+		text-decoration: none;
+		color: #006f93;
+	}
+
+	pre
+	{
+		margin-top: 1.25pt;
+		margin-bottom: 1.25pt;
+		font-size: 9pt;
+	}
+
+	ol
+	{
+		margin-top: 12pt;
+		margin-bottom: 12pt;
+	}
+
+	MadCap|tocProxy
+	{
+		border-top-width: 0px;
+		border-top-style: none;
+		mc-toc-depth: 3;
+	}
+
+	MadCap|glossaryTerm
+	{
+		font-style: normal;
+		color: #000000;
+	}
+
+	MadCap|miniTocProxy
+	{
+		border-top-style: none;
+		border-top-width: 0px;
+		margin-top: 12pt;
+		padding-left: 0px;
+		padding-top: 0px;
+		mc-leader-format: ' ';
+		margin-left: 0.5in;
+		margin-right: 0.5in;
+		mc-toc-depth: 2;
+	}
+
+	MadCap|glossaryProxy
+	{
+		border-top-style: none;
+		border-top-width: 0px;
+		padding-left: 0px;
+		padding-top: 0px;
+	}
+
+	a:link
+	{
+		text-decoration: none;
+		color: #006f93;
+	}
+
+	/* Not using mini tocs
+	p.MiniTOC1
+{
+		margin-top: 6pt;
+		margin-left: 1in;
+}
+
+	p.MiniTOC2
+{
+		margin-top: 6pt;
+		margin-left: 1.25in;
+}
+*/
+
+	caption
+	{
+		color: #000000;
+		mc-auto-number-format: 'GT:Table {n+}: ';
+		padding-top: 12pt;
+		font-size: 10pt;
+	}
+
+	div.cdf_term
+	{
+		border: solid #3d3d3d;
+		background-color: #cdceee;
+		-webkit-border-radius: 6 px;
+		-moz-border-radius: 6px;
+		padding: 2px;
+	}
+
+	code
+	{
+		font-family: 'Courier New';
+		font-size: 10pt;
+	}
+
+	h1.glossary
+	{
+		margin-bottom: 0pt;
+		padding-bottom: 0pt;
+		padding-top: 0pt;
+		margin-top: 16pt;
+		font-weight: bold;
+		font-size: 12pt;
+		color: #006f93;
+		page-break-before: avoid;
+	}
+
+	h2.glossary
+	{
+		margin-bottom: 0pt;
+		color: #006f93;
+		padding-bottom: 0px;
+		padding-top: 0px;
+		font-size: 12pt;
+		margin-top: 16pt;
+		font-weight: bold;
+	}
+
+	MadCap|footnoteBlock
+	{
+		font-size: 10pt;
+	}
+
+	/* Added to remove line at the bottom of dropdown sections in print */
+	MadCap|dropDown
+{
+	border-bottom: none;
+}
+	
+	MadCap|dropDownHead
+	{
+		/*	font-weight: bold;*/
+		font-style: normal;
+		mc-closed-image: none;
+		mc-hyphenate: never;
+		mc-open-image: none;
+		/*	color: #000000;*/
+		/*	line-height: 12pt;*/
+		/*margin-top: 12pt;*/
+		page-break-after: avoid;
+		/*font-size: 12pt;*/
+		margin-bottom: 18pt;
+		/*To make this look more like H2, use these: */
+		/* define color in hotspot setting
+		color: #246895;*/
+		font-weight: normal;
+		font-size: 10pt; /*smaller than H2*/
+		margin-top: 10pt; /*smaller than H2*/
+	}
+
+	MadCap|dropDownHead.sm	/*slightly smaller version of dropdownhead for sub-sections within dropdown section*/
+	{
+		font-weight: bold;
+		font-style: normal;
+		mc-closed-image: none;
+		mc-hyphenate: never;
+		mc-open-image: none;
+		color: #000000;
+		line-height: 12pt;
+		margin-top: 18pt;
+		page-break-after: avoid;
+		font-size: 12pt; /*same size as H3*/
+		margin-bottom: 18pt;
+	}
+
+	MadCap|dropDownBody	/*added to remove the gray line that appears below dropdownbody in print output--don't need this*/
+	{
+		border-bottom: none;
+	}
+
+	MadCap|dropDownHotspot	/*Not enough to define style for dropdownhead. The color of the hotspot is controlled by this style */
+	{
+		color: #006f93;
+		font-size: 12pt;
+	}
+
+	td
+	{
+		padding: 4px;
+		color: #000000;
+		mc-hyphenate: never;
+	}
+
+	th
+	{
+		text-align: left;
+		font-weight: bold;
+		font-style: normal;
+		padding: 4px;
+	}
+
+	td.page_layout
+	{
+		border-bottom: none;
+		padding: 0px;
+	}
+
+	/*TableText and TableText_Bold are repeated in the print media section, so I am commenting them out.
+	
+	p.TableText
+	{
+		font-size: 9pt;
+		mc-disable-glossary-terms: true;
+		color: #333434;
+		margin-top: 2pt;
+		margin-bottom: 2pt;
+	}
+
+	p.TableText_Bold
+	{
+		font-size: 9pt;
+		mc-disable-glossary-terms: true;
+		margin-top: 2pt;
+		margin-bottom: 2pt;
+		font-weight: bold;*/
+
+	p.Figure_Label
+	{
+		font-size: 9pt;
+	}
+
+	MadCap|xref
+	{
+		color: #006f93;
+	}
+
+	p.TableText_Bold_small
+	{
+		line-height: 8pt;
+		margin-bottom: 1pt;
+		margin-top: 1pt;
+		font-size: 7pt;
+		font-weight: bold;
+	}
+
+	p.TableText_small
+	{
+		margin-bottom: 2pt;
+		margin-top: 2pt;
+		line-height: 8pt;
+		font-size: 7pt;
+	}
+
+	h5
+	{
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	/* Not used in RM project
+
+	MadCap|dropDownHead.Indent
+	{
+		margin-left: 0.250in;
+	}*/
+
+	table
+	{
+		mc-hyphenate: never;
+		width: 100%;
+		/*Added this property to make tables full width for print output instead of 60% like for online */
+		color: #000000;
+		font-size: 10pt;
+		margin-top: 12pt;
+		margin-bottom: 24pt;
+	}
+
+	table.100percent
+	{
+		width: 100%;
+		/* Only this property differs between table and table.100percent. Otherwise, they should be the same.*/
+	}
+
+	table.pagelayout	/*created just to use in page layouts so that there are no borders */
+	{
+		border-bottom: none;
+	}
+
+	h1.one_pager
+	{
+		font-size: 14pt;
+		line-height: 14pt;
+		margin-bottom: 3pt;
+		padding-top: 3pt;
+		padding-bottom: 3pt;
+		top: 12pt;
+		color: #006f93;
+	}
+
+	h2.one_pager
+	{
+		font-size: 10pt;
+		margin-top: 6pt;
+		font-weight: bold;
+		padding-top: 6pt;
+	}
+
+	img.large
+	{
+		max-width: 6.5in;
+	}
+
+	li.table
+	{
+		font-size: 9pt;
+	}
+
+	li.table_bullet
+	{
+		font-size: 10pt;
+		line-height: 14pt;
+		margin-left: 0;
+	}
+
+	span.RMSPurple
+	{
+		color: #800080;
+	}
+
+	span.RMSBlue
+	{
+		color: #006f93;
+	}
+
+	span.RMSHDYellow
+	{
+		color: #e8c480;
+	}
+
+	img.cover	/*To make large cover image for new pdf cover page*/
+	{
+		max-width: 8.5in;
+	}
+
+	/* For date line on new RI cover */
+	
+	p.cover
+	{
+		color: #ffffff;
+		font-family: Arial;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 0.2em;
+	}
+	/* End date line */
+	
+
+	h6
+	{
+		mc-heading-level: 0;
+	}
+
+	nav.tab-bar,
+	div.sideContent	/*To make sure that context menu and topic toolbar do not print out */
+	{
+		display: none;
+	}
+
+	/* Not used in current project
+	
+	MadCap|dropDownHead.H2
+	{
+		color: #246895;
+		font-size: 14pt;
+		margin-top: 30pt;
+	} 
+
+	MadCap|dropDownHotspot.H2
+	{
+		color: #246895;
+		mc-heading-level: 2;
+	} */
+
+	th
+	{
+		font-weight: bold;
+	}
+
+	th.small
+	{
+		color: #000000;
+	}
+
+	tr
+	{
+		color: #000000;
+	}
+
+	img.wide
+	{
+		mc-thumbnail-max-width: 400px;
+	}
+
+	div.Indent05Inch
+	{
+		margin-left: 0.5in;
+	}
+
+	div.Indent25Inch
+	{
+		margin-left: 0.5in;
+	}
+
+	li.table_bullet_small
+	{
+		font-size: 7pt;
+		margin-left: 0;
+	}
+
+	div.screenshot
+	{
+		page-break-inside: avoid;
+	}
+
+	ol li div.screenshot
+	{
+		page-break-inside: avoid;
+	}
+
+	ol li p div.screenshot
+	{
+		page-break-inside: avoid;
+	}
+
+	div.screenshotindent
+	{
+		page-break-inside: avoid;
+		margin-left: 0.5in;
+	}
+
+	p.pagebreakbefore
+	{
+		page-break-before: always;
+	}
+
+	li.pagebreakbefore
+	{
+		page-break-before: always;
+	}
+
+	/*Used for User Voice. Commenting out on 1/8/2019 
+
+	#uv_trigger
+	{
+		display: none;
+	}
+*/
+
+	p.Comment
+	{
+		mc-conditions: 'Default.Question';
+	}
+	/* To create container to hold quick start steps */
+
+	div.quickstart
+	{
+	width: 6.5in;
+	border: none;
+	background: #ECF4FF;
+	padding-bottom: 20px;
+	
+	
+	}
+	/* end container div */
+
+}
+
+table.Autonumber_p_step_1
+{
+	width: auto;
+}
+
+/* Try deleting this attribute. It might be causing frameless output to not use the correct masterpage
+
+html
+{
+	mc-master-page: url('../MasterPages/MasterPage.flmsp');
+}
+*/
+
+/*The popup master page is not needed for this project.
+
+html.popup
+{
+	mc-master-page: url('../../../../Online_Library_Source/Content/Resources/MasterPages/PopupMasterPage.flmsp');
+}*/
+
+a.Popup
+{
+	color: #000000;
+	font-style: normal;
+	/*font-family: Gotham-Medium;*/
+	/*font-family: IBMPlexSans-Regular;*/
+	font-family: Roboto-Regular, sans-serif;
+}
+
+p.Figure_Label	/*Reduced font-size from 11pt to .8em.  */
+{
+	font-size: .8em;
+	margin-bottom: 6pt;
+	mc-auto-number-format: 'Figure {n+}: ';
+}
+
+p.code	/*Added font-size: 1em; because it was too small */
+{
+	font-family: monospace;
+	font-size: 1em;
+	margin-top: 6pt;
+	margin-bottom: 0pt;
+}
+
+MadCap|tocProxy
+{
+	mc-heading-level: 2;
+}
+
+MadCap|xref.RMS_Const_class
+{
+	mc-format: 'See RMS Construction Class {paratext}';
+}
+
+MadCap|xref.Description_RMS
+{
+	mc-format: 'See RMS Construction Class {paratext}';
+}
+
+MadCap|xref.Description_ATC
+{
+	mc-format: 'See ATC Construction Class {paratext}';
+}
+
+MadCap|xref.footnote
+{
+	mc-format: '{paranum}';
+}
+
+MadCap|xref.StepNumber
+{
+	mc-format: '{paranum}';
+}
+
+p.right_TableText
+{
+	text-align: right;
+}
+
+/* Not needed
+h1.title
+{
+	line-height: 22pt;
+}
+*/
+/*Not used in current project
+
+MadCap|dropDownHead.Indent	
+{
+	color: #246895;
+	font-size: .9em;
+	mc-closed-image: url('../Images/plus.png');
+	mc-open-image: url('../Images/minus.png');
+	margin-top: 24pt;
+	padding-top: 0pt;
+	margin-left: 0.25in;
+}
+*/
+
+MadCap|helpControlMenuItem.Indented
+{
+	color: #000000;
+	background-color: #E5EFF7;
+}
+
+h1.one_pager	/*Reduced font-size and line-height from 16pt to 1.5em  */
+{
+	background-color: #ffffff;
+	width: 100%;
+	padding-bottom: 6pt;
+	margin-top: 0pt;
+	padding-top: 6pt;
+	color: #3d3d3d;
+	top: 36pt;
+	display: block;
+	font-size: 1.5em;
+	mc-hyphenate: never;
+	line-height: 1.5em;
+}
+
+h2.one_pager	/*Reduced font-size from 14 pt to 1.3 em  */
+{
+	margin: 0;
+	margin-bottom: 0pt;
+	padding-bottom: 0pt;
+	mc-hyphenate: never;
+	font-size: 1.3em;
+	margin-top: 24pt;
+	padding-top: 0pt;
+}
+
+table.one_pager
+{
+	mc-table-style: url('../TableStyles/RMSTable.css');
+	/*changed URL here from '../Resources/TableStyles' to '../TableStyles' */
+	margin-left: 0;
+	margin-right: auto;
+	caption-side: top;
+	width: 95%;
+}
+
+li.table	/*Reduced font-size from 10.5pt to .85em  --- Removed font-size attribute because text is too small. Maybe this is already determined by td.*/
+{
+	margin-left: 0.25in;
+	margin-bottom: 0pt;
+	margin-top: 12pt;
+	padding: 0pt;
+	/*	font-size: .85em;*/
+}
+
+li.table_bullet
+{
+	margin-left: 0.25in;
+	margin-bottom: 0pt;
+	padding: 0pt;
+	/*	font-size: .85em; */
+	margin-top: 6pt;
+}
+
+p.code_small	/*Reduced font-size from 9pt to .9em  */
+{
+	font-family: monospace;
+	font-size: .9em;
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+}
+
+img.large
+{
+	margin-left: 0in;
+	vertical-align: text-top;
+	mc-float: none;
+	padding-left: 0in;
+	padding-right: 0in;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+	mc-thumbnail: popup;
+	mc-thumbnail-max-height: 110px;
+}
+
+span.RMSPurple
+{
+	color: #800080;
+}
+
+p.consolas	/*Use for code snippets that use Consolas font*/
+{
+	font-family: Consolas;
+	margin-bottom: 0pt;
+	margin-top: 0pt;
+}
+
+/* There's another entry in print media section for this style. Commenting it here because I don't think we need it for web media */
+/*p.cover
+{
+	margin-top: 12pt;
+	margin-bottom: 12pt;
+} */
+
+/*The following html tags point to all the custom master pages. Listing is alphabetical. */
+
+
+html.CDL_MasterPage
+{
+	mc-master-page: url('../MasterPages/OtherTopics_RDOS_Contracts.flmsp');
+}
+
+html.homepage
+{
+	mc-master-page: url('../MasterPages/HomePage_Balboa.flmsp');
+}
+
+html.RDO_MasterPage	
+{
+	mc-master-page: url('../MasterPages/OtherTopics_RDOS_Concepts.flmsp');
+}
+
+html.FM_MasterPage
+{
+	mc-master-page: url('../MasterPages/OtherTopics_RDOS_Contracts.flmsp');
+}
+
+html.SDL_MasterPage
+{
+	mc-master-page: url('../MasterPages/OtherTopics_RDOS_SDL.flmsp');
+}
+
+MadCap|xref.TableNumberOnly
+{
+	mc-format: '{paranumonly}';
+}
+
+/* These are all copied from styles.css for frameless output */
+
+a.MCBreadcrumbsLink
+{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a.MCBreadcrumbsLink:visited	/*From balboa */
+{
+	color: #002080;
+}
+
+a.MCBreadcrumbsLink:hover	/* From balboa */
+{
+	color: #000000;
+}
+
+MadCap|breadcrumbsProxy
+{
+	/* 
+	border-bottom-width: 0px;
+	color: #57595a;
+	font-size: .75em;
+	margin-bottom: 0px;
+	top: 0px;
+	background-color: #ffffff;
+	width: 100%;
+	*/
+	/* From Balboa: */
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	/*font-family: Gotham-Book;*/
+	/*font-family: IBMPlexSans-Regular;*/
+	font-family: Roboto-Regular, sans-serif;
+	mc-breadcrumbs-prefix: 'You are here: ';
+}
+
+div.TopicContent
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* End copy */
+
+MadCap|searchBarProxy
+{
+	display: none;
+}
+
+h6
+{
+/*	font-family: Gotham-Medium;*/
+	/*font-family: IBMPlexSans-Regular;*/
+	font-family: Roboto-Regular, sans-serif;
+	mc-heading-level: 6;
+}
+
+div.content
+{
+	width: 100%;
+}
+
+.row.nav-search	/*To prevent search bar from showing up in top banner*/
+{
+	/* Hiding this so that it appears in top banner */
+	/*	display: none;*/
+}
+
+/* removing this because it's overwriting the style for the home page */
+
+div.footer
+{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-size: 0.8em;
+	font-family: Roboto-Regular, sans-serif;
+/*	background-color: #474747;
+	padding-bottom: 10px;
+	padding-top: 30px;*/
+}
+
+div.footer_left
+{
+	float: left;
+	width: 40%;
+}
+
+div.footer_right
+{
+	float: right;
+	width: 60%;
+	
+}
+
+p.Footer1	/*Reduced font-size from 10pt to .8em  */
+{
+	
+	font-size: 0.8em;
+	margin-top: 30px;
+	margin-bottom: 0px;
+		
+}
+
+p.Footer2	/*Reduced font-size from 10pt to .8em  */
+{
+	
+	font-size: 0.8em;
+	margin-bottom: 6pt;
+	margin-top: 0pt;
+		
+}
+
+p.FooterDate	/*Reduced font-size from 10pt to .75em  */
+{
+	
+	font-size: 0.75em;
+	margin-bottom: 30px;
+	margin-top: 0em;
+		
+}
+
+p.Copyright	/*Reduced font-size from 10pt to .85em  */
+{
+	text-align: left;
+	margin: 0 0 10px 0;
+	border-top-color: #3d3d3d;
+	border-top: none 1px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	font-size: .85em;
+}
+
+img.fullsize_65percent
+{
+	margin-left: 0in;
+	mc-thumbnail-max-height: 50px;
+	clear: right;
+	vertical-align: text-top;
+	mc-thumbnail: none;
+	float: none;
+	max-width: 6.5in;
+}
+
+/* Not used in current project
+
+MadCap|dropDownHead.H2
+{
+	color: #246895;
+	font-size: 1em;
+	mc-closed-image: url('../Images/plus.png');
+	mc-open-image: url('../Images/minus.png');
+	margin-top: 24pt;
+	padding-top: 0pt;
+}*/
+
+/*  
+Added per instruction from MadCap on 4/21/16 to fix the issue that the top part of the screen disappears when you hyperlink to a bookmark in html5 frameless output. Removed 4/26/16. 
+.tab-bar
+{
+	overflow: hidden;
+} */
+
+.off-canvas-wrap	/*Added per instruction from MadCap on 4/26/16 to fix the issue that the top part of the screen disappears when you hyperlink to a bookmark in html5 frameless output */
+{
+	overflow: visible;
+}
+
+MadCap|xref.KI_number
+{
+	mc-format: '{paratext}';
+}
+
+span.RMSDkBlue
+{
+	color: #0000cd;
+}
+
+div.Indent05Inch
+{
+	margin-left: 0.5in;
+}
+
+div.Indent25Inch
+{
+	margin-left: 0.25in;
+}
+
+p.Comment	/*For internal questions and comments that should be visible*/
+{
+	margin-top: 12pt;
+	margin-bottom: 12pt;
+	font: inherit;
+	font-style: italic;
+	font-weight: bold;
+	color: #237e2b;
+	mc-conditions: 'Default.Question';
+}
+
+span.Comment
+{
+	color: #237e2b;
+	font-style: italic;
+	font-weight: bold;
+	mc-conditions: 'Default.Question';
+}
+
+li.table_bullet_small
+{
+	margin-left: 0.25in;
+	margin-bottom: 0pt;
+	padding: 0pt;
+	margin-top: 6pt;
+}
+
+div.screenshot
+{
+	page-break-inside: avoid;
+}
+
+p.pagebreakbefore
+{
+	margin-top: 12pt;
+	margin-bottom: 12pt;
+}
+
+li.pagebreakbefore
+{
+	margin-left: 0.25in;
+	margin-bottom: 0pt;
+	margin-top: 12pt;
+	padding: 0pt;
+}
+
+/* Used for User Voice. Commenting out 1/8/2019. 
+#uv_trigger
+{
+	background: url('../Images/uv_icon.png');
+	width: 24px;
+	height: 24px;
+	float: right;
+	margin-left: 6px;
+	margin-right: 6px;
+	cursor: pointer;
+}
+*/
+
+.MCXref.xref	/*Added to fix the issue that some links show up in the wrong blue. Recommended by MC Tech Support. */
+{
+	color: #002080;
+	/*font-family: IBMPlexSans-Regular;*/
+	font-family: Roboto-Regular, sans-serif;
+	text-decoration: none;
+}
+
+/* ==========================================================================================
+The following entries are all from the css used by the balboa template 
+
+BEGIN
+============================================================================================= */
+
+/*==Master Page Topic Layout==*/
+
+nav.title-bar	/*Adds bottom border on top navigation bar*/
+{
+	border-bottom: 0px solid #d3d3d3; /*changed to 0px to remove top line from home page*/
+}
+
+div.top-bar	/*Contains the breadcrumbs and toolbar*/
+{
+	/* Remove bottom border from topic toolbar for new Help Center design */
+	border-bottom: 0px solid #d3d3d3;
+	min-height: 50px;
+	/*Min-height is necessary for topics that are not included in a TOC*/
+}
+
+div.top-bar-left /*try to float breadcrumbs left*/
+{
+	float: left;
+	width: 50%;
+}
+
+div.top-bar-right /*try to float toolbar right*/
+{	
+	float: right;
+	left-margin: 50%;
+}
+
+div.search-container
+{
+	padding-bottom: 20px;
+}
+
+/*==Elements for the left side of Master Page layout==*/
+
+div.side-menu	/*This is the div that the menu proxy is contained in*/
+{
+	padding-left: 0px;
+	/* Want to get text in side menu to line up with left edge. Change padding-left from 10px to 0 */
+	margin-top: 15px;
+}
+
+div.side-content	/*This is the div for the side-content containing "Search Tips" and the "Contact RMS" button*/
+{
+	padding-top: 10px;
+}
+
+MadCap|dropDownHead.side-content	/*Font properties for the "Search Tips" drop-down head */
+{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+div.cta	/*Contact rms button*/
+{
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
+	border-radius: 60px;
+	padding: 2px 0px;
+	border: 1px solid #002080;
+	width: 162px;
+	color: #002080;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+	margin-top: 20px;
+	text-align: center;
+	/*tried adding this to center the text in the button */
+}
+
+div.cta:hover	/*When hovering over the CTA button the following properties will apply*/
+{
+	/*Original from MC:*/
+	/*box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);/*
+	/*From Kevin:*/
+	background: #FFFFFF;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.30);
+	transform: scale(1.01);
+}
+
+a.cta:link
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+a.cta:visited
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+div.topic-layout	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.topic-layout::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.topic-layout::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.topic-layout > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.topic-layout > div:nth-child(1)
+/*Menu Proxy container*/
+/*For side nav, must make width 100% and remove border-right. For top nav, make width 25%*/
+{
+	width: 100%;
+	margin-left: 0%;
+	/*border-right: 1px solid #d3d3d3;*/
+}
+
+div.topic-layout > div:nth-child(2)
+{
+	width: 73%;
+	margin-left: 2%;
+}
+
+/* The following code is added to provide more padding around the chevrons in the dropdown menus from the top nav, provided by Support 1/14/2019*/
+
+ul.navigation ul > li > a
+{
+	padding-right: 20px;
+}
+
+/* The following code is added to provide more line height in the search results extract, provided by Support 1/14/2019*/
+
+._Skins_SearchResults.mc-component #resultList
+{
+	line-height: 1.25em;
+}
+
+/* the following code is added to make the filename disappear in search results, provided by Support 2/6/2019*/
+
+div.url
+{
+	display: none;
+}
+
+
+/* New for Help Center */
+p.Watch_Video
+{
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #002080;
+	text-align: center;
+}
+
+div.Watch_Video
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 5px 5px;
+	background: #B5D2FF;
+}
+
+/* To create container to hold quick start steps and gif/video */
+
+div.quickstart
+{
+	width: 90%;
+	padding-top: 20px;
+	background: #ECF4FF;
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	margin-bottom: 0px;
+}
+
+div.quickstart-novideo
+{
+	width: 90%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #ECF4FF;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	margin-bottom: 0px;
+}
+
+/* end container div */
+
+/*The following suggested by MC to add shadow to sidenav side border. */
+
+.sidenav-wrapper
+{
+box-shadow: 2px 0 18px 0 rgba(0,0,0,0.1);
+}
+
+
+
+
+/* =================================================================================
+END
+==================================================================================== */

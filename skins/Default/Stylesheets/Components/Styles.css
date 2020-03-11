@@ -1,0 +1,940 @@
+/*<meta />*/
+
+/* Search */
+/* Fix for safari/ios */
+
+input[type="search"]
+{
+	-webkit-appearance: none;
+}
+
+.search,
+.search-bar
+{
+	width: 100%;
+	position: relative;
+	color: #DADADA;
+	margin: 0 auto;
+}
+
+.search-bar .search-field
+{
+	text-align: left;
+	width: 100%;
+	height: 2em;
+	padding-left: 10px;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: none;
+	border-radius: 25px;
+	font: inherit;
+	background: #FFFFFF;
+	color: #5F5F5F;
+	position: relative;
+}
+
+.search-bar .search-field::-webkit-search-cancel-button
+{
+	display: none;
+}
+
+.search-field::-ms-clear
+{
+	display: none;
+}
+
+.search-bar .search-filter
+{
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: #5F5F5F;
+	line-height: 2em;
+	padding-right: 5px;
+	cursor: pointer;
+	height: 2em;
+	width: 45px;
+	background: #ffffff url('../Images/FilterOutline.png') no-repeat center center;
+}
+
+.search-bar .search-filter.selected
+{
+	background-image: url('../Images/Filter.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.search-bar .search-filter-wrapper.open
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.search-bar .search-filter-wrapper
+{
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 56px;
+}
+
+.search-filter-content
+{
+	display: none;
+	-webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+	position: absolute;
+	right: 0;
+	top: 2em;
+	line-height: normal;
+	text-align: left;
+	overflow: auto;
+	z-index: 1;
+	color: #888888;
+	background-color: #ffffff;
+	white-space: nowrap;
+}
+
+.search-filter-content ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 6px;
+}
+
+.search-filter-content ul li
+{
+	padding: 5px;
+	margin: 0;
+}
+
+.search-filter-content ul li:hover
+{
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.search-bar .search-submit-wrapper
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	tooltip: Search;
+}
+
+.search-bar .search-submit
+{
+	width: 56px;
+	height: 2em;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	background: #bed230 url('../Images/SearchIcon.png') no-repeat center center;
+	cursor: pointer;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+/* Menu Styles */
+
+ul.menu.mc-component
+{
+	overflow-y: auto;
+}
+
+ul.menu a
+{
+	text-decoration: none;
+	color: #000;
+}
+
+ul.menu,
+ul.menu ul,
+ul.menu li
+{
+	list-style: none;
+	display: list-item;
+	margin: 0;
+}
+
+ul.menu,
+ul.menu ul,
+ul.menu li
+{
+	padding: 0;
+}
+
+ul.menu li > a
+{
+	display: block;
+}
+
+ul.menu li > a.selected
+{
+	font-weight: bold;
+}
+
+/* Search Results Styles */
+
+#results-heading
+{
+	margin-bottom: 20px;
+}
+
+#resultList
+{
+	padding-left: 0;
+	margin: 0;
+}
+
+#resultList h3.title a
+{
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#resultList h3.title
+{
+	margin-bottom: 2px;
+	line-height: 1.1em;
+}
+
+#resultList > li
+{
+	list-style: none;
+	margin-bottom: 16px;
+}
+
+#resultList .glossary
+{
+	padding: 15px;
+	margin-bottom: 25px;
+	-webkit-box-shadow: 0px 1px 4px 0px #cccccc;
+	-moz-box-shadow: 0px 1px 4px 0px #cccccc;
+	box-shadow: 0px 1px 4px 0px #cccccc;
+	line-height: normal;
+}
+
+#resultList .glossary .term
+{
+	margin-bottom: 10px;
+	font-size: 1.5em;
+}
+
+#communityResultList
+{
+	margin: 0;
+	padding: 0 0 0 20px;
+	list-style-image: none;
+	list-style-type: none;
+	font-size: 0.9em;
+}
+
+#communityResultList li
+{
+	margin: 10px 0px;
+}
+
+#communityResultList a
+{
+	text-decoration: none;
+}
+
+#communityResultList a:hover
+{
+	text-decoration: underline;
+}
+
+#resultList.communitySearch .title
+{
+	display: none;
+}
+
+#resultList.communitySearch #communityResultList
+{
+	padding: 0px;
+}
+
+.phrase-suggest
+{
+	display: block;
+}
+
+.search-result-highlight
+{
+	font-weight: bold;
+}
+
+.activityInfo
+{
+	color: #666;
+}
+
+.activityInfo a:link,
+.activityInfo a:visited
+{
+	color: #666;
+}
+
+a.activityText:link,
+a.activityText:visited
+{
+	color: #000;
+}
+
+.activityTime
+{
+	font-style: italic;
+	font-size: 11px;
+	color: #999;
+	margin-left: 3px;
+}
+
+#pagination
+{
+	height: 2.5em;
+	line-height: 2.5em;
+}
+
+#pagination a
+{
+	min-width: 34px;
+	cursor: pointer;
+	border: solid 1px #fafafc;
+	color: #0185D1;
+	font-size: 1em;
+	margin: 20px 5px;
+	padding: 2px 8px;
+	text-decoration: none;
+}
+
+#pagination a#selected
+{
+	font-weight: bold;
+	border-top: solid 1px #e2e2e6;
+}
+
+#pagination a:hover
+{
+	border-top: solid 1px #e2e2e6;
+}
+
+.micro-content-container > .micro-content
+{
+	padding: 15px;
+	margin-bottom: 25px;
+	-webkit-box-shadow: 0px 1px 4px 0px #cccccc;
+	-moz-box-shadow: 0px 1px 4px 0px #cccccc;
+	box-shadow: 0px 1px 4px 0px #cccccc;
+	line-height: normal;
+	overflow-y: auto;
+}
+
+.micro-content-container > .micro-content > .micro-response
+{
+	overflow: hidden;
+	max-height: 200px;
+}
+
+.micro-content-container > .micro-content > .micro-content-expand
+{
+	height: 40px;
+	width: 100%;
+	background: #ffffff url('../Images/arrow-down.png') no-repeat center center;
+	border-left: none;
+	border-right: none;
+	border-top: solid 1px #b9bec1;
+	border-bottom: solid 1px #b9bec1;
+	cursor: pointer;
+}
+
+.micro-content-container > .micro-content > .micro-content-expand.expanded
+{
+	background: #ffffff url('../Images/arrow-up.png') no-repeat center center;
+}
+
+.micro-content-container > .micro-content > .micro-content-expand-transition-wrapper
+{
+	position: relative;
+	height: 0px;
+	width: 100%;
+}
+
+.micro-content-container > .micro-content > .micro-content-expand-transition-wrapper > .micro-content-expand-transition
+{
+	position: absolute;
+	bottom: 0px;
+	height: 50px;
+	left: 0;
+	right: 0;
+	background: -moz-linear-gradient(top, transparent 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+	background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
+	background: linear-gradient(top, transparent 0%,#ffffff 100%);
+	-pie-background: linear-gradient(transparent, #ffffff);
+}
+
+.micro-content-container > .micro-content > .micro-response-title
+{
+	font-size: 16px;
+	font-weight: normal;
+	margin: 10px 0 2px 0;
+}
+
+.micro-content-container > .micro-content > .micro-response-title a
+{
+	color: #0185D1;
+	text-decoration: underline;
+}
+
+.micro-content-container > .micro-content > .micro-response-url cite
+{
+	color: #0E774A;
+	font-size: 0.8em;
+	font-style: normal;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete ul
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-top: solid 1px #808080;
+	border-right: solid 1px #808080;
+	border-bottom: solid 1px #808080;
+	border-left: solid 1px #808080;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #ffffff;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li a
+{
+	color: #000000;
+	font-weight: normal;
+	padding-left: 7px;
+	padding-right: 27px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item a
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item
+{
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content a
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history a
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item.auto-result-selected a
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item.auto-result-selected
+{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #ececec;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content.auto-result-selected
+{
+	background-color: #ececec;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history.auto-result-selected
+{
+	background-color: #ececec;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-description
+{
+	color: #888888;
+	font-size: 13px;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content .auto-result-description
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history .auto-result-description
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-icon
+{
+	margin-right: 5px;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content .auto-result-icon
+{
+	background: transparent url('Images/icon-topic.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-topic.png') no-repeat center center;
+	background-size: contain;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history .auto-result-icon
+{
+	background: transparent url('Images/icon-search.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-search.png') no-repeat center center;
+	background-size: contain;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-phrase
+{
+	font-size: 16px;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content .auto-result-phrase
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history .auto-result-phrase
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-phrase .search-result-highlight
+{
+	font-weight: bold;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-content .auto-result-phrase .search-result-highlight
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-history .auto-result-phrase .search-result-highlight
+{
+	
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li .auto-result-remove
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	width: 17px;
+	height: 27px;
+	background: transparent url('Images/icon-remove.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-remove.png') no-repeat center center;
+	background-size: contain;
+}
+
+._Skins_SearchHome.mc-component .search-auto-complete li.auto-result-item .auto-result-separator
+{
+	
+}
+
+.search-bar._Skins_SearchHome.mc-component
+{
+	display: block;
+	width: 50%;
+	height: 3em;
+	margin-top: 10px;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-field
+{
+	height: 3em;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	color: #5F5F5F;
+	font-size: 1em;
+	padding-left: 10px;
+	background-color: #ffffff;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-filter
+{
+	height: 3em;
+	border-top: none;
+	border-bottom: none;
+	border-right: solid 1px #000000;
+	border-left: solid 1px #000000;
+	width: 45px;
+	background: #ffffff url('Images/FilterOutline.png') no-repeat center center;
+	-pie-background: #ffffff url('Skins/Default/Stylesheets/Components/Images/FilterOutline.png') no-repeat center center;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-submit
+{
+	height: 3em;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+._Skins_SearchHome.mc-component .search-filter-content
+{
+	top: 3em;
+	color: #888888;
+	background-color: #ffffff;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-filter-wrapper.open
+{
+	-pie-background: #ffffff url('Skins/Default/Stylesheets/Components/Images/FilterOutline.png') no-repeat center center;
+	color: #888888;
+	background-color: #ffffff;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-filter:hover
+{
+	background-color: #ffffff;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-filter.selected
+{
+	background: transparent url('Images/Filter.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/Filter.png') no-repeat center center;
+}
+
+._Skins_SearchHome.mc-component .search-filter-content ul li:hover
+{
+	color: #000000;
+	background-color: #ffffff;
+}
+
+._Skins_SearchHome.mc-component .search-filter-content ul li:focus-within
+{
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-field::-webkit-input-placeholder
+{
+	color: #5F5F5F;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-field::-moz-placeholder
+{
+	color: #5F5F5F;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-field:-moz-placeholder
+{
+	color: #5F5F5F;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-field:-ms-input-placeholder
+{
+	color: #5F5F5F;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-submit-wrapper
+{
+	font-size: 1em;
+}
+
+.search-bar._Skins_SearchHome.mc-component .search-filter-wrapper
+{
+	font-size: 1em;
+	right: 56px;
+}
+
+.search-bar.search-bar-container._Skins_SearchHome.mc-component .search-submit
+{
+	width: 56px;
+	background: #ffffff url('Images/SearchIcon.png') no-repeat center center;
+	-pie-background: #ffffff url('Skins/Default/Stylesheets/Components/Images/SearchIcon.png') no-repeat center center;
+}
+
+.search-bar.search-bar-container._Skins_SearchHome.mc-component .search-submit:hover
+{
+	background-color: #ffffff;
+}
+
+.buttons._Skins_TopicToolbar.mc-component
+{
+	float: right;
+}
+
+._Skins_TopicToolbar.mc-component .button
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-top: solid 1px #e1e1e1;
+	border-right: solid 1px #e1e1e1;
+	border-bottom: solid 1px #e1e1e1;
+	border-left: solid 1px #e1e1e1;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 22px;
+	height: 22px;
+	background: #ececec;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.collapse-all-button
+{
+	background: #ececec url('Images/collapse.png') no-repeat center center;
+	background: url('Images/collapse.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/collapse.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: url('Images/collapse.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/collapse.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/collapse.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/collapse.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+	-pie-background: url('Skins/Default/Stylesheets/Components/Images/collapse.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.current-topic-index-button
+{
+	color: #6c6c6c;
+	font-size: 11px;
+	font-weight: bold;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: auto;
+	background: #ececec;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.edit-user-profile-button
+{
+	background: #ececec url('Images/edit-profile.png') no-repeat center center;
+	background: url('Images/edit-profile.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/edit-profile.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: url('Images/edit-profile.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/edit-profile.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/edit-profile.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/edit-profile.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+	-pie-background: url('Skins/Default/Stylesheets/Components/Images/edit-profile.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.expand-all-button
+{
+	background: #ececec url('Images/List.png') no-repeat center center;
+	background: url('Images/List.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/List.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: url('Images/List.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/List.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/List.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/List.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+	-pie-background: url('Skins/Default/Stylesheets/Components/Images/List.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.login-button
+{
+	background: #ececec url('Images/login.png') no-repeat center center;
+	background: url('Images/login.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/login.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: url('Images/login.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/login.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/login.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/login.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+	-pie-background: url('Skins/Default/Stylesheets/Components/Images/login.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.next-topic-button
+{
+	background: #ececec url('Images/navigate-next.png') no-repeat center center;
+	background: url('Images/navigate-next.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/navigate-next.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: url('Images/navigate-next.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/navigate-next.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/navigate-next.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/navigate-next.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+	-pie-background: url('Skins/Default/Stylesheets/Components/Images/navigate-next.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.previous-topic-button
+{
+	background: #ececec url('Images/navigate-previous.png') no-repeat center center;
+	background: url('Images/navigate-previous.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/navigate-previous.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: url('Images/navigate-previous.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/navigate-previous.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/navigate-previous.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/navigate-previous.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+	-pie-background: url('Skins/Default/Stylesheets/Components/Images/navigate-previous.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.print-button
+{
+	background: #ececec url('Images/Print.png') no-repeat center center;
+	background: url('Images/Print.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/Print.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: url('Images/Print.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/Print.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/Print.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/Print.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+	-pie-background: url('Skins/Default/Stylesheets/Components/Images/Print.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.remove-highlight-button
+{
+	background: #ececec url('Images/highlight.png') no-repeat center center;
+	background: url('Images/highlight.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/highlight.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: url('Images/highlight.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/highlight.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/highlight.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/highlight.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+	-pie-background: url('Skins/Default/Stylesheets/Components/Images/highlight.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.select-language-button
+{
+	background: #ececec url('Images/select-language.png') no-repeat center center;
+	background: url('Images/select-language.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/select-language.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: url('Images/select-language.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/select-language.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/select-language.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/select-language.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+	-pie-background: url('Skins/Default/Stylesheets/Components/Images/select-language.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.select-skin-button
+{
+	background: #ececec url('Images/select-skin.png') no-repeat center center;
+	background: url('Images/select-skin.png') no-repeat center center, -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/select-skin.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec));
+	background: url('Images/select-skin.png') no-repeat center center, -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
+	background: url('Images/select-skin.png') no-repeat center center, -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/select-skin.png') no-repeat center center, -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: url('Images/select-skin.png') no-repeat center center, linear-gradient(top, #ffffff 0%,#ececec 100%);
+	-pie-background: url('Skins/Default/Stylesheets/Components/Images/select-skin.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+._Skins_TopicToolbar.mc-component .button.topic-ratings-button
+{
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	width: 16px;
+	background: transparent url('Images/star-full.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/star-full.png') no-repeat center center;
+	background-size: 16px 16px;
+}
+
+._Skins_TopicToolbar.mc-component .button.topic-ratings-empty-button
+{
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	width: 16px;
+	background: transparent url('Images/star-empty.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/star-empty.png') no-repeat center center;
+	background-size: 16px 16px;
+}
+
+._Skins_TopicToolbar.mc-component .toolbar-button-drop-down
+{
+	color: #707070;
+	border-top: solid 4px transparent;
+	border-right: solid 4px transparent;
+	border-bottom: solid 4px transparent;
+	border-left: solid 4px transparent;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	background-color: #FFFFFF;
+}
+
+._Skins_TopicToolbar.mc-component .toolbar-button-drop-down.select-language-drop-down
+{
+	background-color: #FFFFFF;
+}
+
+._Skins_TopicToolbar.mc-component .toolbar-button-drop-down.select-language-drop-down ul li:hover
+{
+	color: #000;
+	background-color: #E5EFF7;
+}
+
+._Skins_TopicToolbar.mc-component .toolbar-button-drop-down.select-skin-drop-down
+{
+	background-color: #FFFFFF;
+}
+
+._Skins_TopicToolbar.mc-component .toolbar-button-drop-down.select-skin-drop-down ul li:hover
+{
+	color: #000;
+	background-color: #E5EFF7;
+}
+
+._Skins_TopicToolbar.mc-component .button-separator
+{
+	color: #e1e1e1;
+	background-color: #e1e1e1;
+	height: 24px;
+}
+

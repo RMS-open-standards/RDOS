@@ -1,0 +1,710 @@
+/*<meta />*/
+
+/*===========================================================================================================================================================
+
+Hello! If this is your first time looking at a stylesheet within the text editor view, what you are reading right now is a "comment". Comments are added throughout this stylesheet with the purpose of making the source code easier to understand, comments will not be interpreted during the compile process. Since comments are not interpreted during the compile process, feel free to add or remove any comments.
+
+For help with MadCap Flare go to Help Ribbon > Topics Section > Open Help. Alternatively visit the Flare Online Help at help.madcapsoftware.com
+
+If you have any questions regarding how to work with this stylesheet or template project, please contact MadCap Technical Support. 
+https://www.madcapsoftware.com/support/contact-options.aspx
+
+NOTE: Generally, this stylesheet has elements listed out in the order that they appear in the topic from top to bottom. The exception are General styles which are at the top and the stylesheet mediums which are at the bottom.
+
+EXAMPLE: Since the Topic/Banner image is at the top of the home page, it will be listed closer to the top of this stylesheet. While, the footer will be written towards the bottom. 
+
+===========================================================================================================================================================*/
+
+/*==Home Page General Styles==*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+@font-face 
+{
+	font-family: 'Roboto-Regular';
+	src: url('../Fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'Roboto-Medium';
+	src: url('../Fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+body
+{
+	font-family: Roboto-Regular;
+	line-height: 1.5em;
+	background-color: #fff;
+}
+
+h1
+{
+	font-size: 2.75em;
+	color: #fff;
+	line-height: 1em;
+}
+
+h2
+{
+	font-size: 1.6785em;
+	color: #fff;
+}
+
+p
+{
+	color: #5a5a5a;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+.center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+}
+
+.off-canvas-content .main-section > .outer-row
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+/*==Mad Cap proxy/editor assigned styles==*/
+
+MadCap|searchBarProxy
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	float: none;
+	width: 50%;
+}
+
+MadCap|topicToolbarProxy
+{
+	float: none;
+}
+
+MadCap|menuProxy.menu1
+{
+	mc-toc-depth: 1;
+	mc-context-sensitive: True;
+}
+
+MadCap|menuProxy.menu2
+{
+	mc-toc-depth: 1;
+	mc-context-sensitive: True;
+}
+
+html.home-page
+{
+	mc-community-features: disabled;
+}
+
+/*==Responsive Header Styles==*/
+
+#contentBody > .responsive-header
+{
+	background-color: transparent;
+}
+
+/*==Home Page Hero Section==*/
+
+div.topic-hero	/*This is the first Hero/Banner on the Home Page - To replace the banner image with your own, change background-image property*/
+{
+	height: 500px;
+	padding-bottom: 150px;
+	padding-top: 150px;
+	background-color: #d3d3d3;
+	background-image: url('../Images/RDOS/RDOSHomeBalboa1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center 0;
+}
+
+div.cta	/*Call to action button on the Home Page*/
+{
+	color: #FFF;
+	background-color: #002080;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 14px 20px;
+	width: 200px;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	margin-top: 50px;
+}
+
+div.cta:hover	/*When hovering over the CTA button the following properties apply*/
+{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transform: scale(1.01);
+}
+
+a.cta:link
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+a.cta:visited
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+/*==Search bar elements==*/
+
+.search-field	/*The box-shadow property is applied to style to provide shadow on the search bar*/
+{
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+div.search-container
+{
+	margin-top: -36px;
+	margin-bottom: 100px;
+}
+
+/*==Home Tiles section==*/
+
+div.home-tiles	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+div.home-tiles::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: transparent;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	/*Adds transition animation when switching between screen sizes*/
+	-moz-border-radius: 20x;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	border: 1px solid #d3d3d3;
+	padding: 60px 10px;
+	overflow: hidden;
+}
+
+div.home-tiles > div:hover	/*When hovering over a home-tile, these properties apply*/
+{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+div.home-tiles > div:nth-child(1)
+{
+	width: 16.667%;
+	margin-left: 24%;
+}
+
+div.home-tiles > div:nth-child(2)
+{
+	width: 16.667%;
+	margin-left: 1%;
+}
+
+div.home-tiles > div:nth-child(3)
+{
+	width: 16.667%;
+	margin-left: 1%;
+}
+
+/*=Elements for text contained within each home-tile=*/
+
+p.tile-title
+{
+	text-align: center;
+	color: #002080;
+	font-size: 1.4em;
+}
+
+p.tile-content
+{
+	text-align: center;
+	color: #7E8890;
+	font-size: 1.0em;
+}
+
+p.tile-items
+{
+	color: #7E8890;
+	font-size: 0.7em;
+	text-align: center;
+}
+
+div.home-tiles a	/*Complex Selector: Any anchor (links) tags that are within div.home-tiles will have the following properties*/
+{
+	text-decoration: none;
+	color: #002080;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+div.home-tiles a:hover	/*Complex Selector: When hovering over links within the home tiles the following properties will apply.*/
+{
+	color: #002080;
+}
+
+/*=Info-container section=*/
+
+div.info-container	/*div.info-container contains the first Hero/Banner on the Home Page - To replace the banner image with your own, point the background-image property to your own image.*/
+{
+	margin-left: auto;
+	margin-top: 100px;
+	margin-right: auto;
+	padding-bottom: 75px;
+	padding-top: 100px;
+	box-shadow: inset -1px 1px 17px 0px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	color: #fff;
+	background-color: #292f42;
+	/*Create the parallax scrolling effect*/
+	background-attachment: fixed;
+	background-position: center 0;
+	background-image: url('../Images/RDOS/RDOSHomeBalboa2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+div.info-section	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.info-section::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.info-section::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.info-section > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.info-section > div:nth-child(1)
+{
+	width: 50%;
+	margin-left: 16.667%;
+}
+
+div.info-section > div:nth-child(2)
+{
+	width: 16.667%;
+	margin-left: 6%;
+}
+
+div.info-section > div:nth-child(3)	/*Div that contains "Tips"*/
+{
+	width: 33.333%;
+	margin-left: 5%;
+}
+
+div.info-container p	/*Complex Selector: Any <p> that is contained within div.info-container will have the following properties*/
+{
+	color: #fff;
+}
+
+/*=Elements for content contained within each info section=*/
+
+p.info-title
+{
+	font-size: 2em;
+	line-height: 1em;
+}
+
+p.info-content
+{
+	font-size: 0.8em;
+}
+
+p.tip	/*Paragraph style used for the Tips */
+{
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-image: url('../Images/Assets/BalboaIcons/MainIcons/Tips-white.png');
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	border: solid 1px #fff;
+	border-radius: 6px;
+	line-height: 1em;
+	overflow: hidden;
+	padding: 15px 0px 15px 60px;
+	text-align: left;
+	margin: 5px 30px;
+}
+
+/*==Home Page Footer Section==*/
+
+div.footer
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+div.footer a	/*Complex Selector: Any anchor (links) tags that are within div.footer will have the following properties */
+{
+	text-decoration: none;
+	color: #002080;
+}
+
+div.footer > div.outer-row
+{
+	line-height: 30px;
+	padding: 0;
+}
+
+div.home-master-page-footer	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+}
+
+div.home-master-page-footer::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-master-page-footer::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-master-page-footer > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.home-master-page-footer > div:nth-child(1)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.home-master-page-footer > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.home-master-page-footer > div:nth-child(3)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.footer p	/*Complex Selector: Any <p> that is contained within div.footer will have the following properties*/
+{
+	color: #7E8890;
+	font-size: 0.8em;
+}
+
+/*This is used as a fix for an issue in Chrome regarding the parallax effect and foundation*/
+
+.off-canvas-content,
+.off-canvas-wrapper
+{
+	-webkit-backface-visibility: visible;
+	backface-visibility: visible;
+}
+
+/*Needed for home page for placement of footer info. Copied from RMS OL*/
+
+div.footer
+{
+	width: 100%;
+	background-color: #F4F4F4;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	background-color: #F4F4F4;
+	font-size: 1em;
+}
+
+div.footer_left
+{
+	float: left;
+	width: 40%;
+}
+
+div.footer_right
+{
+	float: right;
+	width: 40%;
+}
+
+p.Footer1
+{
+	font-family: Roboto-Medium, sans-serif;
+	font-size: .9em;
+	margin-top: 0px;
+}
+
+p.Footer2
+{
+	font-family: Roboto-Medium, sans-serif;
+	font-size: .8em;
+	color: #0086A1;
+}
+
+p.FooterDate
+{
+	font-family: Roboto-Regular;
+	font-size: .9em;
+}
+
+/*===========================================================================================================================================================
+Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
+[@media tablet] declares styles that will apply when the screen is in tablet view
+[@media mobile] declares styles that will apply when the screen is in mobile view
+===========================================================================================================================================================*/
+
+@media only screen and (max-width: 1279px)
+{
+	#content-section .right-section,
+	#content-section .left-section
+	{
+		padding: 0;
+	}
+
+	p.info-title
+	{
+		font-size: 2em;
+	}
+
+	p.info-content
+	{
+		font-size: 1em;
+	}
+
+	div.footer
+	{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	div.home-master-page-footer > div:nth-child(1)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.home-master-page-footer > div:nth-child(2)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.home-master-page-footer > div:nth-child(3)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.home-tiles > div
+	{
+		float: left;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		background-color: transparent;
+		transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+		/*Adds transition animation when switching between screen sizes*/
+		-moz-border-radius: 20x;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+		border: 1px solid #d3d3d3;
+		padding: 60px 10px;
+	}
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+
+	div.home-tiles > div:nth-child(3)
+	{
+		width: 32%;
+		margin-left: 1%;
+	}
+
+	div.info-section > div
+	{
+		text-align: center;
+	}
+
+	div.info-section > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 10%;
+		margin-top: 5%;
+	}
+
+	div.info-section > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 5%;
+	}
+
+	div.info-section > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	#content-section
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	div.search-container
+	{
+		margin-bottom: 50px;
+	}
+
+	p.tile-title
+	{
+		font-size: 1.2em;
+	}
+
+	p.info-title
+	{
+		font-size: 2em;
+	}
+
+	p.info-content
+	{
+		font-size: 1em;
+	}
+
+	div.home-tiles > div
+	{
+		margin-top: 2%;
+	}
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.home-tiles > div:nth-child(3)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.info-section > div
+	{
+		text-align: center;
+		padding: 0 20px;
+	}
+
+	div.info-section > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 10%;
+		margin-top: 5%;
+	}
+
+	div.info-section > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 5%;
+	}
+
+	div.info-section > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.home-master-page-footer > div	/* Adds separators to the footer items when in mobile layout */
+	{
+		border-bottom: 1px solid #d3d3d3;
+	}
+
+	div.home-master-page-footer > div:nth-child(1)
+	{
+		width: 100%;
+	}
+
+	div.home-master-page-footer > div:nth-child(2)
+	{
+		width: 100%;
+	}
+
+	div.home-master-page-footer > div:nth-child(3)
+	{
+		width: 100%;
+	}
+}
+

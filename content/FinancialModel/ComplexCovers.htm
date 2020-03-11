@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="CDL_MasterPage _Skins_HTML5___Side_Navigation___RDOS" data-mc-search-type="Stem" data-mc-help-system-file-name="Index.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-conditions="Default.RM feature,Default.RDO Open Standard" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Contract Definition Language|Detailed Financial Model Examples">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title>Complex Covers</title>
+        <!--<link href="../Stylesheets/RMS_OL_EIQ.css" rel="stylesheet" type="text/css" /> -->
+        <!-- Inserting link to webfonts here 
+			<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet"> GET ERRORS
+			Also tried this link 
+				<style>
+				@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap'); GET ERRORS
+			</style> -->
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/RMS_OL_RDOS.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.expand-all-button
+{
+	-pie-background: url('../../Skins/Default/Stylesheets/Images/List.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.print-button
+{
+	-pie-background: url('../../Skins/Default/Stylesheets/Images/Print.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: url('../../Skins/Default/Stylesheets/Images/collapse.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" defer="defer">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Home_RDOS.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="row collapse">
+                                        <div class="top-bar">
+                                            <!-- Removing pdf button here <a href="../External/PDFs/RDOS_Contracts_10.pdf" target="_blank" title="CDL Semantics and Examples" alt="CDL Semantics and Examples"><img src="../Images/HelpCenterAssets/PDF.png" class="fullsize" style="float: right;" /></a>
+                 End -->
+                                            <div class="top-bar-right">
+                                                <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolbar mc-component nocontent" style="mc-topic-toolbar-items: ;">
+                                                    <div class="button-group-container-left">
+                                                        <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all collapsed text" data-state1-title="Expand all collapsed text">
+                                                            <img alt="Expand all" src="../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                        </button>
+                                                        <button class="button needs-pie print-button" title="Print">
+                                                            <img alt="Print" src="../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="top-bar-left">
+                                                <div class="nocontent">
+                                                    <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="topic-layout">
+                                            <div>
+                                                <div role="main" id="mc-main-content">
+                                                    <h1><a name="complex-covers"></a><a name="_Ref1638292"></a>Complex Covers</h1>
+                                                    <p class="FirstParagraph">Contract Definition Language (CDL) includes features to model complex covers. </p>
+                                                    <p class="FirstParagraph">These examples assume claims from one flood event affecting one location and causing (150k, 30k, 20k) USD loss to (Building, Contents, BI) unless stated otherwise. </p>
+                                                    <h2><a name="Aggregat"></a>Aggregate Limits and Attachments</h2>
+                                                    <p class="FirstParagraph">Like terms, each individual amount in each cover can act cumulatively over time. The following example assumes a cover with both attachment and limit aggregate and three events in the contract period, similar to <a href="ComplexTerms.htm#aggregate-terms"><span class="Hyperlink">Aggregate Terms</span></a></p><pre style="margin-top: 12pt;"><span class="VerbatimChar_1">Contract</span><br /><span class="VerbatimChar_1">&#160;Declarations</span><br /><span class="VerbatimChar_1">&#160;&#160;Currency is USD&#160;&#160; </span><br /><span class="VerbatimChar_1">&#160;Covers</span><br /><span class="VerbatimChar_1">&#160;&#160;100% Share of 250k aggregate xs 250k aggregate</span></pre>
+                                                    <ol start="1" class="ol_1">
+                                                        <li class="Compact" value="1">In the first 200k event, the attachment is not met but is eroded down to 50k for subsequent events.</li>
+                                                        <li class="Compact" value="2">In the second 200k event, the remaining 50k of attachment is used, and the layer pays 150k while eroding the limit for subsequent events to 100k.</li>
+                                                        <li class="Compact" value="3">In the third 200k event, there is no effective attachment, and the remaining 100k of limit is used.</li>
+                                                    </ol>
+                                                    <h2><a name="Cover"></a>Cover Trees</h2>
+                                                    <p class="FirstParagraph">Covers are <b>not</b> automatically put in order but can be <b>explicitly</b> constructed such that the payout of one becomes the subject of the other. When a contract does not have just one top-level cover, it pays the sum of its top-level covers (the ones no other Cover takes as their Subject).</p>
+                                                    <p class="FirstParagraph">Mechanically, in addition to being directly on the net of terms, a cover can be applied <b>on</b> another cover or the sum of a list of covers. A common use case for this is an occurrence layer capped by an aggregate limit.</p><pre style="margin-top: 12pt;"><span class="VerbatimChar_1">Contract</span><br /><span class="VerbatimChar_1">&#160;Declarations</span><br /><span class="VerbatimChar_1">&#160;&#160;Currency is USD&#160;&#160; </span><br /><span class="VerbatimChar_1">&#160;Covers</span><br /><span class="VerbatimChar_1">&#160;&#160;Occ: 100% Share of 125k xs 50k</span><br /><span class="VerbatimChar_1">&#160;&#160;Agg: 100% Share of 200k aggregate ON occ</span></pre>
+                                                    <table class="table_1">
+                                                        <col style="width: 42pt;" />
+                                                        <col style="width: 54pt;" />
+                                                        <col style="width: 54pt;" />
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="th_1">
+                                                                    <p class="TableText_Bold">Event</p>
+                                                                </th>
+                                                                <th class="th_1">
+                                                                    <p class="TableText_Bold">Claim</p>
+                                                                </th>
+                                                                <th class="th_1">
+                                                                    <p class="TableText_Bold">Payout</p>
+                                                                </th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <p class="Compact">1</p>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="Compact">200,000</p>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="Compact">125,000</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p class="Compact">2</p>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="Compact">200,000</p>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="Compact">75,000</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p class="Compact">3</p>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="Compact">200,000</p>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="Compact">0</p>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <p class="FirstParagraph">Firstly, note <i>Agg</i> and <i>Occ</i> are just labels to identify the covers. No semantics come from the names themselves. Each event of 200k goes first through the Occ layer, then sends the result of that calculation (125k) through the Agg layer. The final contract payout is the sum of top-level covers (those covers on which there are no other covers) which in this example is the one cover, Agg. If there were any terms, the Occ cover would apply to the net of terms and then the Agg cover would apply to the output of the Occ cover.</p>
+                                                    <h2><a name="Constrai"></a>Constrained Covers</h2>
+                                                    <p class="FirstParagraph">Like terms, covers can also have subject constraints <i>from</i> a list of loss types, <i>to</i> a list of risks, <i>by</i> a list of causes. </p>
+                                                    <p class="FirstParagraph">The following example illustrates a per-risk location deductible and covers to sets of risks.</p><pre style="margin-top: 12pt;"><span class="VerbatimChar_1">Contract</span><br /><span class="VerbatimChar_1">&#160;Declarations</span><br /><span class="VerbatimChar_1">&#160;&#160;Currency is USD&#160;&#160; </span><br /><span class="VerbatimChar_1">&#160;Covers</span><br /><span class="VerbatimChar_1">&#160;&#160;Group1: 100% share of 300k xs 100k to R1, R2</span><br /><span class="VerbatimChar_1">&#160;&#160;Group2: 100% share of 400k xs 100k to R3</span><br /><span class="VerbatimChar_1">&#160;Deductibles</span><br /><span class="VerbatimChar_1">&#160;&#160;25k per risk</span></pre>
+                                                    <p class="FirstParagraph">Replicating the R1 claims (150k, 30k, 20k) to R2 and R3, the payout net of terms to Group1 of 350k and to Group2 of 175k produce layer payouts of 250k and 75k respectively. The contract pays <b>325k</b>.</p>
+                                                    <h2><a name="Payout"></a>Payout Functions</h2>
+                                                    <p class="FirstParagraph"><i>Limit</i> is the most common payout function for a cover. Given a net of attachment, the limit function is <i>max(net of attachment,0)</i>. Other payout functions are sometimes used in practice and are supported in CDL. The following example illustrates another common payout function to pay a constant on the attachment being exceeded.</p><pre style="margin-top: 12pt;"><span class="VerbatimChar_1">Contract</span><br /><span class="VerbatimChar_1">&#160;Declarations</span><br /><span class="VerbatimChar_1">&#160;&#160;Currency is USD&#160;&#160; </span><br /><span class="VerbatimChar_1">&#160;Covers</span><br /><span class="VerbatimChar_1">&#160; 100% share of Pay 300k xs 100k</span></pre>
+                                                    <p class="FirstParagraph">Since the subject loss is 200k, the attachment is met and the cover pays <b>300k</b>.</p>
+                                                    <p class="FirstParagraph">More complex payout functions can also be used, as required.</p><pre style="margin-top: 12pt;"><span class="VerbatimChar_1">Contract</span><br /><span class="VerbatimChar_1">&#160;Declarations</span><br /><span class="VerbatimChar_1">&#160;&#160;Currency is USD&#160;&#160; </span><br /><span class="VerbatimChar_1">&#160;Covers</span><br /><span class="VerbatimChar_1">&#160;&#160;100% share of Pay Max (1M - Subject, 0)</span></pre>
+                                                    <p>The contract pays <b>800k</b> in this case, since max(1M-200k,0) = 800k.</p>
+                                                    <h2><a name="Step"></a>Step Policies</h2>
+                                                    <h3>Simple Step Policy</h3>
+                                                    <p class="FirstParagraph">Taiwan earthquake policies are examples of simple step policies. If the claim is bigger than S1, pay P1, else pay 0.</p><pre style="margin-top: 12pt;"><span class="VerbatimChar_1">Contract</span><br /><span class="VerbatimChar_1">&#160;Declarations</span><br /><span class="VerbatimChar_1">&#160;&#160;Currency is USD&#160;&#160; </span><br /><span class="VerbatimChar_1">&#160;Covers</span><br /><span class="VerbatimChar_1">&#160;&#160;100% share of Pay 1M xs 150k</span></pre>
+                                                    <p>The 200k claim is bigger than 150k, so the contract pays <b>1M</b>.</p>
+                                                    <h3>Medium-Complexity Step Policies</h3>
+                                                    <p class="FirstParagraph">In Japan, step policies are written with multiple steps.</p>
+                                                    <ol start="1" class="ol_1">
+                                                        <li class="Compact" value="1">If claim &gt; S1, pay P1</li>
+                                                        <li class="Compact" value="2">If S1 &gt; claim &gt; S2, pay P2</li>
+                                                        <li class="Compact" value="3">And so on</li>
+                                                    </ol>
+                                                    <p class="FirstParagraph">CDL accomplishes this with payout covers per step, with different attachments, and a cover <i>on</i> those steps that pays the max of any step (so that the contract does not accidentally pay the sum of all steps).</p>
+                                                    <p class="FirstParagraph">The following example illustrates that, in addition to operating on the sum of a list of covers, a cover can be set to act on the <i>max</i> or <i>min</i> of a list of covers, or even on the <i>diff</i> of two covers.</p><pre style="margin-top: 12pt;"><span class="VerbatimChar_1">Contract</span><br /><span class="VerbatimChar_1">&#160;Declarations</span><br /><span class="VerbatimChar_1">&#160;&#160;Currency is USD&#160;&#160; </span><br /><span class="VerbatimChar_1">&#160;Covers</span><br /><span class="VerbatimChar_1">&#160;&#160;step1: 100% share of Pay 50k xs 75k</span><br /><span class="VerbatimChar_1">&#160;&#160;step2: 100% share of Pay 150k xs 150k</span><br /><span class="VerbatimChar_1">&#160;&#160;step3: 100% share of Pay 250k xs 225k</span><br /><span class="VerbatimChar_1">&#160;&#160;final: 100% share on max(step1, step2, step3)</span></pre>
+                                                    <p class="FirstParagraph">A subject loss of 200k will hit <i>step2</i> and pay 150k. <i>Step1</i> also pays its 50k. The <i>final</i> cover ensures that only the <b>150k</b> is paid in the end.</p>
+                                                    <h3>Complex Step Policy</h3>
+                                                    <p class="FirstParagraph">Steps might be for Building <i>or</i> Contents (but not the sum of Building <i>and</i> Contents). Sometimes step payouts are limited to the subject claim. See <a href="Expressions.htm#expressions">Expressions</a> for more information about the mechanics used in this example.</p><pre style="margin-top: 12pt;"><span class="VerbatimChar_1">Contract</span><br /><span class="VerbatimChar_1">&#160;Declarations</span><br /><span class="VerbatimChar_1">&#160;&#160;Currency is USD&#160;&#160; </span><br /><span class="VerbatimChar_1">&#160;Covers</span><br /><span class="VerbatimChar_1">&#160;&#160;step1B: 100% share of Pay min (Subject, 50k) xs 75k for Building</span><br /><span class="VerbatimChar_1">&#160;&#160;step1C: 100% share of Pay min (Subject, 50k) xs 75k for Contents</span><br /><span class="VerbatimChar_1">&#160;&#160;step1: 100% share on Max(step1B, step1C)&#160;&#160; </span><br /><span class="VerbatimChar_1">&#160;&#160;step2B: 100% share of Pay min(Subject, 150k) xs 150k for Building</span><br /><span class="VerbatimChar_1">&#160;&#160;step2C: 100% share of Pay min(Subject, 150k) xs 150k for Contents</span><br /><span class="VerbatimChar_1">&#160;&#160;step2: 100% share on Max(step2B, step2C)&#160;&#160; </span><br /><span class="VerbatimChar_1">&#160;&#160;step3B: 100% share of Pay min(Subject, 250k) xs 225k for Building</span><br /><span class="VerbatimChar_1">&#160;&#160;step3C: 100% share of Pay min(Subject, 250k) xs 225k for Contents</span><br /><span class="VerbatimChar_1">&#160;&#160;step3: 100% share on Max(step3B, step3C)</span><br /><span class="VerbatimChar_1">&#160;&#160;final: 100% share on max(step1, step2, step3)</span></pre>
+                                                    <p class="FirstParagraph"><i>Step1B</i> pays 50k, and <i>Step1C</i> pays 0, so <i>Step1</i> pays 50k all for Building. <i>Step2</i> and <i>Step3</i> pay 0 as the attachments are not met. <i>Final</i> pays <b>50k</b>, all for Building.</p>
+                                                    <h2><a name="franchise-attachment"></a>Franchise Attachment</h2>
+                                                    <p class="FirstParagraph">Like deductibles, attachments can be <i>franchise</i>. The covers limit acts on the cover’s entire subject if the subject &gt; attachment, instead of its subject net of attachment.</p><pre style="margin-top: 12pt;"><span class="VerbatimChar_1">Contract</span><br /><span class="VerbatimChar_1">&#160;Declarations</span><br /><span class="VerbatimChar_1">&#160;&#160;Currency is USD&#160;&#160; </span><br /><span class="VerbatimChar_1">&#160;Covers</span><br /><span class="VerbatimChar_1">&#160;&#160;step1: 100% share of 300k xs 125k franchise</span></pre>
+                                                    <p>Since the 200k claim is larger than 125k, the full claim is eligible to be paid through the limit, and the contract pays <b>200k</b>.</p>
+                                                </div>
+                                                <!--Entry for feedback form starts here -->
+                                                <!--<br>
+                    </br>
+                    <form id="FeedbackForm">
+                        <fieldset style="display: inline-block;">
+                            <legend>Was this topic helpful?</legend>
+                            <label>Yes <input type="radio" name="helpful" value="yes" /></label>
+                            <label>No <input type="radio" name="helpful" value="no" /></label>
+                            <br />                            <br /><textarea style="font-family: arial, helvetica, sans-serif;" class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="3" cols="50"></textarea>
+                            <br />                            <input type="submit" />
+                        </fieldset>
+                        <script type="text/javascript">
+							var form = document.getElementById('FeedbackForm')
+							form.onsubmit = function (e) {
+							e.preventDefault()
+							var helpful = document.querySelector('input[name="helpful"]:checked').value
+							var comments = document.querySelector('textarea[name="comments"]').value
+ 
+							var XHR = new XMLHttpRequest();
+							// Define what happens on successful data submission
+							XHR.addEventListener("load", function(event) {
+							form.style.display = 'none'
+							var thanks = document.getElementById('ThankYou')
+							thanks.style.display = 'block'
+							});
+							// Define what happens in case of error
+							XHR.addEventListener("error", function(event) {
+							alert('Oops! Something went wrong.');
+							});
+							// Set up our request
+							XHR.open("POST", "/feedback");
+							XHR.setRequestHeader('Content-Type', 'application/json')
+							// The data sent is what the user provided in the form
+							XHR.send(JSON.stringify({
+							helpful: helpful,
+							comments: comments,
+							topicUrl: document.location.href
+							}));
+							}
+						</script>
+                    </form>
+                    <div id="ThankYou" style="display: none; padding: 20px; border: 1px; background-color:#cccccc;">Thank you for your feedback!</div>
+                    <br>
+                    </br>
+                   End -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="Footer1">Riskdataos.org is being hosted by RMS in support of an improved and open global data standard. © Risk Management Solutions, Inc.</p>
+                                    <p class="Footer2"><a href="https://www.rms.com/legal#Privacy-Policy" target="_blank">Privacy Policy</a> | 
+					<a href="https://www.rms.com/legal#Cookie-Policy" target="_blank">Cookie Policy</a> | 
+					<a href="https://www.rms.com/legal#Terms-of-Use" target="_blank">Terms of Use</a> | 
+					<a href="https://www.rms.com/legal#Privacy-Policy-ccpa" target="_blank">California Privacy Rights</a> | 
+				<a href="mailto:contact@riskdataos.org">Contact Us</a></p>
+                                    <p class="FooterDate">Updated: <span class="VariablesToday's Date">March 11, 2020</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

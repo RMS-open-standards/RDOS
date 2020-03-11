@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/CDL/CDL_Semantics_Covers.htm'],s:['$300','positionnam'],p:[['$300',22],['cdl',22],['franchise',16],['of',26],['spends',24]]});

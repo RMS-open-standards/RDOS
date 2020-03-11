@@ -1,0 +1,564 @@
+/*<meta />*/
+
+@media only screen and (max-width: 1279px)
+{
+	/* OffCanvas styles */
+
+	html,
+	body
+	{
+		height: 100%;
+		margin: 0;
+	}
+
+	.off-canvas
+	{
+		height: 100%;
+		overflow-x: hidden;
+		background-color: #333333;
+	}
+
+	.off-canvas-content
+	{
+		max-height: none;
+	}
+
+	/* Foundation Overrides */
+
+	.foundation-wrap,
+	.off-canvas-wrapper,
+	.off-canvas-wrapper-inner
+	{
+		min-height: 100%;
+	}
+
+	.foundation-wrap,
+	.off-canvas-wrapper
+	{
+		overflow: visible;
+	}
+
+	nav.title-bar .menu-icon
+	{
+		display: block;
+		border: none;
+		z-index: 100;
+		position: absolute;
+		background: transparent;
+		cursor: pointer;
+		top: 50%;
+		transform: translateY(-50%);
+		left: auto;
+		right: -13px;
+	}
+
+	nav.title-bar
+	{
+		background-position: center top;
+		background-repeat: no-repeat;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		background-color: transparent;
+	}
+
+	/* Topbar Menu Styles */
+
+	.title-bar-section.middle > div
+	{
+		
+	}
+
+	.navigation-wrapper,
+	ul.navigation
+	{
+		display: none;
+	}
+
+	.responsive-header
+	{
+		display: block;
+		background: #292929;
+		height: 60px;
+	}
+
+	.title-bar-layout a.logo
+	{
+		top: 0;
+		margin: 0;
+		width: 234px;
+		height: 74px;
+		background: transparent url('Images/help_banner_5.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/help_banner_5.png') no-repeat center center;
+	}
+
+	.title-bar .menu-icon span
+	{
+		height: 48px;
+		width: 48px;
+		display: block;
+		background: transparent url('Images/hamburger.png') no-repeat center center;
+		background: url('Images/hamburger.png') no-repeat center center, -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/hamburger.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: url('Images/hamburger.png') no-repeat center center, -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: url('Images/hamburger.png') no-repeat center center, -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/hamburger.png') no-repeat center center, -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: url('Images/hamburger.png') no-repeat center center, linear-gradient(top, transparent 0%,transparent 100%);
+		-pie-background: url('Skins/Fluid/Stylesheets/Images/hamburger.png') no-repeat center center, linear-gradient(transparent, transparent);
+	}
+
+	.search-bar .search-submit
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.search-bar .search-filter
+	{
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-color: #ffffff;
+	}
+
+	.search-input
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.off-canvas.position-right
+	{
+		background-position: top center;
+	}
+
+	.off-canvas.position-right ul ul
+	{
+		background-position: top center;
+	}
+
+	.off-canvas.position-left
+	{
+		background-position: top center;
+	}
+
+	.off-canvas.position-left ul ul
+	{
+		background-position: top center;
+	}
+
+	.off-canvas ul ul.is-accordion-submenu
+	{
+		background: inherit;
+	}
+
+	.off-canvas ul.off-canvas-list li.is-drilldown-submenu-parent > a:after
+	{
+		margin-left: 0.5rem;
+	}
+
+	.is-drilldown-submenu .js-drilldown-back > a:after
+	{
+		margin-left: 0.5em;
+	}
+
+	ul.off-canvas-list li a
+	{
+		font-size: 1em;
+		border-bottom: solid 1px #262626;
+		line-height: inherit;
+		color: #ffffff;
+	}
+
+	ul.off-canvas-accordion ul > li > a
+	{
+		margin-left: 1em;
+	}
+
+	ul.off-canvas-accordion ul ul > li > a
+	{
+		margin-left: 2em;
+	}
+
+	ul.off-canvas-accordion ul ul ul > li > a
+	{
+		margin-left: 3em;
+	}
+
+	ul.off-canvas-accordion ul ul ul ul > li > a
+	{
+		margin-left: 4em;
+	}
+
+	ul.off-canvas-accordion-rtl ul > li > a
+	{
+		margin-left: inherit;
+		margin-right: 1em;
+	}
+
+	ul.off-canvas-accordion-rtl ul ul > li > a
+	{
+		margin-left: inherit;
+		margin-right: 2em;
+	}
+
+	ul.off-canvas-accordion-rtl ul ul ul > li > a
+	{
+		margin-left: inherit;
+		margin-right: 3em;
+	}
+
+	ul.off-canvas-accordion-rtl ul ul ul ul > li > a
+	{
+		margin-left: inherit;
+		margin-right: 4em;
+	}
+
+	/* Side Nav */
+
+	.sidenav-layout
+	{
+		display: block;
+		height: inherit;
+		max-height: none;
+	}
+
+	.sidenav-wrapper
+	{
+		display: none;
+	}
+
+	.body-container
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+		overflow: inherit;
+	}
+
+	.off-canvas-wrapper-inner nav.title-bar .outer-row
+	{
+		
+	}
+
+	.title-bar-layout .logo-wrapper
+	{
+		min-height: 74px;
+		flex-basis: 100%;
+	}
+
+	.menu-icon-container
+	{
+		min-height: 74px;
+	}
+
+	.off-canvas-wrapper-inner .outer-row
+	{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	.main-section > .outer-row
+	{
+		
+	}
+
+	.off-canvas ul ul
+	{
+		background-color: #333333;
+	}
+
+	ul.off-canvas-list ul > li > a
+	{
+		margin-left: 1em;
+	}
+
+	ul.off-canvas-list ul ul > li > a
+	{
+		margin-left: 2em;
+	}
+
+	ul.off-canvas-list ul ul ul > li > a
+	{
+		margin-left: 3em;
+	}
+
+	ul.off-canvas-list ul ul ul ul > li > a
+	{
+		margin-left: 4em;
+	}
+
+	ul.off-canvas-list li.js-drilldown-back > a
+	{
+		
+	}
+
+	ul.off-canvas-list li.is-accordion-submenu-parent > a span.submenu-toggle
+	{
+		border-top-color: #a1a8ac;
+	}
+
+	ul.off-canvas-list li a:hover
+	{
+		background-color: #242424;
+	}
+
+	ul.off-canvas-list ul > li > a:hover
+	{
+		background-color: #242424;
+	}
+
+	ul.off-canvas-list ul ul > li > a:hover
+	{
+		background-color: #242424;
+	}
+
+	ul.off-canvas-list ul ul ul > li > a:hover
+	{
+		background-color: #242424;
+	}
+
+	ul.off-canvas-list ul ul ul ul > li > a:hover
+	{
+		background-color: #242424;
+	}
+
+	ul.off-canvas-list li.js-drilldown-back > a:hover
+	{
+		background-color: #242424;
+	}
+
+	ul.off-canvas-list li a.selected
+	{
+		
+	}
+
+	ul.off-canvas-list ul > li > a.selected
+	{
+		
+	}
+
+	ul.off-canvas-list ul ul > li > a.selected
+	{
+		
+	}
+
+	ul.off-canvas-list ul ul ul > li > a.selected
+	{
+		
+	}
+
+	ul.off-canvas-list ul ul ul ul > li > a.selected
+	{
+		
+	}
+
+	.search-auto-complete ul
+	{
+		background-color: #ffffff;
+	}
+
+	.search-auto-complete li.auto-result-item a
+	{
+		
+	}
+
+	.search-auto-complete li.auto-result-item
+	{
+		
+	}
+
+	.search-auto-complete li.auto-result-content
+	{
+		
+	}
+
+	.search-auto-complete li.auto-result-history
+	{
+		
+	}
+
+	.search-auto-complete li.auto-result-item.auto-result-selected a
+	{
+		
+	}
+
+	.search-auto-complete li.auto-result-item.auto-result-selected
+	{
+		background-color: #ececec;
+	}
+
+	.search-auto-complete li.auto-result-content.auto-result-selected
+	{
+		background-color: #ececec;
+	}
+
+	.search-auto-complete li.auto-result-history.auto-result-selected
+	{
+		background-color: #ececec;
+	}
+
+	.search-auto-complete li.auto-result-item .auto-result-description
+	{
+		
+	}
+
+	.search-auto-complete li.auto-result-content .auto-result-description
+	{
+		
+	}
+
+	.search-auto-complete li.auto-result-history .auto-result-description
+	{
+		
+	}
+
+	.search-auto-complete li.auto-result-item .auto-result-icon
+	{
+		
+	}
+
+	.search-auto-complete li.auto-result-content .auto-result-icon
+	{
+		background: transparent url('Images/icon-topic.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/icon-topic.png') no-repeat center center;
+		background-size: contain;
+	}
+
+	.search-auto-complete li.auto-result-history .auto-result-icon
+	{
+		background: transparent url('Images/icon-search.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/icon-search.png') no-repeat center center;
+		background-size: contain;
+	}
+
+	.search-auto-complete li.auto-result-item .auto-result-phrase
+	{
+		
+	}
+
+	.search-auto-complete li.auto-result-content .auto-result-phrase
+	{
+		
+	}
+
+	.search-auto-complete li.auto-result-history .auto-result-phrase
+	{
+		
+	}
+
+	.search-auto-complete li.auto-result-item .auto-result-phrase .search-result-highlight
+	{
+		
+	}
+
+	.search-auto-complete li.auto-result-content .auto-result-phrase .search-result-highlight
+	{
+		
+	}
+
+	.search-auto-complete li.auto-result-history .auto-result-phrase .search-result-highlight
+	{
+		
+	}
+
+	.search-auto-complete li .auto-result-remove
+	{
+		width: 17px;
+		height: 27px;
+		background: transparent url('Images/icon-remove.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/icon-remove.png') no-repeat center center;
+		background-size: contain;
+	}
+
+	.search-auto-complete li.auto-result-item .auto-result-separator
+	{
+		
+	}
+
+	.nav-search-wrapper
+	{
+		justify-content: center;
+		flex-basis: 100%;
+	}
+
+	.nav-search
+	{
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	.search-bar .search-field
+	{
+		background-color: #ffffff;
+		padding-right: 50px;
+	}
+
+	.search-filter-content
+	{
+		top: 3em;
+		background-color: #ffffff;
+	}
+
+	.search-bar .search-filter-wrapper.open
+	{
+		background-color: #ffffff;
+	}
+
+	.search-bar .search-filter:hover
+	{
+		background-repeat: no-repeat;
+		background-color: #ffffff;
+	}
+
+	.search-bar .search-filter.selected
+	{
+		background-repeat: no-repeat;
+		background: transparent url('Images/icon-filter-selected.png') no-repeat center center;
+	}
+
+	.search-filter-content ul li:hover
+	{
+		background-color: #ffffff;
+	}
+
+	.search-filter-content ul li button:focus
+	{
+		background-color: #ffffff;
+	}
+
+	.search-bar .search-field::-webkit-input-placeholder
+	{
+		
+	}
+
+	.search-bar .search-field::-moz-placeholder
+	{
+		
+	}
+
+	.search-bar .search-field:-moz-placeholder
+	{
+		
+	}
+
+	.search-bar .search-field:-ms-input-placeholder
+	{
+		
+	}
+
+	.search-bar.search-bar-container .search-submit
+	{
+		background-repeat: no-repeat;
+		background: transparent url('Images/icon-search.png') no-repeat center center;
+	}
+
+	.search-bar.search-bar-container .search-submit:hover
+	{
+		background-repeat: no-repeat;
+		background-color: transparent;
+	}
+
+	.skip-to-content
+	{
+		background-color: #ffffff;
+	}
+}
+

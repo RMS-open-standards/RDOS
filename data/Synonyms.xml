@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MadCapSynonyms xml:lang="en-us">
+    <Groups>
+        <SynonymGroup>
+            <Word>v18</Word>
+            <Word>18</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>RiskLink</Word>
+            <Word>RL</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>RiskBrowser</Word>
+            <Word>RB</Word>
+        </SynonymGroup>
+        <SynonymGroup>
+            <Word>ACCUM</Word>
+            <Word>accumulation</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="eras">erase</Word>
+            <Word Stem="delet">delete</Word>
+            <Word Stem="remov">remove</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="search">search</Word>
+            <Word Stem="find">find</Word>
+            <Word Stem="look">look</Word>
+            <Word Stem="queri">query</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="info">info</Word>
+            <Word Stem="inform">information</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="sag">sag</Word>
+            <Word Stem="administr">administration</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="mod">mod</Word>
+            <Word Stem="modifi">modifier</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="auto">auto</Word>
+            <Word Stem="automobil">automobile</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="custom">customer</Word>
+            <Word Stem="client">client</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="admin">admin</Word>
+            <Word Stem="administr">administration</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="overview">overview</Word>
+            <Word Stem="about">about</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="properti">property</Word>
+            <Word Stem="locat">location</Word>
+            <Word Stem="risk">risk</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="lookup">lookup</Word>
+            <Word Stem="hazard">hazard</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="run">run</Word>
+            <Word Stem="process">process</Word>
+            <Word Stem="analyz">analyze</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="popup">popup</Word>
+            <Word Stem="right-click">right-click</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="eq">EQ</Word>
+            <Word Stem="earthquak">earthquake</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="cede">cede</Word>
+            <Word Stem="cession">cession</Word>
+            <Word Stem="cedant">cedant</Word>
+            <Word Stem="reinsur">reinsurance</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="fi">FI</Word>
+            <Word Stem="fire">fire</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="scs">SCS</Word>
+            <Word Stem="tornado">tornado</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="add">add</Word>
+            <Word Stem="edit">edit</Word>
+            <Word Stem="copi">copy</Word>
+            <Word Stem="duplic">duplicate</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="hu">HU</Word>
+            <Word Stem="hurrican">Hurricane</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="wt">WT</Word>
+            <Word Stem="winterstorm">Winterstorm</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="fl">FL</Word>
+            <Word Stem="flood">Flood</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="hc">HC</Word>
+            <Word Stem="hailcalc">HailCalc</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="ty">TY</Word>
+            <Word Stem="typhoon">Typhoon</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="cy">CY</Word>
+            <Word Stem="cyclon">Cyclone</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="contract">contract</Word>
+            <Word Stem="polici">policy</Word>
+            <Word Stem="treati">treaty</Word>
+            <Word Stem="account">account</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="cover">cover</Word>
+            <Word Stem="layer">layer</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="import">import</Word>
+            <Word Stem="upload">upload</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="export">export</Word>
+            <Word Stem="download">download</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="scheme">scheme</Word>
+            <Word Stem="schema">schema</Word>
+            <Word Stem="databas">database</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="geo">geo</Word>
+            <Word Stem="geocod">geocoding</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="refer">reference</Word>
+            <Word Stem="refer">referance</Word>
+            <Word Stem="ref">ref</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="cat">cat</Word>
+            <Word Stem="catastroph">catastrophe</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="model">modeller</Word>
+            <Word Stem="model">modeler</Word>
+            <Word Stem="model">modelled</Word>
+            <Word Stem="model">modeled</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="neighbour">neighbour</Word>
+            <Word Stem="neighbor">neighbor</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="defens">defense</Word>
+            <Word Stem="defenc">defence</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="center">center</Word>
+            <Word Stem="centr">centre</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="meter">meter</Word>
+            <Word Stem="metr">metre</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="stori">story</Word>
+            <Word Stem="storey">storey</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="philippin">philippines</Word>
+            <Word Stem="phillippin">phillippines</Word>
+            <Word Stem="philipin">philipines</Word>
+            <Word Stem="phillipin">phillipines</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="caribbean">caribbean</Word>
+            <Word Stem="carribean">carribean</Word>
+            <Word Stem="caribean">caribean</Word>
+            <Word Stem="carribbean">carribbean</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="specialti">specialty</Word>
+            <Word Stem="special">speciality</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="neighbour">neighbouring</Word>
+            <Word Stem="neighbor">neighboring</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="organis">organisation</Word>
+            <Word Stem="organ">organization</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="analys">analyse</Word>
+            <Word Stem="analyz">analyze</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="exceed">exceedance</Word>
+            <Word Stem="exceed">exceedence</Word>
+            <Word Stem="exceed">exceeding</Word>
+            <Word Stem="ep">EP</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="contact">contact</Word>
+            <Word Stem="feedback">feedback</Word>
+            <Word Stem="support">support</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="logon">logon</Word>
+            <Word Stem="login">login</Word>
+            <Word Stem="log">logging</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="peril">peril</Word>
+            <Word Stem="hazard">hazard</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="cyclon">cyclone</Word>
+            <Word Stem="hurrican">hurricane</Word>
+            <Word Stem="windstorm">windstorm</Word>
+            <Word Stem="typhoon">typhoon</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="esdb">ESDB</Word>
+            <Word Stem="hrb">HRB</Word>
+        </SynonymGroup>
+        <SynonymGroup Stem="true">
+            <Word Stem="msb">MSB</Word>
+            <Word Stem="valuat">valuation</Word>
+        </SynonymGroup>
+    </Groups>
+    <Directional />
+</MadCapSynonyms>

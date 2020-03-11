@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('Resources/MasterPages/HomePage_Balboa_EIQ.flmsp');">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <link href="../Stylesheets/BalboaStylesForHomePage.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="contentBody" class="off-canvas-main">
+            <MadCap:bodyProxy />
+            
+        </div>
+		
+				<div class="footer">
+					<div class="footer_left">
+						<p class="Footer1">Riskdataos.org is being hosted by RMS in support of an improved and open global data standard. © Risk Management Solutions, Inc.</p>
+					</div>
+					<div class="footer_right">
+						<p class="Footer1"><a href="https://www.rms.com/legal#Privacy-Policy" target="_blank">Privacy Policy</a> | 
+							<a href="https://www.rms.com/legal#Cookie-Policy" target="_blank">Cookie Policy</a> | 
+							<a href="https://www.rms.com/legal#Terms-of-Use" target="_blank">Terms of Use</a> | 
+							<a href="https://www.rms.com/legal#Privacy-Policy-ccpa" target="_blank">California Privacy Rights</a> | 
+						<a href="mailto:contact@riskdataos.org">Contact Us</a></p>
+					</div>
+				</div>
+			
+    </body>
+</html>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+    </head>
+    <body>
+        <div class="row collapse">
+            <div class="top-bar">
+                <!-- Inserting pdf button here --><a href="../External/PDFs/RI_EIQ_CDL_RG.pdf" target="_blank" title="User Guide" alt="User Guide" MadCap:conditions="Default.EIQ"><img src="../Images/HelpCenterAssets/PDF.png" class="fullsize" style="float: right;" MadCap:conditions="Default.EIQ" /></a><a href="../External/PDFs/RI_CDL_RG.pdf" target="_blank" title="User Guide" alt="User Guide" MadCap:conditions="Default.RM feature"><img src="../Images/pdf_button.png" class="fullsize" style="float: right;" MadCap:conditions="Default.RM feature" /></a>
+                <!-- End -->
+                <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: ;" data-mc-skin="/Project/Skins/TopicToolbar.flskn" />
+                <MadCap:breadcrumbsProxy MadCap:conditions="Default.RM feature" /> </div>
+            <div class="topic-layout">
+                <div>
+                    <MadCap:bodyProxy />
+                    <!--Entry for feedback form starts here -->
+                    <!--<br>
+                    </br>
+                    <form id="FeedbackForm">
+                        <fieldset style="display: inline-block;">
+                            <legend>Was this topic helpful?</legend>
+                            <label>Yes <input type="radio" name="helpful" value="yes" /></label>
+                            <label>No <input type="radio" name="helpful" value="no" /></label>
+                            <br />                            <br /><textarea style="font-family: arial, helvetica, sans-serif;" class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="3" cols="50"></textarea>
+                            <br>
+                            </br>
+                            <input type="submit" />
+                        </fieldset>
+                        <script type="text/javascript">
+											var form = document.getElementById('FeedbackForm')
+											form.onsubmit = function (e) {
+											e.preventDefault()
+											var helpful = document.querySelector('input[name="helpful"]:checked').value
+											var comments = document.querySelector('textarea[name="comments"]').value
+ 
+											var XHR = new XMLHttpRequest();
+											// Define what happens on successful data submission
+											XHR.addEventListener("load", function(event) {
+											form.style.display = 'none'
+											var thanks = document.getElementById('ThankYou')
+											thanks.style.display = 'block'
+											});
+											// Define what happens in case of error
+											XHR.addEventListener("error", function(event) {
+											alert('Oops! Something went wrong.');
+											});
+											// Set up our request
+											XHR.open("POST", "/feedback");
+											XHR.setRequestHeader('Content-Type', 'application/json')
+											// The data sent is what the user provided in the form
+											XHR.send(JSON.stringify({
+											helpful: helpful,
+											comments: comments,
+											topicUrl: document.location.href
+											}));
+											}
+										</script>
+                    </form>
+                    <div id="ThankYou" style="display: none; padding: 20px; border: 1px; background-color:#cccccc;">Thank you for your feedback!</div>
+                    <br>
+                    </br>
+                    End -->
+                </div>
+            </div>
+        </div>
+        <p class="Footer" MadCap:conditions="Default.RM feature">© <MadCap:variable name="Variables.Year" /> <MadCap:variable name="Variables.Company" /><a href="../../Copyright.htm"> All Rights Reserved</a> | <a href="http://www.rms.com/legal" target="_blank">Legal</a> | <a href="https://www.rms.com/legal#Cookie-Policy" target="_blank">Cookie Policy</a> | <a href="../../Contacting_RMS.htm">Contact Us</a><!-- | <a href="mailto:Documentation@rms.com">Feedback</a>--></p>
+        <p class="FooterDate" MadCap:conditions="Default.RM feature">Updated: <MadCap:variable name="Variables.Today's Date" /></p>
+        <div class="footer" MadCap:conditions="Default.EIQ">
+            <div class="footer_left">
+                <p class="Footer1">©<MadCap:variable name="Variables.Year" /> <MadCap:variable name="Variables.Company" /></p>
+                <p class="Footer2">Updated: <MadCap:variable name="Variables.Today's Date" /></p>
+            </div>
+            <div class="footer_right">
+                <ul class="list-links">
+                    <li><a href="../../Copyright.htm" target="_blank">All Rights Reserved</a>
+                    </li>
+                    <li><a href="http://www.rms.com/legal" target="_blank">Legal</a>
+                    </li>
+                    <li><a href="https://www.rms.com/legal#Cookie-Policy" target="_blank">Cookie Policy</a>
+                    </li>
+                    <li><a href="../../Contacting_RMS_IQ.htm" target="_blank">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
