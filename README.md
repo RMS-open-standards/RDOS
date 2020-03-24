@@ -15,7 +15,7 @@ RDOS is an open standard, which means you can have the code, tooling, and docume
 More information is available at www.riskdataos.org. ]
 ### **LICENSES**
 
-See [licenses\Readme](\licenses\Readme.md) for information about relevant licenses. 
+See [licenses/Readme](/licenses/Readme.md) for information about relevant licenses. 
 ### **WHAT’S in RDOS V1.0**
 #### RDOS Schema
 - #####   **[RDOS SQL Scripts](https://github.com/RMS-open-standards/RDOS/blob/master/Schema/sql)**

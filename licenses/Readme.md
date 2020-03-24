@@ -1,6 +1,6 @@
 # RDOS Licenses
 
-Mar 20, 2020
+Mar 24, 2020
 ## RDOS License Agreement: Apache License 2.0
 The Risk Data Open Standard (RDOS) is licensed under the [Apache License 2.0](Apache_License), which is a permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
