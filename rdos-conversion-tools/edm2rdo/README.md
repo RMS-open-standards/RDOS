@@ -23,7 +23,7 @@ Download and unzip the tool in a folder on your computer.
 #### Release 1.0.3 [9 March 2020]
 
 
-- [Windows 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.3/edm2rdo-ubuntu-x64.zip)
+- [Windows 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.3/edm2rdo-win-x64.zip)
 - [MacOS 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.3/edm2rdo-osx-x64.zip)
 - [Ubuntu 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.3/edm2rdo-ubuntu-x64.zip)
 
