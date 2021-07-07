@@ -37,7 +37,7 @@ Fixed bug where the conversion would terminate abruptly after inserting the port
 #### Release 1.0.2 [9 March 2020]
 
 
-- [Windows 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.2/edm2rdo-ubuntu-x64.zip)
+- [Windows 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.2/edm2rdo-win-x64.zip)
 - [MacOS 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.2/edm2rdo-osx-x64.zip)
 - [Ubuntu 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.2/edm2rdo-ubuntu-x64.zip)
 
@@ -55,7 +55,7 @@ Even though the table was empty and there was no duplicate values being entered 
 #### Release 1.0.1 [2 March 2020]
 
 
-- [Windows 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.1/edm2rdo-ubuntu-x64.zip)
+- [Windows 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.1/edm2rdo-win-x64.zip)
 - [MacOS 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.1/edm2rdo-osx-x64.zip)
 - [Ubuntu 64-bit](https://rmsimport.blob.core.windows.net/public/Edm2Rdos_V1/v1.0.1/edm2rdo-ubuntu-x64.zip)
 
